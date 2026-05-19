@@ -1,191 +1,202 @@
-# 👋 Hi, I'm Yaçine Seybou Siddo
+# Hi, I'm Yacine Seybou Siddo
 
-**AI & Data Science Engineer | EdTech Practitioner | Software & Systems Builder | STEM Advocate | Former Young Parliamentarian | Exploring Entrepreneurship & Research**  
-🌍 Based in Niamey, Niger — Open to international opportunities with relocation support  
+**AI Systems Engineer | RAG · MCP Agents · Document AI · LLMOps · FastAPI**
+Based in Niamey, Niger · Bilingual EN/FR
 
----
-
-## 🔗 Key Links
-- Portfolio: [yacineseybousiddo.me](https://yacineseybousiddo.me/)  
-- GitHub: [github.com/Yacine-ai-tech](https://github.com/Yacine-ai-tech/)  
-- LeetCode: [leetcode.com/u/yacine-siddo-ai/](https://leetcode.com/u/yacine-siddo-ai/)  
-- LinkedIn: [linkedin.com/in/yacineseybousiddoai](https://linkedin.com/in/yacineseybousiddoai)  
+**Hire me on Upwork:** [upwork.com/freelancers/yacineseybousiddoai](https://www.upwork.com/freelancers/yacineseybousiddoai)
 
 ---
 
-## 🧠 About Me
-I am an AI Engineer passionate about **data science, software engineering, and educational technologies**.  
-I build solutions that combine **robust AI systems, data pipelines, and software platforms** to generate human-centered impact locally and globally.  
-Former young parliamentarian, I leverage **leadership, research, and entrepreneurial experience** to transform ideas into actionable, context-aware solutions.  
+## What I build
+
+Production AI systems. The kind that get deployed, stay deployed, and solve
+a specific problem well.
+
+This year I shipped six tools from a single codebase. Each one is
+standalone, open-source, and has a live demo.
 
 ---
 
-## 💡 Core Skills
-**Languages & Frameworks:** Python · JavaScript/Node.js · Java · C · FastAPI · Flask · React  
-**ML / AI:** PyTorch · TensorFlow · scikit-learn · Transformers · RAG · embeddings · NLP · ASR/TTS · Computer Vision  
-**Data & Infrastructure:** PostgreSQL · pgvector · Kafka · Airflow/Prefect · ClickHouse · Redis · Docker · Kubernetes · MLflow  
-**Engineering & DevOps:** ETL/ELT · API design · microservices · CI/CD · Observability (Prometheus/Grafana)  
-**Security & Governance:** RBAC · Field-level encryption · Audit logging · GDPR/CCPA  
-**Mathematics & Methods:** Linear Algebra · Optimization · Probability & Statistics · BKT/IRT · Monte-Carlo · Time Series Analysis  
+## Projects
+
+### [OmniIntelOS](https://github.com/Yacine-ai-tech/omniintelos) — AI Analytics Platform with Persona-Aware RAG
+
+The core idea: different executives need different answers from the same
+data. A CFO asking about margins should get a Finance-scoped response with
+financial-domain context. A CHRO asking about turnover should get a
+People-scoped response. Same system, nine different lenses.
+
+Built with 60 FastAPI endpoints, ChromaDB RAG with source citations,
+WebSocket streaming chat, ML forecasting with Monte Carlo confidence bands,
+four-method anomaly detection, JWT + RBAC, and a bilingual EN/FR React
+frontend.
+
+`FastAPI` `LangChain` `ChromaDB` `PostgreSQL` `React` `Groq` `Claude` `Docker`
 
 ---
 
-## 🚀 Key Projects
+### [AgentKit](https://github.com/Yacine-ai-tech/agentkit) — MCP Server for Business Intelligence Agents
 
-### **Cibiyar Karatu — Adaptive Learning Platform**
-- **Problem:** Rural students lack personalized learning paths; teachers lack diagnostic tools; connectivity is limited.  
-- **Solution:** Microservices (API Gateway, Kafka, PostgreSQL + pgvector), BKT/IRT engine, SRS scheduling, STT/TTS, offline sync.  
-- **Impact:** Improved retention, faster teacher intervention, accessible to low literacy learners.  
-- **Results:** Functional prototype simulating >10k sessions. Screenshots/GIFs on [Portfolio](https://yacineseybousiddo.me/) — Full demo on request.  
+Six MCP tools that give Claude Desktop, Cursor, or any LangGraph agent
+access to live business data: query KPIs, get health score, detect
+anomalies, forecast metrics, list available data, get executive summary.
+Also exposes MCP Resources and reusable Prompts.
 
-### **Commerce360 — Regional Marketplace**
-- **Problem:** Fragmented payments, low cross-border discovery, slow seller onboarding.  
-- **Solution:** Node.js/React microservices + Kafka, multi-payment (Stripe & iPay/CinetPay), AI-powered TF-IDF + spell correction, ETL admin tools.  
-- **Impact:** Accelerated onboarding (−80%), enabled cross-border commerce.  
-- **Results:** Dev environment + Docker Compose, 6-month seed data, operational analytics dashboard. Screenshots/GIFs on [Portfolio](https://yacineseybousiddo.me/) — Full demo on request.  
+Comes with a three-agent LangGraph workflow (Planner → Analyst → Reporter)
+for autonomous analysis. Separate demos for Claude Agent SDK, CrewAI,
+and DSPy.
 
-### **OmniIntelOS — Enterprise Intelligence Platform**
-- **Problem:** KPI fragmentation across Finance, Operations, HR; need for localized predictive analytics.  
-- **Solution:** FastAPI + React, PostgreSQL + Chroma vector search, multi-source ingestion, Monte-Carlo forecasting, anomaly detection, 9-persona chatbot.  
-- **Impact:** 10× faster decisions, reduced LLM costs, audit-ready compliance.  
-- **Results:** 25,920 KPIs tested, API p99 < 300ms, documentation & deployment playbook included. Screenshots/GIFs on [Portfolio](https://yacineseybousiddo.me/) — Full demo on request.  
+`FastMCP` `LangGraph` `Claude Sonnet 4.6` `Groq` `PostgreSQL` `LiteLLM`
 
 ---
 
-## 📜 Key Certifications
-- [IBM Full Stack Software Developer](https://www.coursera.org/account/accomplishments/specialization/KFQC99T229SZ)  
-- [IBM AI Engineering](https://www.coursera.org/account/accomplishments/specialization/9285T5IRZNGO)  
-- [IBM Data Science](https://www.coursera.org/account/accomplishments/specialization/A3QFEHLGTSJK)  
-- [Agentic AI & RAG — IBM](https://www.coursera.org/account/accomplishments/specialization/OV82XYPSA6Y3)  
-- [Qwasar Silicon Valley — Associate Data Scientist](https://upskill.us.qwasar.io/certificates/MTM1Mi1zZXlib3Utc195LWp1bC0yMDIxLTMwLTVlYWU=)  
-- [AI Product Management](https://www.coursera.org/account/accomplishments/specialization/SCY6CEZ6XFRY)  
-- [Mathematics for Machine Learning & Data Science](https://coursera.org/share/74c82eeef8eee1add248694b39dea49d)  
-- [Ethical Hacking](https://www.coursera.org/account/accomplishments/specialization/PZR5W0KFEGLW)  
-- [Google IT Support](https://www.coursera.org/account/accomplishments/specialization/CK9PCVE2HCME)  
+### [DocIntel](https://github.com/Yacine-ai-tech/docintel) — Vision-First Document Intelligence
+
+Three extraction routes: Claude Sonnet 4.6 Vision for complex layouts,
+Ollama + Llama 3.2 Vision for local deployments, Tesseract as fallback.
+The `/classify-image` endpoint classifies what's in a photo — category +
+confidence + reasoning — useful for invoice processing to auction-listing
+aggregators.
+
+85%+ field accuracy on a 50-document evaluation set. Async batch
+processing. Drag-and-drop demo UI.
+
+`FastAPI` `LiteLLM` `Claude Vision` `Ollama` `Tesseract` `pdfplumber` `Docker`
 
 ---
 
-## 💼 Professional Experience
-- **Tech Consultant — HyperTech Niger, Niamey** (Jan 2026 – Present, Freelance)  
-- **Software Engineer (AI & Full-Stack) — HyperTech Niger, Niamey** (Jul 2025 – Dec 2025, CDD)  
-- **Software Engineer Intern — HyperTech Niger, Niamey** (Apr 2025 – Jun 2025, Internship)  
-- **System & Network Administrator Intern — ADU, Niamey** (May 2024 – Sep 2024, Internship)  
-- **Junior Data Scientist — Qwasar Silicon Valley, Remote** (Feb 2023 – Jul 2024, Project-based)  
-- **Junior Parliamentarian — Youth Parliament of Niger** (Dec 2019 – Dec 2021, Volunteer)  
+### [VoiceFlow](https://github.com/Yacine-ai-tech/voiceflow) — Speech to Structured Intelligence
+
+Record audio in the browser, get structured output. Meeting mode returns
+action items with owner, deadline, and priority. Sales call mode returns
+deal stage, pain points, objections, buying signals, and a CRM-paste-ready
+note.
+
+Routes to Claude Sonnet 4.6 for sales calls where nuance matters, and
+Groq LLaMA 3.3 for meeting notes where speed matters. Supports WhisperX,
+Groq Whisper, Deepgram, and AssemblyAI for transcription.
+
+`FastAPI` `WhisperX` `Groq` `Claude` `LiteLLM` `edge-tts` `Docker`
 
 ---
 
-## 🌐 Languages
-- French — Fluent  
-- English — Professional  
-- Zarma — Native  
-- Hausa — Native  
-- Arabic — Basic  
+### [RAGeval](https://github.com/Yacine-ai-tech/rageval) — Self-Hosted LLMOps Observability
+
+```python
+from rageval import track
+
+@track(project="my_rag_app")
+async def answer(question): ...
+# That's the entire integration.
+```
+
+Scores every query: retrieval relevance, groundedness via multi-judge
+consensus (Claude Haiku + Groq + GPT), faithfulness, cost per query,
+latency. Persona-aware — catches when a response pulls data outside its
+expected role scope. SQLite default, Postgres optional, OpenTelemetry
+export for enterprise stacks.
+
+```
+pip install rageval
+```
+
+`FastAPI` `sentence-transformers` `LiteLLM` `SQLite/Postgres` `OpenTelemetry` `React`
 
 ---
 
-## 🎯 Interests
-- Digital growth in Africa  
-- EdTech & Responsible AI  
-- Entrepreneurship & Innovation  
-- STEM advocacy & education  
-- Martial arts  
+### [StreamPulse](https://github.com/Yacine-ai-tech/streampulse) — Real-Time Data Pipeline
 
-💡 **Note:** Full demos are private and available **upon request**. Screenshots/GIFs are visible on [Portfolio](https://yacineseybousiddo.me/).  
+Ingests from webhooks, Gmail, Google Sheets, CSV, REST APIs. Classifies
+each record by business domain using a hybrid classifier: keyword fast
+path first, BGE embedding fallback, Claude Haiku as last resort. Live
+WebSocket dashboard updates in real time.
 
----
+First-class n8n integration — custom node template plus three importable
+workflows. Composes with DocIntel via `/webhook/.../with-vision` for
+image-bearing payloads.
 
-# 👋 Bonjour, je suis Yaçine Seybou Siddo
-
-**Ingénieur en IA & Data Science | Praticien EdTech | Développeur de logiciels et systèmes | Promoteur STEM | Ancien Parlementaire Jeunesse | Entrepreneur & Chercheur en exploration**  
-🌍 Basé à Niamey, Niger — Ouvert aux opportunités internationales avec soutien relocation  
+`FastAPI` `PostgreSQL` `pgvector` `DuckDB` `React` `n8n` `Prefect 3` `LiteLLM`
 
 ---
 
-## 🔗 Liens Clés
-- Portfolio : [yacineseybousiddo.me](https://yacineseybousiddo.me/)  
-- GitHub : [github.com/Yacine-ai-tech](https://github.com/Yacine-ai-tech/)  
-- LeetCode : [leetcode.com/u/yacine-siddo-ai/](https://leetcode.com/u/yacine-siddo-ai/)  
-- LinkedIn : [linkedin.com/in/yacineseybousiddoai](https://linkedin.com/in/yacineseybousiddoai)  
+## Stack
+
+Here's what I work with across these projects:
+
+```
+LLMs          Claude Sonnet 4.6 · Claude Haiku 4.5 · GPT-4o / GPT-5 · Gemini 2.5 Pro
+              Groq LLaMA 3.3 · DeepSeek V3 · AWS Bedrock · Ollama (local)
+Abstraction   LiteLLM — every project routes across providers via a single
+              env var, so you're never locked into one vendor
+Frameworks    FastAPI · LangChain · LangGraph · FastMCP
+Embeddings    BGE-large-en-v1.5 · all-MiniLM-L6-v2
+Vector        ChromaDB (dev) · Qdrant / pgvector (prod)
+Frontend      React · Recharts · Vite
+Storage       PostgreSQL · SQLite · DuckDB
+Pipelines     n8n · Prefect 3 · dlt
+Monitoring    Prometheus · Grafana · OpenTelemetry
+Speech        faster-whisper · WhisperX · Deepgram · AssemblyAI
+DevOps        Docker · Railway · Fly.io · GitHub Actions · AWS
+```
 
 ---
 
-## 🧠 À propos de moi
-Ingénieur en IA passionné par **la science des données, l’ingénierie logicielle et les technologies éducatives**.  
-Je conçois des solutions combinant **systèmes IA robustes, pipelines de données et plateformes logicielles** pour générer un impact humain durable au Niger et au-delà.  
-Ancien parlementaire jeunesse, j’utilise mon **leadership, mes expériences en recherche et entrepreneuriat** pour transformer les idées en solutions concrètes et adaptées au contexte.  
+## Published packages
+
+- [`rageval`](https://pypi.org/project/rageval/) — LLMOps observability for RAG systems
+- [`omnismart-personas`](https://pypi.org/project/omnismart-personas/) — drop-in 9-persona templates for LangChain RAG
 
 ---
 
-## 💡 Compétences Clés
-**Langages & Frameworks :** Python · JavaScript/Node.js · Java · C · FastAPI · Flask · React  
-**ML / IA :** PyTorch · TensorFlow · scikit-learn · Transformers · RAG · embeddings · NLP · ASR/TTS · Computer Vision  
-**Données & Infra :** PostgreSQL · pgvector · Kafka · Airflow/Prefect · ClickHouse · Redis · Docker · Kubernetes · MLflow  
-**Ingénierie & DevOps :** ETL/ELT · Conception API · microservices · CI/CD · Observabilité (Prometheus/Grafana)  
-**Sécurité & Gouvernance :** RBAC · Chiffrement champ-par-champ · Audit logging · GDPR/CCPA  
-**Mathématiques & Méthodes :** Algèbre linéaire · Optimisation · Probabilité & Statistiques · BKT/IRT · Monte-Carlo · Séries temporelles  
+## Certifications
+
+- IBM AI Engineering Professional Certificate (V3)
+- IBM RAG and Agentic AI Professional Certificate
+- IBM Full Stack Software Developer Professional Certificate (V5)
+- IBM Data Science Professional Certificate (V3)
+- Associate Data Scientist — Qwasar Silicon Valley (57 projects)
+- Mathematics for Machine Learning and Data Science — DeepLearning.AI
 
 ---
 
-## 🚀 Projets Significatifs
+## Experience
 
-### **Cibiyar Karatu — Plateforme d’apprentissage adaptatif**
-- **Problème :** Les élèves ruraux manquent de parcours personnalisés; enseignants manquent d’outils; connectivité limitée.  
-- **Solution :** Microservices, moteur BKT/IRT, planification SRS, STT/TTS, synchronisation offline.  
-- **Impact :** Amélioration de la rétention et intervention rapide des enseignants, accessibilité aux apprenants à faible littératie.  
-- **Résultats :** Prototype fonctionnel simulant >10k sessions. Screenshots/GIFs sur [Portfolio](https://yacineseybousiddo.me/) — Démo complète sur demande.  
+**AI Systems Engineer — Self-Employed** · Jan 2026 – Present
+Building and shipping production AI systems independently. Six open-source
+tools released in 2026 — each with a live demo, GitHub repo, and real
+deployment.
 
-### **Commerce360 — Marketplace régional**
-- **Problème :** Paiements fragmentés, faible découverte transfrontalière, intégration lente des vendeurs.  
-- **Solution :** Microservices Node.js/React + Kafka, multi-paiement (Stripe & iPay/CinetPay), AI TF-IDF + correction orthographique, outils ETL admin.  
-- **Impact :** Accélération de l’onboarding (−80%), facilitation du commerce transfrontalier.  
-- **Résultats :** Environnements dev + Docker Compose, 6 mois de données simulées, dashboard analytics. Screenshots/GIFs sur [Portfolio](https://yacineseybousiddo.me/) — Démo complète sur demande.  
+**Software Engineer (AI & Full Stack) — HyperTech Niger** · Jul – Dec 2025
+AgriDrop: designed and built an IoT + ML smart irrigation system from
+scratch — sensor data ingestion, weather API integration, ML scheduling
+engine. Fully deployed.
+Addax SME: supervised and mentored an intern through the full delivery of
+an energy management platform, then personally owned the AI layer —
+forecasting, cost optimization, and policy-compliance modules. Fully
+deployed.
 
-### **OmniIntelOS — Plateforme d’intelligence d’entreprise**
-- **Problème :** Fragmentation des KPI entre Finance, Opérations, RH ; besoin d’analyses prédictives localisées.  
-- **Solution :** FastAPI + React, PostgreSQL + Chroma vector search, ingestion multi-source, forecasting Monte-Carlo, détection d’anomalies, chatbot 9-personas.  
-- **Impact :** Décisions 10× plus rapides, réduction des coûts LLM, conformité audit-ready.  
-- **Résultats :** 25,920 KPIs testés, API p99 < 300ms, documentation et playbook déploiement inclus. Screenshots/GIFs sur [Portfolio](https://yacineseybousiddo.me/) — Démo complète sur demande.  
+**Intern Software Engineer — HyperTech Niger** · Apr – Jun 2025
+Delivered a full-stack web application. Retained and promoted to full
+engineer at the end of the internship.
 
----
+**Network & Sysadmin Intern — ADU Digital Transformation Dept** · May – Sep 2024
+Built and deployed the Ilimi App — a QR-based event ticketing platform
+(React + Express.js, MySQL) for TEDx ADU. Also supported AI adoption
+initiatives across the department.
 
-## 📜 Certifications
-- [IBM Full Stack Software Developer](https://www.coursera.org/account/accomplishments/specialization/KFQC99T229SZ)  
-- [IBM AI Engineering](https://www.coursera.org/account/accomplishments/specialization/9285T5IRZNGO)  
-- [IBM Data Science](https://www.coursera.org/account/accomplishments/specialization/A3QFEHLGTSJK)  
-- [Agentic AI & RAG — IBM](https://www.coursera.org/account/accomplishments/specialization/OV82XYPSA6Y3)  
-- [Qwasar Silicon Valley — Associate Data Scientist](https://upskill.us.qwasar.io/certificates/MTM1Mi1zZXlib3Utc195LWp1bC0yMDIxLTMwLTVlYWU=)  
-- [AI Product Management](https://www.coursera.org/account/accomplishments/specialization/SCY6CEZ6XFRY)  
-- [Mathematics for Machine Learning & Data Science](https://coursera.org/share/74c82eeef8eee1add248694b39dea49d)  
-- [Ethical Hacking](https://www.coursera.org/account/accomplishments/specialization/PZR5W0KFEGLW)  
-- [Google IT Support](https://www.coursera.org/account/accomplishments/specialization/CK9PCVE2HCME)  
-
----
-
-## 💼 Expérience Professionnelle
-- **Tech Consultant — HyperTech Niger, Niamey** (Jan 2026 – Present, Freelance)  
-- **Software Engineer (AI & Full-Stack) — HyperTech Niger, Niamey** (Jul 2025 – Dec 2025, CDD)  
-- **Software Engineer Intern — HyperTech Niger, Niamey** (Apr 2025 – Jun 2025, Stage)  
-- **System & Network Administrator Intern — ADU, Niamey** (May 2024 – Sep 2024, Stage)  
-- **Junior Data Scientist — Qwasar Silicon Valley, Remote** (Feb 2023 – Jul 2024, Projet)  
-- **Député Junior — Parlement des jeunes du Niger** (Dec 2019 – Dec 2021, Bénévole)  
+**Data Science Program — Qwasar Silicon Valley** · Jan 2023 – Aug 2024
+Completed 57 projects across the data science and engineering stack,
+working to Silicon Valley standards in a fully project-based program.
+Covered: data cleaning, scraping, visualization, SQL, Python (Pandas,
+NumPy, Matplotlib, Seaborn, Jupyter), regression models, ML with Keras /
+TensorFlow / Scikit-learn, data structures and algorithms, NLP (N-gram,
+RNN, CNN, SpaCy, NER), fraud detection, SMOTE and ADASYN.
+Earned the Associate Data Scientist certificate upon completing that
+milestone in the program.
 
 ---
 
-## 🌐 Langues
-- Français — Courant  
-- Anglais — Professionnel  
-- Zarma — Natif  
-- Hausa — Natif  
-- Arabe — Notions  
+## Languages
 
----
+French (native) · English (fluent) · Zarma (native) · Hausa (native)
 
-## 🎯 Centres d’intérêt
-- Croissance numérique en Afrique  
-- EdTech & IA responsable  
-- Entrepreneuriat & Innovation  
-- Promotion des STEM & éducation  
-- Arts martiaux  
-
-💡 **Note:** Les démos complètes sont privées et disponibles **sur demande**. Screenshots/GIFs visibles sur [Portfolio](https://yacineseybousiddo.me/).  
