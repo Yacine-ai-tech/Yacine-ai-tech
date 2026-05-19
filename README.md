@@ -1,35 +1,34 @@
-# Hi, I'm Yacine Seybou Siddo
+<div align="center">
 
-**AI Systems Engineer | RAG · MCP Agents · Document AI · LLMOps · FastAPI**
-Based in Niamey, Niger · Bilingual EN/FR
+# Yacine Seybou Siddo
 
-**Hire me on Upwork:** [upwork.com/freelancers/yacineseybousiddoai](https://www.upwork.com/freelancers/yacineseybousiddoai)
+**AI Systems Engineer**
 
----
+`RAG` `MCP Agents` `Document AI` `LLMOps` `FastAPI`
 
-## What I build
+🌍 Niamey, Niger &nbsp;·&nbsp; 🇫🇷 FR &nbsp;·&nbsp; 🇬🇧 EN &nbsp;·&nbsp; [![Upwork](https://img.shields.io/badge/Hire%20me%20on-Upwork-6FDA44?style=flat&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/yacineseybousiddoai)
 
-Production AI systems. The kind that get deployed, stay deployed, and solve
-a specific problem well.
-
-This year I shipped six tools from a single codebase. Each one is
-standalone, open-source, and has a live demo.
+</div>
 
 ---
 
-## Projects
+I build production AI systems — the kind that get deployed, stay deployed, and solve a specific problem well.
+
+This year I shipped six standalone tools from a single codebase. Each one is open-source and has a live demo.
+
+---
+
+## 🚀 Projects
 
 ### [OmniIntelOS](https://github.com/Yacine-ai-tech/omniintelos) — AI Analytics Platform with Persona-Aware RAG
 
-The core idea: different executives need different answers from the same
-data. A CFO asking about margins should get a Finance-scoped response with
-financial-domain context. A CHRO asking about turnover should get a
-People-scoped response. Same system, nine different lenses.
+The core idea: different executives need different answers from the same data. A CFO asking about margins gets a Finance-scoped response. A CHRO asking about turnover gets a People-scoped one. Same system, nine different lenses.
 
-Built with 60 FastAPI endpoints, ChromaDB RAG with source citations,
-WebSocket streaming chat, ML forecasting with Monte Carlo confidence bands,
-four-method anomaly detection, JWT + RBAC, and a bilingual EN/FR React
-frontend.
+- **60 FastAPI endpoints** with JWT + RBAC and WebSocket streaming
+- **9 C-suite AI personas** — each with its own system prompt, data scope, and tool whitelist
+- **ChromaDB RAG** with source citations and streaming tokens
+- **ML forecasting** with Monte Carlo confidence bands, four-method anomaly detection
+- **Bilingual** EN/FR React frontend with Recharts visualizations
 
 `FastAPI` `LangChain` `ChromaDB` `PostgreSQL` `React` `Groq` `Claude` `Docker`
 
@@ -37,14 +36,12 @@ frontend.
 
 ### [AgentKit](https://github.com/Yacine-ai-tech/agentkit) — MCP Server for Business Intelligence Agents
 
-Six MCP tools that give Claude Desktop, Cursor, or any LangGraph agent
-access to live business data: query KPIs, get health score, detect
-anomalies, forecast metrics, list available data, get executive summary.
-Also exposes MCP Resources and reusable Prompts.
+Six MCP tools that give Claude Desktop, Cursor, or any LangGraph agent direct access to live business data.
 
-Comes with a three-agent LangGraph workflow (Planner → Analyst → Reporter)
-for autonomous analysis. Separate demos for Claude Agent SDK, CrewAI,
-and DSPy.
+- **Tools:** query KPIs, company health score, anomaly detection, metric forecasting, data inventory, executive summary
+- **MCP Resources** (stable data URIs) + **Prompts** (reusable templates)
+- **3-agent LangGraph workflow** — Planner (Claude Sonnet 4.6) → Analyst (Groq) → Reporter (Claude Sonnet 4.6)
+- Separate demos for **Claude Agent SDK**, **CrewAI**, and **DSPy**
 
 `FastMCP` `LangGraph` `Claude Sonnet 4.6` `Groq` `PostgreSQL` `LiteLLM`
 
@@ -52,14 +49,13 @@ and DSPy.
 
 ### [DocIntel](https://github.com/Yacine-ai-tech/docintel) — Vision-First Document Intelligence
 
-Three extraction routes: Claude Sonnet 4.6 Vision for complex layouts,
-Ollama + Llama 3.2 Vision for local deployments, Tesseract as fallback.
-The `/classify-image` endpoint classifies what's in a photo — category +
-confidence + reasoning — useful for invoice processing to auction-listing
-aggregators.
+Extracts structured data from PDFs and images using vision models — not just OCR.
 
-85%+ field accuracy on a 50-document evaluation set. Async batch
-processing. Drag-and-drop demo UI.
+- **Route A:** Claude Sonnet 4.6 Vision — complex layouts, handwriting, mixed languages
+- **Route B:** Ollama + Llama 3.2 Vision — fully local, zero cloud dependency
+- **Route C:** Tesseract — lightweight fallback for clean scans
+- **`/classify-image`** — tells you what's in a photo (category + confidence + reasoning), built for auction-listing aggregators and inventory systems
+- **85%+ field accuracy** on a 50-document evaluation set · async batch processing · drag-and-drop UI
 
 `FastAPI` `LiteLLM` `Claude Vision` `Ollama` `Tesseract` `pdfplumber` `Docker`
 
@@ -67,14 +63,13 @@ processing. Drag-and-drop demo UI.
 
 ### [VoiceFlow](https://github.com/Yacine-ai-tech/voiceflow) — Speech to Structured Intelligence
 
-Record audio in the browser, get structured output. Meeting mode returns
-action items with owner, deadline, and priority. Sales call mode returns
-deal stage, pain points, objections, buying signals, and a CRM-paste-ready
-note.
+Record audio in the browser, get structured output — not just a transcript.
 
-Routes to Claude Sonnet 4.6 for sales calls where nuance matters, and
-Groq LLaMA 3.3 for meeting notes where speed matters. Supports WhisperX,
-Groq Whisper, Deepgram, and AssemblyAI for transcription.
+- **Meeting mode** → action items with owner, deadline, and priority
+- **Sales call mode** → deal stage, pain points, objections, buying signals, CRM-paste-ready note
+- Routes to **Claude Sonnet 4.6** for sales calls (nuance matters) and **Groq LLaMA 3.3** for meeting notes (speed matters)
+- Transcription providers: WhisperX · Groq Whisper · Deepgram · AssemblyAI
+- **Real-time voice agent** demo via OpenAI Realtime API
 
 `FastAPI` `WhisperX` `Groq` `Claude` `LiteLLM` `edge-tts` `Docker`
 
@@ -90,15 +85,15 @@ async def answer(question): ...
 # That's the entire integration.
 ```
 
-Scores every query: retrieval relevance, groundedness via multi-judge
-consensus (Claude Haiku + Groq + GPT), faithfulness, cost per query,
-latency. Persona-aware — catches when a response pulls data outside its
-expected role scope. SQLite default, Postgres optional, OpenTelemetry
-export for enterprise stacks.
-
-```
+```bash
 pip install rageval
 ```
+
+- **5 scoring dimensions:** retrieval relevance · groundedness · faithfulness · cost · latency
+- **Multi-judge consensus** across Claude Haiku + Groq + GPT — disagreement triggers a human-review flag
+- **Persona-aware:** catches when a CFO response pulls data outside its Finance scope
+- **SQLite by default** — zero infrastructure. Postgres + pgvector optional. OpenTelemetry export included.
+- React dashboard · PyPI published
 
 `FastAPI` `sentence-transformers` `LiteLLM` `SQLite/Postgres` `OpenTelemetry` `React`
 
@@ -106,20 +101,18 @@ pip install rageval
 
 ### [StreamPulse](https://github.com/Yacine-ai-tech/streampulse) — Real-Time Data Pipeline
 
-Ingests from webhooks, Gmail, Google Sheets, CSV, REST APIs. Classifies
-each record by business domain using a hybrid classifier: keyword fast
-path first, BGE embedding fallback, Claude Haiku as last resort. Live
-WebSocket dashboard updates in real time.
+Multi-source ingestion with a live WebSocket dashboard that updates as records arrive.
 
-First-class n8n integration — custom node template plus three importable
-workflows. Composes with DocIntel via `/webhook/.../with-vision` for
-image-bearing payloads.
+- **Sources:** webhooks · Gmail · Google Sheets · CSV · REST APIs
+- **Hybrid classifier:** keyword fast path → BGE embedding fallback → Claude Haiku last resort
+- **First-class n8n integration** — custom node template + 3 importable workflows (auction aggregation, invoice intake, CRM sync)
+- **`/webhook/.../with-vision`** composes with DocIntel for image-bearing payloads
 
 `FastAPI` `PostgreSQL` `pgvector` `DuckDB` `React` `n8n` `Prefect 3` `LiteLLM`
 
 ---
 
-## Stack
+## 🛠 Stack
 
 Here's what I work with across these projects:
 
@@ -141,62 +134,60 @@ DevOps        Docker · Railway · Fly.io · GitHub Actions · AWS
 
 ---
 
-## Published packages
+## 📦 Published Packages
 
-- [`rageval`](https://pypi.org/project/rageval/) — LLMOps observability for RAG systems
-- [`omnismart-personas`](https://pypi.org/project/omnismart-personas/) — drop-in 9-persona templates for LangChain RAG
-
----
-
-## Certifications
-
-- IBM AI Engineering Professional Certificate (V3)
-- IBM RAG and Agentic AI Professional Certificate
-- IBM Full Stack Software Developer Professional Certificate (V5)
-- IBM Data Science Professional Certificate (V3)
-- Associate Data Scientist — Qwasar Silicon Valley (57 projects)
-- Mathematics for Machine Learning and Data Science — DeepLearning.AI
+| Package | Description |
+|---------|-------------|
+| [`rageval`](https://pypi.org/project/rageval/) | Self-hosted LLMOps observability for RAG systems |
+| [`omnismart-personas`](https://pypi.org/project/omnismart-personas/) | Drop-in 9-persona templates for LangChain RAG |
 
 ---
 
-## Experience
+## 🎓 Certifications
+
+| Certificate | Provider | Verify |
+|-------------|----------|--------|
+| IBM AI Engineering Professional Certificate (V3) | IBM | [↗](https://www.coursera.org/account/accomplishments/specialization/9285T5IRZNGO) |
+| IBM RAG and Agentic AI Professional Certificate | IBM | [↗](https://www.coursera.org/account/accomplishments/specialization/OV82XYPSA6Y3) |
+| IBM Full Stack Software Developer Professional Certificate (V5) | IBM | [↗](https://www.coursera.org/account/accomplishments/specialization/KFQC99T229SZ) |
+| IBM Data Science Professional Certificate (V3) | IBM | [↗](https://www.coursera.org/account/accomplishments/specialization/9RKBFDZQEH2F) |
+| IBM Data Science Professional Certificate | IBM | [↗](https://www.coursera.org/account/accomplishments/specialization/A3QFEHLGTSJK) |
+| Associate Data Scientist (57 projects) | Qwasar Silicon Valley | [↗](https://upskill.us.qwasar.io/certificates/MTM1Mi1zZXlib3Utc195LWp1bC0yMDIxLTMwLTVlYWU=) |
+| Mathematics for Machine Learning and Data Science | DeepLearning.AI | [↗](https://coursera.org/share/74c82eeef8eee1add248694b39dea49d) |
+
+---
+
+## 💼 Experience
 
 **AI Systems Engineer — Self-Employed** · Jan 2026 – Present
-Building and shipping production AI systems independently. Six open-source
-tools released in 2026 — each with a live demo, GitHub repo, and real
-deployment.
+> Building and shipping production AI systems independently. Six open-source tools released in 2026 — each with a live demo, GitHub repo, and real deployment.
 
 **Software Engineer (AI & Full Stack) — HyperTech Niger** · Jul – Dec 2025
-AgriDrop: designed and built an IoT + ML smart irrigation system from
-scratch — sensor data ingestion, weather API integration, ML scheduling
-engine. Fully deployed.
-Addax SME: supervised and mentored an intern through the full delivery of
-an energy management platform, then personally owned the AI layer —
-forecasting, cost optimization, and policy-compliance modules. Fully
-deployed.
+> AgriDrop: designed and built an IoT + ML smart irrigation system from scratch — sensor data ingestion, weather API integration, ML scheduling engine. Fully deployed.
+>
+> Addax SME: supervised and mentored an intern through the full delivery of an energy management platform, then personally owned the AI layer — forecasting, cost optimization, and policy-compliance modules. Fully deployed.
 
 **Intern Software Engineer — HyperTech Niger** · Apr – Jun 2025
-Delivered a full-stack web application. Retained and promoted to full
-engineer at the end of the internship.
+> Delivered a full-stack web application. Retained and promoted to full engineer at the end of the internship.
 
 **Network & Sysadmin Intern — ADU Digital Transformation Dept** · May – Sep 2024
-Built and deployed the Ilimi App — a QR-based event ticketing platform
-(React + Express.js, MySQL) for TEDx ADU. Also supported AI adoption
-initiatives across the department.
+> Built and deployed the Ilimi App — a QR-based event ticketing platform (React + Express.js, MySQL) for TEDx ADU. Also supported AI adoption initiatives across the department.
 
 **Data Science Program — Qwasar Silicon Valley** · Jan 2023 – Aug 2024
-Completed 57 projects across the data science and engineering stack,
-working to Silicon Valley standards in a fully project-based program.
-Covered: data cleaning, scraping, visualization, SQL, Python (Pandas,
-NumPy, Matplotlib, Seaborn, Jupyter), regression models, ML with Keras /
-TensorFlow / Scikit-learn, data structures and algorithms, NLP (N-gram,
-RNN, CNN, SpaCy, NER), fraud detection, SMOTE and ADASYN.
-Earned the Associate Data Scientist certificate upon completing that
-milestone in the program.
+> Fully project-based program at Silicon Valley standards — 57 projects with peer review and auto-grading. Covered: data cleaning, scraping, visualization, SQL, Python (Pandas, NumPy, Matplotlib, Seaborn, Jupyter), regression models, ML with Keras / TensorFlow / Scikit-learn, data structures and algorithms, NLP (N-gram, RNN, CNN, SpaCy, NER), fraud detection, SMOTE and ADASYN. Earned the Associate Data Scientist certificate upon completing that milestone in the program.
 
 ---
 
-## Languages
+## 🌐 Languages
 
-French (native) · English (fluent) · Zarma (native) · Hausa (native)
+🇫🇷 French (native) &nbsp;·&nbsp; 🇬🇧 English (fluent) &nbsp;·&nbsp; Zarma (native) &nbsp;·&nbsp; Hausa (native)
 
+---
+
+<div align="center">
+
+**Open to freelance projects · Available for short-term and ongoing engagements**
+
+[![Upwork](https://img.shields.io/badge/Hire%20me%20on-Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/yacineseybousiddoai)
+
+</div>
