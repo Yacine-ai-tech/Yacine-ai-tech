@@ -8,13 +8,11 @@
 🌍 Niamey, Niger &nbsp;·&nbsp; 🇫🇷 FR &nbsp;·&nbsp; 🇺🇸 EN &nbsp;·&nbsp; [![Upwork](https://img.shields.io/badge/Hire%20me%20on-Upwork-6FDA44?style=flat&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/yacineseybousiddoai)
  
 </div>
----
  
 I build production AI systems — the kind that get deployed, stay deployed, and solve a specific problem well.
  
 This year I shipped six standalone tools from a single codebase. Each one is open-source and has a live demo.
  
----
  
 ## 🚀 Projects
  
