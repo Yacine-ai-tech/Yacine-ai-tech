@@ -199,7 +199,7 @@ DevOps        Docker · Railway · Fly.io · GitHub Actions · AWS
 ---
  
 <div align="center">
-**Open to freelance projects · Available for short-term and ongoing engagements**
+Open to freelance projects · Available for short-term and ongoing engagements
  
 [![Upwork](https://img.shields.io/badge/Hire%20me%20on-Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/yacineseybousiddoai)
  
