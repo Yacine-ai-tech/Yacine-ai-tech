@@ -90,7 +90,7 @@ pip install omnismart-rageval     # distribution name; import is `from rageval i
 - **Multi-judge consensus** across Claude Haiku + Groq + GPT — disagreement triggers a human-review flag
 - **Persona-aware:** catches when a CFO response pulls data outside its Finance scope
 - **SQLite by default** — zero infrastructure. Postgres + pgvector optional. OpenTelemetry export included.
-- React dashboard · PyPI published
+- Browser dashboard (`/demo/`) · PyPI published
 `FastAPI` `sentence-transformers` `LiteLLM` `SQLite/Postgres` `OpenTelemetry` `React`
  
 ---
