@@ -20,12 +20,12 @@ This year I shipped six standalone tools from a single codebase. Each one is ope
  
 The core idea: different executives need different answers from the same data. A CFO asking about margins gets a Finance-scoped response. A CHRO asking about turnover gets a People-scoped one. Same system, nine different lenses — the scope boundaries are enforced by architecture, not just prompt engineering.
  
-A self-contained, cloud-deployable product. No dependency on the full platform — single app, Railway or Fly.io, managed Postgres.
+A self-contained, cloud-deployable product. No dependency on the full platform — single app (Railway API + Vercel frontend), managed Postgres (Neon).
  
 - **9 C-suite AI personas** — each with its own system prompt, data scope, and tool whitelist
 - **7 KPI domains** — Finance, HR, IT, Ops, Logistics, ESG, Risk — dashboard, analytics, forecasting, and anomaly detection per domain
 - **GraphRAG-lite + hybrid retrieval + BGE reranker** — the differentiator; better cross-entity answer quality than flat vector search
-- **WebSocket streaming** with source citations; ChromaDB (dev) · pgvector or Qdrant (prod, via env var)
+- **WebSocket streaming** with source citations; **pgvector on Neon** (prod) · Chroma/Qdrant available via env var
 - **ML forecasting** with Monte Carlo confidence bands, four-method anomaly detection, board-ready PDF export
 - **LiteLLM multi-provider router** — swap models via a single env var, no vendor lock-in
 - **JWT + RBAC**, bilingual EN/FR React frontend with Recharts visualizations
@@ -51,10 +51,10 @@ Six MCP tools that give Claude Desktop, Cursor, or any LangGraph agent direct ac
 Extracts structured data from PDFs and images using vision models — not just OCR.
  
 - **Route A:** Claude Sonnet 4.6 Vision — complex layouts, handwriting, mixed languages
-- **Route B:** Ollama + Llama 3.2 Vision — fully local, zero cloud dependency
+- **Route B:** Ollama local vision (Qwen2.5-VL, validated on GPU; model swappable via env) — fully local, $0/page
 - **Route C:** Tesseract — lightweight fallback for clean scans
 - **`/classify-image`** — tells you what's in a photo (category + confidence + reasoning), built for auction-listing aggregators and inventory systems
-- **85%+ field accuracy** on a 50-document evaluation set · async batch processing · drag-and-drop UI
+- **Released 550-document benchmark** — Route A: 100% on multilingual multi-page invoices, 92.5% on phone-photo receipts; SROIE (world-standard) 95% zero-shot · async batch · drag-and-drop UI
 `FastAPI` `LiteLLM` `Claude Vision` `Ollama` `Tesseract` `pdfplumber` `Docker`
  
 ---
@@ -83,7 +83,7 @@ async def answer(question): ...
 ```
  
 ```bash
-pip install rageval
+pip install omnismart-rageval     # distribution name; import is `from rageval import track`
 ```
  
 - **5 scoring dimensions:** retrieval relevance · groundedness · faithfulness · cost · latency
@@ -152,7 +152,7 @@ DevOps        Docker · Railway · Fly.io · GitHub Actions · AWS
  
 | Package | Description |
 |---------|-------------|
-| [`rageval`](https://pypi.org/project/rageval/) | Self-hosted LLMOps observability for RAG systems |
+| [`omnismart-rageval`](https://pypi.org/project/omnismart-rageval/) | Self-hosted LLMOps observability for RAG systems (import: `rageval`) |
 | [`omnismart-personas`](https://pypi.org/project/omnismart-personas/) | Drop-in 9-persona templates for LangChain RAG |
  
 ---
