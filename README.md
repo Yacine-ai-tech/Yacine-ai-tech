@@ -174,7 +174,7 @@ DevOps        Docker · Railway · Fly.io · GitHub Actions · AWS
 ## 💼 Experience
  
 **AI Systems Engineer — Self-Employed** · Jan 2026 – Present
-> Building and shipping production AI systems independently. Six open-source tools released in 2026 — IntelAI, AgentKit, DocIntel, VoiceFlow, RAGeval, StreamPulse — each with a live demo, GitHub repo, and real deployment. OmniIntelOS (the full platform) developed in parallel as a private enterprise engagement.
+> Building and shipping production AI systems independently. Six open-source tools released in 2026 — IntelAI, AgentKit, DocIntel, VoiceFlow, RAGeval, StreamPulse — each with a live demo, GitHub repo, and real deployment. OmniIntelOS (the full platform) developed in parallel as a private enterprise engagement. Client work includes HyperTech Electronics — a live omni-channel commerce platform with a full AI layer (RAG chatbot, semantic search, recommendations) built on Groq + local embeddings, alongside 73 DB tables, ~390 API endpoints, and B2B + POS integration.
  
 **Software Engineer (AI & Full Stack) — HyperTech Niger** · Jul – Dec 2025
 > AgriDrop: designed and built an IoT + ML smart irrigation system from scratch — sensor data ingestion, weather API integration, ML scheduling engine. Fully deployed.
