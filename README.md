@@ -25,7 +25,7 @@ A self-contained, cloud-deployable product. No dependency on the full platform �
 - **9 C-suite AI personas** — each with its own system prompt, data scope, and tool whitelist
 - **7 KPI domains** — Finance, HR, IT, Ops, Logistics, ESG, Risk — dashboard, analytics, forecasting, and anomaly detection per domain
 - **GraphRAG-lite + hybrid retrieval + BGE reranker** — the differentiator; better cross-entity answer quality than flat vector search
-- **WebSocket streaming** with source citations; **pgvector on Neon** (prod) · Chroma/Qdrant available via env var
+- **WebSocket streaming** with source citations; **Qdrant** vector store in prod, **Chroma** in dev (swap via VECTOR_STORE); **Postgres** on Neon for relational data; **pgvector** available via env
 - **ML forecasting** with Monte Carlo confidence bands, four-method anomaly detection, board-ready PDF export
 - **LiteLLM multi-provider router** — swap models via a single env var, no vendor lock-in
 - **JWT + RBAC**, bilingual EN/FR React frontend with Recharts visualizations
