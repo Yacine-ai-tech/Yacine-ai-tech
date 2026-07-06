@@ -62,7 +62,7 @@ async def answer(question): ...
 ```
 `pip install omnismart-rageval`  (distribution name; import is `from rageval import track`)
 - 5 scoring dimensions: retrieval relevance · groundedness · faithfulness · cost · latency
-- Multi-judge consensus across Claude Haiku + Groq + Gemini 1.5 Flash — disagreement triggers a human-review flag
+- Multi-judge consensus across Claude Haiku + Groq + GPT + Gemini 2.5 Flash — disagreement triggers a human-review flag
 - Persona-aware: catches when a CFO response pulls data outside its Finance scope
 - Live telemetry event stream and model configuration API
 - SQLite by default — zero infrastructure. Postgres + pgvector optional. OpenTelemetry export included.
@@ -79,7 +79,7 @@ Multi-source ingestion with a live WebSocket dashboard that updates as records a
 Stack: FastAPI · PostgreSQL · pgvector · DuckDB · React · n8n · Prefect 3 · LiteLLM
 
 ## 🛠 Stack
-- LLMs: Claude Sonnet 4.6 · Claude Haiku 4.5 · Gemini 1.5 Pro · Gemini 1.5 Pro · Groq LLaMA 3.3 · DeepSeek V3 · AWS Bedrock · Ollama (Lightning Studio GPU)
+- LLMs: Claude Sonnet 4.6 · Claude Haiku 4.5 · GPT-4o / GPT-5 · Gemini 2.5 Pro · Groq LLaMA 3.3 · DeepSeek V3 · AWS Bedrock · Ollama (local)
 - Abstraction: LiteLLM — every project routes across providers via a single env var
 - Frameworks: FastAPI · LangChain · LangGraph · FastMCP
 - Embeddings: BGE-large-en-v1.5 · all-MiniLM-L6-v2
@@ -89,7 +89,7 @@ Stack: FastAPI · PostgreSQL · pgvector · DuckDB · React · n8n · Prefect 3 
 - Pipelines: n8n · Prefect 3 · dlt
 - Monitoring: Prometheus · Grafana · OpenTelemetry
 - Speech: faster-whisper · WhisperX · Deepgram · AssemblyAI
-- DevOps: Docker · Railway · Render · Cloudflare · Hugging Face Spaces · GitHub Actions · AWS
+- DevOps: Docker · Railway · Render · GitHub Actions · AWS
 
 ## 📦 Published Packages
 | Package | Description |
