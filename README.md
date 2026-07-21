@@ -5,7 +5,7 @@
  
 `RAG` `MCP Agents` `Document AI` `LLMOps` `FastAPI`
  
-🌍 Niamey, Niger 🇳🇪 &nbsp;·&nbsp; FR &nbsp;·&nbsp; EN &nbsp;·&nbsp; [![Upwork](https://img.shields.io/badge/Hire%20me%20on-Upwork-6FDA44?style=flat&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/yacineseybousiddoai)
+🇳🇪 🌍 Niamey, Niger &nbsp;·&nbsp; FR &nbsp;·&nbsp; EN &nbsp;·&nbsp; [![Upwork](https://img.shields.io/badge/Hire%20me%20on-Upwork-6FDA44?style=flat&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/yacineseybousiddoai)
  
 </div>
  
