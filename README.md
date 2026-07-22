@@ -1,4 +1,5 @@
 <div align="center">
+  
   Yacine Seybou Siddo
  
 **AI Systems Engineer**
@@ -8,6 +9,7 @@
 🇳🇪 🌍 Niamey, Niger &nbsp;·&nbsp; FR &nbsp;·&nbsp; EN &nbsp;·&nbsp; [![Upwork](https://img.shields.io/badge/Hire%20me%20on-Upwork-6FDA44?style=flat&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/yacineseybousiddoai)
  
 </div>
+
 
 I build production AI systems — the kind that get deployed, stay deployed, and solve a specific problem well.
 
@@ -39,6 +41,7 @@ also: `pip install omnismart-personas` — v0.1.3 — standalone persona templat
 `FastAPI` `LangChain` `ChromaDB` `Qdrant` `pgvector` `PostgreSQL` `React` `Groq` `Claude` `LiteLLM` `Docker`
 
 ---
+
  
 ### [AgentKit](https://github.com/Yacine-ai-tech/AgentKit) — MCP Server for Business Intelligence Agents
 
@@ -59,6 +62,7 @@ agentkit-mcp              # CLI entrypoint → starts the MCP server
 `FastMCP` `LangGraph` `Claude Sonnet 4.6` `Groq` `PostgreSQL` `LiteLLM`
 
 ---
+
  
 ### [DocIntel](https://github.com/Yacine-ai-tech/DocIntel) — Vision-First Document Intelligence
 
@@ -87,6 +91,7 @@ Extracts structured data from PDFs and images using vision models — not just O
 `FastAPI` `LiteLLM` `Claude Vision` `Ollama` `Tesseract` `pdfplumber` `Docker`
 
 ---
+
  
 ### [VoiceFlow](https://github.com/Yacine-ai-tech/VoiceFlow) — Speech to Structured Intelligence
 
@@ -102,7 +107,7 @@ Record audio in the browser, get structured output — not just a transcript.
 `FastAPI` `WhisperX` `Groq` `Claude` `LiteLLM` `edge-tts` `Docker`
 
 ---
- 
+
 
 ### [RAGeval](https://github.com/Yacine-ai-tech/RAGeval) — Self-Hosted LLMOps Observability
 
@@ -130,6 +135,7 @@ rageval init && rageval serve --port 8003
 `FastAPI` `sentence-transformers` `LiteLLM` `SQLite/Postgres` `OpenTelemetry` `React`
 
 ---
+
  
 ### [StreamPulse](https://github.com/Yacine-ai-tech/StreamPulse) — Real-Time Data Pipeline
 
@@ -146,6 +152,7 @@ Multi-source ingestion with domain auto-classification and a live classified das
 `FastAPI` `PostgreSQL` `pgvector` `DuckDB` `React` `n8n` `Prefect 3` `LiteLLM`
 
 ---
+
  
 ## PyPI Packages
 
@@ -157,6 +164,7 @@ Multi-source ingestion with domain auto-classification and a live classified das
 | [intelai](https://pypi.org/project/intelai/) | `pip install intelai` | **v0.1.2** | Persona-aware AI analytics backend |
 
 ---
+
 
 ## Stack
 
@@ -186,6 +194,7 @@ PyTorch             Sentence-transformers backend
 OpenTelemetry       Observability export (RAGeval)
 Tavily              Real-time web search with citations (IntelAI)
 ```
+
  
  ## Background
 
@@ -201,6 +210,7 @@ Tavily              Real-time web search with citations (IntelAI)
 - **LinkedIn:** [Yacine Seybou Siddo](https://www.linkedin.com/in/yacineseybousiddoai/)
 - **Email:** [contact@ysiddo-ai-projects.app](mailto:contact@ysiddo-ai-projects.app)
 
+
 ## 🎓 Certifications
  
 | Certificate | Provider | Verify |
@@ -214,8 +224,10 @@ Tavily              Real-time web search with citations (IntelAI)
 | Mathematics for Machine Learning and Data Science | DeepLearning.AI | [↗](https://coursera.org/share/74c82eeef8eee1add248694b39dea49d) |
  
 ---
+
  
 <div align="center">
+  
 Open to freelance projects · Available for short-term and ongoing engagements
  
 [![Upwork](https://img.shields.io/badge/Hire%20me%20on-Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/yacineseybousiddoai)
