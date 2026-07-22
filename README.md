@@ -8,155 +8,199 @@
 🇳🇪 🌍 Niamey, Niger &nbsp;·&nbsp; FR &nbsp;·&nbsp; EN &nbsp;·&nbsp; [![Upwork](https://img.shields.io/badge/Hire%20me%20on-Upwork-6FDA44?style=flat&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/yacineseybousiddoai)
  
 </div>
- 
+
 I build production AI systems — the kind that get deployed, stay deployed, and solve a specific problem well.
- 
-This year I shipped six standalone tools from a single codebase. Each one is open-source and has a live demo.
+
+Six standalone tools shipped in 2026. All open-source (AGPL-3.0). All live. Four on PyPI.
  
  
 ## 🚀 Projects
  
 ### [IntelAI](https://github.com/Yacine-ai-tech/IntelAI) — Persona-Aware AI Analytics & RAG Copilot
- 
-The core idea: different executives need different answers from the same data. A CFO asking about margins gets a Finance-scoped response. A CHRO asking about turnover gets a People-scoped one. Same system, nine different lenses — the scope boundaries are enforced by architecture, not just prompt engineering.
- 
-A self-contained, cloud-deployable product. No dependency on the full platform — single app (Railway API + Vercel frontend), managed Postgres (Neon).
- 
-- **9 C-suite AI personas** — each with its own system prompt, data scope, and tool whitelist
-- **7 KPI domains** — Finance, HR, IT, Ops, Logistics, ESG, Risk — dashboard, analytics, forecasting, and anomaly detection per domain
-- **GraphRAG-lite + hybrid retrieval + BGE reranker** — the differentiator; better cross-entity answer quality than flat vector search
-- **WebSocket streaming** with source citations; **Qdrant** vector store in prod, **Chroma** in dev (swap via VECTOR_STORE); **Postgres** on Neon for relational data; **pgvector** available via env
-- **ML forecasting** with Monte Carlo confidence bands, four-method anomaly detection, board-ready PDF export
-- **LiteLLM multi-provider router** — swap models via a single env var, no vendor lock-in
-- **JWT + RBAC**, bilingual EN/FR React frontend with Recharts visualizations
-- `omnismart-personas` extracted as a standalone PyPI package — reusable in any LangChain RAG project
-`FastAPI` `LangChain` `ChromaDB` `pgvector` `PostgreSQL` `React` `Groq` `Claude` `LiteLLM` `Docker`
- 
+
+The core idea: different executives need different answers from the same data. A CFO asking about margins gets a Finance-scoped response. A CHRO asking about turnover gets a People-scoped one. The scope boundaries are enforced by architecture, not prompt engineering.
+
+- **9 C-suite AI personas** — CEO, CFO, CTO, COO, CHRO, ESG, Risk, Analyst, General — each with its own data scope, system prompt, and tool whitelist
+- **169 curated KPIs** across 7 domains (Finance, HR, IT, Ops, Logistics, ESG, Risk) — 36-month history, 7 benchmarking scenarios
+- **Hybrid retrieval** — BGE-large-en-v1.5 dense + BM25 + RRF fusion + BGE Reranker v2-m3 cross-encoder; Cohere rerank as hosted backstop (resilience when inference Studio is unreachable)
+- **GraphRAG-lite** — entity graph over KPI records for multi-hop queries (`USE_GRAPH_RAG=true`)
+- **WebSocket streaming** with source citations; Qdrant in prod, Chroma in dev, pgvector available via env
+- **ML forecasting** with Monte Carlo confidence bands; four-method anomaly detection; board-ready PDF export
+- **LiteLLM multi-provider router** — Groq LLaMA 3.3 70B (default/speed), Claude Sonnet 4.6 (reasoning), Claude Haiku 4.5 (judge), Ollama (local)
+- **Tavily web search** with cited sources (real-time data for the copilot)
+- **JWT + RBAC**, bilingual EN/FR React frontend (Recharts), 7 benchmarking scenarios
+- **74 endpoints**, **157 tests**, AGPL-3.0
+
+```bash
+pip install intelai  # v0.1.2
+```
+also: `pip install omnismart-personas` — v0.1.3 — standalone persona templates for LangChain RAG projects
+
+`FastAPI` `LangChain` `ChromaDB` `Qdrant` `pgvector` `PostgreSQL` `React` `Groq` `Claude` `LiteLLM` `Docker`
+
 ---
  
-### [AgentKit](https://github.com/Yacine-ai-tech/agentkit) — MCP Server for Business Intelligence Agents
- 
+### [AgentKit](https://github.com/Yacine-ai-tech/AgentKit) — MCP Server for Business Intelligence Agents
+
 Six MCP tools that give Claude Desktop, Cursor, or any LangGraph agent direct access to live business data.
- 
-- **Tools:** query KPIs, company health score, anomaly detection, metric forecasting, data inventory, executive summary
-- **MCP Resources** (stable data URIs) + **Prompts** (reusable templates)
-- **3-agent LangGraph workflow** — Planner (Claude Sonnet 4.6) → Analyst (Groq) → Reporter (Claude Sonnet 4.6)
-- Separate demos for **Claude Agent SDK**, **CrewAI**, and **DSPy**
+
+- **6 MCP Tools:** `query_kpis`, `get_company_health`, `detect_kpi_anomalies`, `forecast_metric`, `list_available_metrics`, `get_executive_summary`
+- **6 MCP Resources** (stable data URIs: `kpi://Finance/latest`, Growth, Operations, People, ESG, IT_Ops)
+- **1 reusable Prompt** — `monthly_executive_briefing`
+- **3-agent LangGraph workflow** — Planner (Claude Sonnet 4.6) → Analyst (Groq LLaMA 3.3) → Reporter (Claude Sonnet 4.6)
+- Separate working demos for **Claude Agent SDK**, **CrewAI**, and **DSPy**
+- **34 tests**, AGPL-3.0
+
+```bash
+pip install agentkit-mcp  # v0.1.4
+agentkit-mcp              # CLI entrypoint → starts the MCP server
+```
+
 `FastMCP` `LangGraph` `Claude Sonnet 4.6` `Groq` `PostgreSQL` `LiteLLM`
- 
+
 ---
  
-### [DocIntel](https://github.com/Yacine-ai-tech/docintel) — Vision-First Document Intelligence
- 
+### [DocIntel](https://github.com/Yacine-ai-tech/DocIntel) — Vision-First Document Intelligence
+
 Extracts structured data from PDFs and images using vision models — not just OCR.
- 
+
 - **Route A:** Claude Sonnet 4.6 Vision — complex layouts, handwriting, mixed languages
-- **Route B:** Ollama local vision (Qwen2.5-VL, validated on GPU; model swappable via env) — fully local, $0/page
-- **Route C:** Tesseract — lightweight fallback for clean scans
-- **`/classify-image`** — tells you what's in a photo (category + confidence + reasoning), built for auction-listing aggregators and inventory systems
-- **Released 550-document benchmark** — Route A: 100% on multilingual multi-page invoices, 92.5% on phone-photo receipts; SROIE (world-standard) 95% zero-shot · async batch · drag-and-drop UI
+- **Route B:** Ollama local vision (`.env` default: `llama3.2-vision`; production-validated: `qwen2.5-VL:7b` on NVIDIA T4) — fully local, zero cost per page
+- **Route C:** Tesseract + Claude Haiku LLM cleanup — lightweight fallback for clean scans
+- **Multi-currency & multi-locale** — 45+ currencies (USD, EUR, GBP, JPY, INR, CNY, XOF/FCFA) normalized to ISO 4217 + float; dates to ISO 8601
+- **Multi-page map-reduce** — handles 100+ page PDFs via concurrent chunk extraction and merge (MAX_PDF_PAGES default: 200)
+- **`/classify-image`** — vision-first object classification (category + confidence + reasoning)
+- **550-document benchmark** (500 with field-level ground truth):
+
+| Route | Model | Test set | Accuracy |
+|-------|-------|----------|----------|
+| A — vision_premium | Claude Sonnet 4.6 Vision | multilingual invoices | **100%** |
+| A — vision_premium | Claude Sonnet 4.6 Vision | CORD phone-photo receipts (40) | **92.5%** |
+| A — vision_premium | Claude Sonnet 4.6 Vision | SROIE world-standard | **95%** |
+| B — vision_local | Ollama qwen2.5-VL 7B (T4) | CORD phone-photo receipts (100) | **77%** |
+| B — vision_local | Ollama qwen2.5-VL 7B (T4) | French + FCFA (XOF) sample | **100%** |
+| C — ocr_fallback | Tesseract + Claude Haiku | clean invoices | **100%** |
+| C — ocr_fallback | Tesseract + Claude Haiku | CORD receipts | **28.5%** |
+
+- **15 endpoints**, **62 tests**, AGPL-3.0
+
 `FastAPI` `LiteLLM` `Claude Vision` `Ollama` `Tesseract` `pdfplumber` `Docker`
- 
+
 ---
  
-### [VoiceFlow](https://github.com/Yacine-ai-tech/voiceflow) — Speech to Structured Intelligence
- 
+### [VoiceFlow](https://github.com/Yacine-ai-tech/VoiceFlow) — Speech to Structured Intelligence
+
 Record audio in the browser, get structured output — not just a transcript.
- 
-- **Meeting mode** → action items with owner, deadline, and priority
-- **Sales call mode** → deal stage, pain points, objections, buying signals, CRM-paste-ready note
-- Routes to **Claude Sonnet 4.6** for sales calls (nuance matters) and **Groq LLaMA 3.3** for meeting notes (speed matters)
-- Transcription providers: WhisperX · Groq Whisper · Deepgram · AssemblyAI
-- **Real-time voice agent** demo via OpenAI Realtime API
+
+- **5 analysis types** with per-type LLM routing:
+  - `meeting` → Groq LLaMA 3.3 · `sales_call` → Claude Sonnet 4.6 · `support_call` → Claude Haiku 4.5 · `interview` → Claude Sonnet 4.6 · `general` → Groq LLaMA 3.3
+- **4 transcription providers:** WhisperX (local default) · Groq Whisper · Deepgram · AssemblyAI
+- **Diarization fallback chain:** pyannote 3.x → NeMo → no-diarization
+- **Real-time voice agent** via OpenAI Realtime API; when only `GEMINI_API_KEY` is set, routes to **Gemini Multimodal Live** automatically (translation layer in api.py:338)
+- **13 endpoints**, **38 tests**, AGPL-3.0
+
 `FastAPI` `WhisperX` `Groq` `Claude` `LiteLLM` `edge-tts` `Docker`
- 
+
 ---
  
-### [RAGeval](https://github.com/Yacine-ai-tech/rageval) — Self-Hosted LLMOps Observability
- 
+
+### [RAGeval](https://github.com/Yacine-ai-tech/RAGeval) — Self-Hosted LLMOps Observability
+
 ```python
 from rageval import track
- 
+
 @track(project="my_rag_app")
 async def answer(question): ...
-# That's the entire integration.
+# That is the entire integration.
 ```
- 
+
 ```bash
-pip install omnismart-rageval     # distribution name; import is `from rageval import track`
+pip install omnismart-rageval          # core
+pip install "omnismart-rageval[eval]"  # + multi-judge scoring and embeddings
+pip install "omnismart-rageval[all]"   # everything
+rageval init && rageval serve --port 8003
 ```
- 
+
 - **5 scoring dimensions:** retrieval relevance · groundedness · faithfulness · cost · latency
-- **Multi-judge consensus** across Claude Haiku + Groq + GPT — disagreement triggers a human-review flag
+- **Multi-judge consensus** — Claude Haiku 4.5 + Groq LLaMA 3.3 + GPT-5-mini; disagreement triggers human-review flag
 - **Persona-aware:** catches when a CFO response pulls data outside its Finance scope
-- **SQLite by default** — zero infrastructure. Postgres + pgvector optional. OpenTelemetry export included.
-- Browser dashboard (`/demo/`) · PyPI published
+- **SQLite by default** — zero infrastructure. Postgres + pgvector optional. OpenTelemetry export.
+- **12 endpoints**, **38 tests**, AGPL-3.0
+
 `FastAPI` `sentence-transformers` `LiteLLM` `SQLite/Postgres` `OpenTelemetry` `React`
- 
+
 ---
  
-### [StreamPulse](https://github.com/Yacine-ai-tech/streampulse) — Real-Time Data Pipeline
- 
-Multi-source ingestion with a live WebSocket dashboard that updates as records arrive.
- 
-- **Sources:** webhooks · Gmail · Google Sheets · CSV · REST APIs
-- **Hybrid classifier:** keyword fast path → BGE embedding fallback → Claude Haiku last resort
-- **First-class n8n integration** — custom node template + 3 importable workflows (auction aggregation, invoice intake, CRM sync)
-- **`/webhook/.../with-vision`** composes with DocIntel for image-bearing payloads
+### [StreamPulse](https://github.com/Yacine-ai-tech/StreamPulse) — Real-Time Data Pipeline
+
+Multi-source ingestion with domain auto-classification and a live classified dashboard.
+
+- **6 source types:** JSON, CSV, Gmail email, webhooks (HMAC-verified), Google Sheets, custom n8n nodes
+- **Hybrid classifier:** keyword fast-path (zero cost) → BGE embedding fallback → Claude Haiku zero-shot
+- **`/webhook/{source}/with-vision`** — composes with DocIntel `/classify-image` for auction/inventory aggregation
+- **First-class n8n integration:** custom node template + 3 importable workflows (`auction_aggregator`, `invoice_intake`, `crm_sync`)
+- **Prefect 3 orchestration** for retried, scheduled runs · **dlt declarative sources** for Gmail/Sheets/webhook
+- Live dashboard via WebSocket + SSE · SQLite or Postgres store
+- **12 endpoints**, **35 tests**, AGPL-3.0
+
 `FastAPI` `PostgreSQL` `pgvector` `DuckDB` `React` `n8n` `Prefect 3` `LiteLLM`
- 
+
 ---
  
-## 🏗 Platform
- 
-### [OmniIntelOS](https://github.com/Yacine-ai-tech/OmniIntelOS) — Full-Stack AI Company Intelligence Platform *(private repo)*
- 
-The complete, self-hostable version — all six tools under one roof, plus the infrastructure layer organizations need to run everything on their own servers. Think of it as IntelAI with the ceiling removed.
- 
-- **Everything in IntelAI** — all 9 personas, GraphRAG-lite, hybrid retrieval, BGE reranker, ML forecasting, anomaly detection, RBAC, bilingual frontend
-- **Monitoring stack** — Prometheus, Grafana, pre-configured alert rules, nginx reverse proxy, Cloudflare tunnels, MonitoringPage
-- **OCR microservice** (`omnitel-ocr`) — DocIntel extracted as a standalone service with its own API and ScannerPage
-- **Voice microservice** (`omnitel-voice`) — VoiceFlow extracted as a standalone service with VoicePage
-- **n8n workflow automation** — IntegrationsPage, N8NWorkflowPage, custom node template, 3 importable workflows
-- **Multi-service Docker Compose** — full on-prem deployment with all services orchestrated
-- **BulkData / DataHub ingestion** — heavy-volume enterprise data pipeline layer
-Available as a [Project Catalog engagement on Upwork](https://www.upwork.com/freelancers/yacineseybousiddoai) — scoped, priced, and ready to deploy.
- 
-`FastAPI` `LangChain` `ChromaDB` `pgvector` `React` `Prometheus` `Grafana` `n8n` `Prefect 3` `Docker Compose` `Nginx` `LiteLLM`
- 
+## PyPI Packages
+
+| Package | Install | Version | What it is |
+|---------|---------|---------|------------|
+| [omnismart-rageval](https://pypi.org/project/omnismart-rageval/) | `pip install omnismart-rageval` | **v0.1.10** | Drop-in LLMOps observability for RAG systems |
+| [omnismart-personas](https://pypi.org/project/omnismart-personas/) | `pip install omnismart-personas` | **v0.1.3** | Persona templates for LangChain RAG projects |
+| [agentkit-mcp](https://pypi.org/project/agentkit-mcp/) | `pip install agentkit-mcp` | **v0.1.4** | MCP server for business intelligence agents |
+| [intelai](https://pypi.org/project/intelai/) | `pip install intelai` | **v0.1.2** | Persona-aware AI analytics backend |
+
 ---
- 
-## 🛠 Stack
- 
-Here's what I work with across these projects:
- 
+
+## Stack
+
 ```
-LLMs          Claude Sonnet 4.6 · Claude Haiku 4.5 · GPT-4o / GPT-5 · Gemini 2.5 Pro
-              Groq LLaMA 3.3 · DeepSeek V3 · AWS Bedrock · Ollama (local)
-Abstraction   LiteLLM — every project routes across providers via a single
-              env var, so you're never locked into one vendor
-Frameworks    FastAPI · LangChain · LangGraph · FastMCP
-Embeddings    BGE-large-en-v1.5 · all-MiniLM-L6-v2
-Vector        ChromaDB (dev) · Qdrant / pgvector (prod)
-Frontend      React · Recharts · Vite
-Storage       PostgreSQL · SQLite · DuckDB
-Pipelines     n8n · Prefect 3 · dlt
-Monitoring    Prometheus · Grafana · OpenTelemetry
-Speech        faster-whisper · WhisperX · Deepgram · AssemblyAI
-DevOps        Docker · Railway · Fly.io · GitHub Actions · AWS
+LiteLLM             Multi-provider LLM router (no vendor lock-in)
+Claude Sonnet 4.6   Reasoning tier (executive personas, deep analysis, sales call)
+Claude Haiku 4.5    Judge tier (classification, scoring, support)
+Groq LLaMA 3.3 70B  Speed tier (high-volume RAG, meeting notes, general)
+Ollama              Local tier (Llama 3.3, Qwen2.5-VL 7B, Llama 3.2 Vision)
+OpenAI              Voice agent (VoiceFlow /realtime) + RAGeval 3rd judge (gpt-5-mini)
+Gemini              VoiceFlow /realtime fallback when only GEMINI_API_KEY is set
+BGE-large-en-v1.5   Dense embeddings
+BGE Reranker v2-m3  Cross-encoder reranking
+BM25 + RRF          Sparse retrieval + fusion
+FastAPI + Uvicorn   API layer across all 6 projects
+PostgreSQL + pgvector  Production data store
+Qdrant              Vector store in prod (Chroma in dev)
+LangGraph           Multi-agent workflows (AgentKit)
+FastMCP             MCP server framework (AgentKit)
+React + Recharts    Frontends (all 6 have a live dashboard at /)
+Docker              Containerized deployment
+WhisperX            Local speech transcription (VoiceFlow)
+Tesseract           OCR fallback (DocIntel)
+Prefect 3           Pipeline orchestration (StreamPulse)
+dlt                 Declarative sources (StreamPulse)
+PyTorch             Sentence-transformers backend
+OpenTelemetry       Observability export (RAGeval)
+Tavily              Real-time web search with citations (IntelAI)
 ```
  
----
- 
-## 📦 Published Packages
- 
-| Package | Description |
-|---------|-------------|
-| [`omnismart-rageval`](https://pypi.org/project/omnismart-rageval/) | Self-hosted LLMOps observability for RAG systems (import: `rageval`) |
-| [`omnismart-personas`](https://pypi.org/project/omnismart-personas/) | Drop-in 9-persona templates for LangChain RAG |
- 
----
- 
+ ## Background
+
+- **Software Engineer** — HyperTech Niger (2025): Designed and deployed full-stack AI and IoT systems, including an ML-driven smart irrigation engine and an energy management platform.
+- **B.Sc. Artificial Intelligence** — African Development University (2022–2025)
+- **Associate Data Scientist** — Qwasar Silicon Valley (2023–2024), trained to SV standards across 57 projects
+- IBM certifications: Full Stack Developer · AI Engineering · RAG & Agentic AI · Data Science
+- Languages: **French** (native) · **English** (fluent) · 🇳🇪 Zarma / 🇳🇪 Hausa (native)
+
+## Contact
+
+- **Upwork:** [Hire me](https://www.upwork.com/freelancers/yacineseybousiddoai)
+- **LinkedIn:** [Yacine Seybou Siddo](https://www.linkedin.com/in/yacineseybousiddoai/)
+- **Email:** [contact@ysiddo-ai-projects.app](mailto:contact@ysiddo-ai-projects.app)
+
 ## 🎓 Certifications
  
 | Certificate | Provider | Verify |
@@ -168,33 +212,6 @@ DevOps        Docker · Railway · Fly.io · GitHub Actions · AWS
 | IBM Data Science Professional Certificate | IBM | [↗](https://www.coursera.org/account/accomplishments/specialization/A3QFEHLGTSJK) |
 | Associate Data Scientist (57 projects) | Qwasar Silicon Valley | [↗](https://upskill.us.qwasar.io/certificates/MTM1Mi1zZXlib3Utc195LWp1bC0yMDIxLTMwLTVlYWU=) |
 | Mathematics for Machine Learning and Data Science | DeepLearning.AI | [↗](https://coursera.org/share/74c82eeef8eee1add248694b39dea49d) |
- 
----
- 
-## 💼 Experience
- 
-**AI Systems Engineer — Self-Employed** · Jan 2026 – Present
-> Building and shipping production AI systems independently. Six open-source tools released in 2026 — IntelAI, AgentKit, DocIntel, VoiceFlow, RAGeval, StreamPulse — each with a live demo, GitHub repo, and real deployment. OmniIntelOS (the full platform) developed in parallel as a private enterprise engagement. Client work includes HyperTech Electronics — a live omni-channel commerce platform with a full AI layer (RAG chatbot, semantic search, recommendations) built on Groq + local embeddings, alongside 73 DB tables, ~390 API endpoints, and B2B + POS integration.
- 
-**Software Engineer (AI & Full Stack) — HyperTech Niger** · Jul – Dec 2025
-> AgriDrop: designed and built an IoT + ML smart irrigation system from scratch — sensor data ingestion, weather API integration, ML scheduling engine. Fully deployed.
->
-> Addax SME: supervised and mentored an intern through the full delivery of an energy management platform, then personally owned the AI layer — forecasting, cost optimization, and policy-compliance modules. Fully deployed.
- 
-**Intern Software Engineer — HyperTech Niger** · Apr – Jun 2025
-> Delivered a full-stack web application. Retained and promoted to full engineer at the end of the internship.
- 
-**Network & Sysadmin Intern — ADU Digital Transformation Dept** · May – Sep 2024
-> Built and deployed the Ilimi App — a QR-based event ticketing platform (React + Express.js, MySQL) for TEDx ADU. Also supported AI adoption initiatives across the department.
- 
-**Data Science Program — Qwasar Silicon Valley** · Jan 2023 – Aug 2024
-> Fully project-based program at Silicon Valley standards — 57 projects with peer review and auto-grading. Covered: data cleaning, scraping, visualization, SQL, Python (Pandas, NumPy, Matplotlib, Seaborn, Jupyter), regression models, ML with Keras / TensorFlow / Scikit-learn, data structures and algorithms, NLP (N-gram, RNN, CNN, SpaCy, NER), fraud detection, SMOTE and ADASYN. Earned the Associate Data Scientist certificate upon completing that milestone in the program.
- 
----
- 
-## 🌐 Languages
- 
-French (native) &nbsp;·&nbsp; English (fluent) &nbsp;·&nbsp; 🇳🇪 Zarma (native) &nbsp;·&nbsp; 🇳🇪 Hausa (native)
  
 ---
  
