@@ -204,12 +204,6 @@ Tavily              Real-time web search with citations (IntelAI)
 - IBM certifications: Full Stack Developer · AI Engineering · RAG & Agentic AI · Data Science
 - Languages: **French** (native) · **English** (fluent) · 🇳🇪 Zarma / 🇳🇪 Hausa (native)
 
-## Contact
-
-- **Upwork:** [Hire me](https://www.upwork.com/freelancers/yacineseybousiddoai)
-- **LinkedIn:** [Yacine Seybou Siddo](https://www.linkedin.com/in/yacineseybousiddoai/)
-- **Email:** [contact@ysiddo-ai-projects.app](mailto:contact@ysiddo-ai-projects.app)
-
 
 ## 🎓 Certifications
  
@@ -224,6 +218,12 @@ Tavily              Real-time web search with citations (IntelAI)
 | Mathematics for Machine Learning and Data Science | DeepLearning.AI | [↗](https://coursera.org/share/74c82eeef8eee1add248694b39dea49d) |
  
 ---
+
+## Contact
+
+- **Upwork:** [Hire me](https://www.upwork.com/freelancers/yacineseybousiddoai)
+- **LinkedIn:** [Yacine Seybou Siddo](https://www.linkedin.com/in/yacineseybousiddoai/)
+- **Email:** [contact@ysiddo-ai-projects.app](mailto:contact@ysiddo-ai-projects.app)
 
  
 <div align="center">
