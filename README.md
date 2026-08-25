@@ -8,7 +8,7 @@
 
 **AI Systems Engineer · B.Sc. Artificial Intelligence · Niamey, Niger**
 
-I build AI systems that ship, and I publish what I find — including the results that don't flatter the system. My work spans production AI engineering for clients in the Sahel, six open-source AI/ML tools, and applied research into low-resource African languages.
+I build AI systems that ship, and I publish what I find — including the results that don't flatter the system. My work spans production AI engineering for clients in Niger, six open-source AI/ML tools, and Cibiyar Karatu, an adaptive learning platform for Niger and the Sahel.
 
 Email: contact@ysiddo-ai-projects.app · [LinkedIn](https://linkedin.com/in/yacineseybousiddoai) · [Portfolio](https://yacineseybousiddo.me)
 Location: Niamey, Niger · Languages: French, English, Hausa, Zarma
@@ -30,11 +30,11 @@ Location: Niamey, Niger · Languages: French, English, Hausa, Zarma
 
 I work across three registers, and I try not to blur them.
 
-**AI systems engineering.** Production RAG, multi-agent orchestration, document intelligence, LLMOps, and edge/IoT platforms, delivered as a freelance engineer for clients in Niger and the broader Sahel region.
+**AI systems engineering.** Production RAG, multi-agent orchestration, document intelligence, LLMOps, and edge/IoT platforms, delivered as a freelance engineer for clients in Niger — engineered against Sahel-wide infrastructure constraints (intermittent connectivity, shared NAT, low-end hardware), not yet delivered outside Niger.
 
 **Open-source research tooling.** Six standalone AI/ML tools, dual-licensed (AGPL-3.0 / commercial), each shipped with a public evaluation protocol rather than a marketing claim.
 
-**Applied research on low-resource languages.** Corpus aggregation and cataloging for Hausa, Zarma, and Fulfulde through an adaptive-learning platform currently in prototyping and real-user testing.
+**Adaptive learning platform.** *Cibiyar Karatu*, subject-agnostic and offline-first, for Niger and the Sahel — French alongside Hausa, Zarma, and Fulfulde — plus a parallel research contribution in corpus and benchmark work for those three languages, at very different starting points of existing NLP coverage.
 
 ## Background
 
@@ -113,11 +113,11 @@ Measured results: 2.2% WER / 0.8% CER on LibriSpeech test-clean (Whisper large-v
 
 **HyperTech Connect** — zero-trust, protocol-agnostic IoT and edge-management platform for infrastructure-constrained environments (WireGuard mesh, MQTT/LoRaWAN/Modbus/CAN bus gateway, delta-compressed OTA firmware). Architecture fully designed; physical validation on ESP32 and LilyGO T-SIM7000G hardware, remainder emulated and simulated.
 
-**HyperFlow** — digital-agriculture platform for smart irrigation across the Sahel, including migration tooling for legacy, informally-structured land-ownership records.
+**HyperFlow** — digital-agriculture platform for smart irrigation in Niger, built for Sahel-wide infrastructure conditions, including migration tooling for legacy, informally-structured land-ownership records.
 
 ## Research Direction
 
-Applied research on low-resource African languages through *Cibiyar Karatu*, an offline-first adaptive-learning platform for Hausa, Zarma, and Fulfulde speakers on entry-level hardware — currently in prototyping and testing, with real-user testing to follow. Pre-incorporation stage; architecture and product design are not detailed publicly.
+*Cibiyar Karatu* ("Centre of Learning" in Hausa) is a subject-agnostic, offline-first adaptive learning platform for Niger and the Sahel, spanning formal, non-formal, and informal learning — French instruction alongside Hausa, Zarma, and Fulfulde, on entry-level Android hardware, with or without a network connection. Alongside the platform, it produces a parallel research contribution: corpus and benchmark work for Hausa, Zarma, and Fulfulde — three languages with wide disparity in existing NLP coverage despite their combined speaker count. Zarma and Fulfulde remain acutely under-resourced; Hausa, though still classified as low-resource, already has meaningful benchmark and corpus infrastructure this work builds on rather than starts from scratch. Currently in prototyping and testing, pre-incorporation; architecture and product design are not detailed publicly.
 
 I'm also working toward graduate-level engineering training, aimed at closing the hardware and robotics gap my own software work keeps surfacing — physical AI: natural-scene computer vision, robotics, and embedded systems, beyond the document- and simulation-bound versions I've shipped so far.
 
