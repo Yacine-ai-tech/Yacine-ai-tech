@@ -111,7 +111,7 @@ Measured results: 2.2% WER / 0.8% CER on LibriSpeech test-clean (Whisper large-v
 
 **HyperTech Electronics** — AI layer for an e-commerce and retail-operations platform: bilingual semantic search, a  six-persona intent-routed assistant powered by RAG, two recommendation engines and a deterministic degraded-mode fallback built after a live provider-quota outage in production.
 
-**HyperTech Connect** — zero-trust, protocol-agnostic IoT and edge-management platform for infrastructure-constrained environments (WireGuard mesh, MQTT/LoRaWAN/Modbus/CAN bus gateway, delta-compressed OTA firmware). Architecture fully designed; physical validation on ESP32 and LilyGO T-SIM7000G hardware, remainder emulated and simulated.
+**HyperTech Connect** — Designed a zero-trust, protocol-agnostic IoT and edge-management platform for low-connectivity environments, with secure edge networking, multi-protocol device integration, and resilient OTA update capabilities. Validated the platform at 1,000+ devices under test and conducted physical validation on embedded hardware.
 
 **HyperFlow** — digital-agriculture platform for smart irrigation in Niger, built for Sahel-wide infrastructure conditions, including migration tooling for legacy, informally-structured land-ownership records.
 
