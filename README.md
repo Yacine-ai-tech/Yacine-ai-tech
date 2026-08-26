@@ -109,7 +109,7 @@ Measured results: 2.2% WER / 0.8% CER on LibriSpeech test-clean (Whisper large-v
 
 ## Client Work (scoped to what's publicly shareable)
 
-**HyperTech Electronics** — AI layer for an e-commerce and retail-operations platform: bilingual semantic search, a six-persona intent-routed assistant, and a deterministic degraded-mode fallback built after a live provider-quota outage in production.
+**HyperTech Electronics** — AI layer for an e-commerce and retail-operations platform: bilingual semantic search, a  six-persona intent-routed assistant powered by Rag, two recommendation engines and a deterministic degraded-mode fallback built after a live provider-quota outage in production.
 
 **HyperTech Connect** — zero-trust, protocol-agnostic IoT and edge-management platform for infrastructure-constrained environments (WireGuard mesh, MQTT/LoRaWAN/Modbus/CAN bus gateway, delta-compressed OTA firmware). Architecture fully designed; physical validation on ESP32 and LilyGO T-SIM7000G hardware, remainder emulated and simulated.
 
