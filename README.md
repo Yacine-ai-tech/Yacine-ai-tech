@@ -75,7 +75,7 @@ async def answer(question): ...
 
 Multi-judge consensus scoring with bootstrap confidence intervals, not point estimates.
 
-Measured results: HaluEval-QA (N=200), accuracy 0.785 [0.725–0.840], ROC-AUC 0.870 [0.818–0.915]. Published as the headline finding: the multi-judge consensus did not outperform its single best judge — a negative result, kept in the title rather than buried.
+Measured results: HaluEval-QA (N=200), accuracy-weighted consensus 0.860, ROC-AUC 0.902. Published as the headline finding: the multi-judge consensus still did not outperform its single best judge — a negative result, kept in the title rather than buried.
 
 ### [AgentKit](https://github.com/Yacine-ai-tech/agentkit) — Governed MCP Tool Server
 ![PyPI](https://img.shields.io/pypi/v/agentkit-mcp?label=agentkit-mcp)
@@ -102,7 +102,7 @@ Measured results: 2.2% WER / 0.8% CER on LibriSpeech test-clean (Whisper large-v
 |---|---|---|
 | IntelAI | MAE 12.48% (median 9.90%) | Out-of-sample backtest, 378 forecasts |
 | DocIntel | 95.0% zero-shot accuracy | SROIE |
-| RAGeval | 0.785 accuracy [0.725–0.840] | HaluEval-QA, N=200, bootstrap CI |
+| RAGeval | 0.860 accuracy (weighted consensus) | HaluEval-QA, N=200 |
 | AgentKit | 14/14 guardrail tests passed | Adversarial test suite, deterministic |
 | StreamPulse | 0.917 cascade accuracy (0.793 macro-F1) | Held-out paraphrased set |
 | VoiceFlow | 2.2% WER / 0.8% CER | LibriSpeech test-clean, N=150 |
