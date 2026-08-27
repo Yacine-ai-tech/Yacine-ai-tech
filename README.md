@@ -53,7 +53,7 @@ Each tool ships with a `BENCHMARK.md` and a `RESEARCH.md` in its repository — 
 ### [IntelAI](https://github.com/Yacine-ai-tech/intelai) — Persona-Aware Enterprise Analytics & RAG Copilot
 ![PyPI](https://img.shields.io/pypi/v/intelai?label=intelai) ![PyPI](https://img.shields.io/pypi/v/omnismart-personas?label=omnismart-personas)
 
-Nine C-suite personas (CEO, CFO, CTO, COO, CHRO, ESG, Risk, Analyst, General), each scoped to its own data domain by architecture, not prompt instruction. 146 curated KPIs across 7 domains, 78-month history. Hybrid retrieval (BGE-large-en-v1.5 dense + BM25 + RRF fusion + cross-encoder reranking) plus a GraphRAG-lite layer for multi-hop queries.
+Nine C-suite personas (CEO, CFO, CTO, COO, CHRO, ESG, Risk, Analyst, General), each scoped to its own data domain by architecture, not prompt instruction. 146 curated KPIs across 7 domains, 78-month history. Hybrid retrieval (BGE-M3 dense + BM25 + RRF fusion + cross-encoder reranking) plus a GraphRAG-lite layer for multi-hop queries.
 
 Measured results: out-of-sample backtest on 378 forecasts, MAE 12.48% (median 9.90%); GraphRAG-lite reaches 95.0% entity coverage; a 50-case production sample scores 71.4% accuracy with a grounding score of 0.572. Published alongside those numbers: French/English answer-quality parity is currently uneven — 0.917 FR vs 0.431 EN.
 
