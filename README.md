@@ -55,13 +55,13 @@ Each tool ships with a `BENCHMARK.md` and a `RESEARCH.md` in its repository — 
 
 Nine C-suite personas (CEO, CFO, CTO, COO, CHRO, ESG, Risk, Analyst, General), each scoped to its own data domain by architecture, not prompt instruction. 146 curated KPIs across 7 domains, 78-month history. Hybrid retrieval (BGE-M3 dense + BM25 + RRF fusion + cross-encoder reranking) plus a GraphRAG-lite layer for multi-hop queries.
 
-Measured results: out-of-sample backtest on 378 forecasts, MAE 12.48% (median 9.90%); GraphRAG-lite reaches 95.0% entity coverage; a 50-case production sample scores 71.4% accuracy with a grounding score of 0.572. Published alongside those numbers: French/English answer-quality parity is currently uneven — 0.917 FR vs 0.431 EN.
+Measured results: out-of-sample backtest on 378 forecasts, mean APE 4.64% (median 2.77%), down from a 12.48%/9.90% prior baseline after fixing a curvature/entity-coverage bug; GraphRAG-lite reaches 95.0% entity coverage; a 50-case production sample scores 71.4% ground-truth accuracy with a judge-panel groundedness of 0.572. Published alongside those numbers: French/English answer-quality parity is currently uneven — 0.917 FR vs 0.431 EN.
 
 ### [DocIntel](https://github.com/Yacine-ai-tech/docintel) — Vision-First Document Intelligence
 
-Extracts structured data from PDFs and images across three routes: hosted vision LLM, local Ollama vision model, and a lightweight OCR fallback. Multi-currency and multi-locale normalization, including FCFA/XOF under UEMOA VAT convention.
+Extracts structured data from PDFs and images across three routes: hosted vision LLM, local Ollama vision model (GPU), and a Surya-OCR-plus-LLM fallback (Tesseract as its own automatic fallback). Multi-currency and multi-locale normalization, including FCFA/XOF under UEMOA VAT convention.
 
-Measured results: 95.0% zero-shot accuracy on the SROIE benchmark; 100% on a multilingual cloud-route invoice set; the self-hosted route reaches 77.0% on CORD receipts at roughly one-fifth the per-document cost of the cloud route.
+Measured results: 95.0% zero-shot accuracy on the SROIE benchmark; 100% on a multilingual cloud-route invoice set; the local GPU route reaches 97.8% field accuracy on a 106-document global + French/FCFA sample, at a fraction of the cloud route's per-document cost.
 
 ### [RAGeval](https://github.com/Yacine-ai-tech/rageval) — Self-Hosted LLMOps Observability for RAG
 ![PyPI](https://img.shields.io/pypi/v/omnismart-rageval?label=omnismart-rageval)
@@ -82,7 +82,7 @@ Measured results: HaluEval-QA (N=200), accuracy-weighted consensus 0.860, ROC-AU
 
 Gives Claude Desktop, Cursor, or any LangGraph agent governed access to live business data through the Model Context Protocol — tool calls, stable resource URIs, and a reusable executive-briefing prompt.
 
-Measured results: 14/14 adversarial guardrail tests pass, deterministic and offline; on an MCP benchmark, tool selection scores 19/20 and response quality 18/20.
+Measured results: 14/14 adversarial guardrail tests pass, deterministic and offline; a 43-scenario LangGraph rerun across all 10 KPI domains passes 43/43; a live rerun against the running MCP server scores 11/12 on tool-selection accuracy.
 
 ### [StreamPulse](https://github.com/Yacine-ai-tech/streampulse) — Real-Time Business Data Pipeline
 
@@ -100,7 +100,7 @@ Measured results: 2.2% WER / 0.8% CER on LibriSpeech test-clean (Whisper large-v
 
 | Tool | Core measured result | Benchmark / protocol |
 |---|---|---|
-| IntelAI | MAE 12.48% (median 9.90%) | Out-of-sample backtest, 378 forecasts |
+| IntelAI | Mean APE 4.64% (median 2.77%) | Out-of-sample backtest, 378 forecasts |
 | DocIntel | 95.0% zero-shot accuracy | SROIE |
 | RAGeval | 0.860 accuracy (weighted consensus) | HaluEval-QA, N=200 |
 | AgentKit | 14/14 guardrail tests passed | Adversarial test suite, deterministic |
