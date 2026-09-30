@@ -61,7 +61,7 @@ Measured results: out-of-sample backtest on 444 forecasts across 6 core metrics,
 
 Extracts structured data from PDFs, images, and scanned files across three production routes: Route A (Frontier Multimodal Vision: Claude Sonnet 4.6 / Gemini 2.5 Flash Native Vision fallback), Route B (Self-Hosted Vision Model via Ollama: Qwen 2.5-VL 7B with zero cloud API cost), and Route C (Layout-Aware Surya OCR on GPU with Tesseract CPU fallback + LLM structured cleanup). Deterministic currency normalization across 45+ currencies (including FCFA/XOF under UEMOA VAT convention) and ISO dates, with SHA-256 document deduplication and sub-second cached retrieval.
 
-Measured results: 95.0% zero-shot accuracy on the public SROIE benchmark (57/60 receipts) and 100% on multilingual cloud-route invoices (Route A); 97.8% overall and 100% on French/FCFA sample (325/325 fields) on self-hosted Route B; 96.3% field accuracy on Route C with Surya OCR + LLM cleanup; 550/550 documents processed successfully (100%) at ~1.1 docs/second.
+Measured results: 95.0% zero-shot accuracy on the public SROIE benchmark (57/60 receipts) and 100% on multilingual cloud-route invoices (Route A); 97.8% overall and 100% on French/FCFA sample (325/325 fields) on self-hosted Route B ($0 API cost); 96.3% field accuracy on Route C with Surya OCR + LLM cleanup; 650-document multi-format corpus processed at 100% throughput reliability (~1.1 docs/second).
 
 ### [RAGeval](https://github.com/Yacine-ai-tech/rageval) — Self-Hosted LLMOps Observability for RAG
 ![PyPI](https://img.shields.io/pypi/v/omnismart-rageval?label=omnismart-rageval)
