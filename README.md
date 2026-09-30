@@ -59,9 +59,9 @@ Measured results: out-of-sample backtest on 378 forecasts, Mean APE 4.64% (media
 
 ### [DocIntel](https://github.com/Yacine-ai-tech/docintel) — Vision-First Document Intelligence
 
-Extracts structured data from PDFs, images, and scanned files across dual production routes: Route A (Frontier Multimodal Vision: Claude Sonnet 4.6 / Gemini 2.5 Flash Native Vision fallback) and Route B (Edge-Optimized Vision-First OCR with PaddleOCR / Groq vision fallback). Deterministic currency normalization across 45+ currencies (including FCFA/XOF under UEMOA VAT convention) and ISO dates, with SHA-256 document deduplication and sub-second cached retrieval.
+Extracts structured data from PDFs, images, and scanned files across three production routes: Route A (Frontier Multimodal Vision: Claude Sonnet 4.6 / Gemini 2.5 Flash Native Vision fallback), Route B (Self-Hosted Vision Model via Ollama: Qwen 2.5-VL 7B with zero cloud API cost), and Route C (Layout-Aware Surya OCR on GPU with Tesseract CPU fallback + LLM structured cleanup). Deterministic currency normalization across 45+ currencies (including FCFA/XOF under UEMOA VAT convention) and ISO dates, with SHA-256 document deduplication and sub-second cached retrieval.
 
-Measured results: 95.0% zero-shot accuracy on the public SROIE benchmark (57/60 receipts); 100% on a multilingual cloud-route invoice set; the self-hosted Route B reaches 77.0% on CORD receipts at $0.0007–0.0021/doc (~5x–8x cheaper than cloud Route A: $0.0048–0.0122/doc); 550/550 documents processed successfully (100%) at ~1.1 docs/second.
+Measured results: 95.0% zero-shot accuracy on the public SROIE benchmark (57/60 receipts) and 100% on multilingual cloud-route invoices (Route A); 97.8% overall and 100% on French/FCFA sample (325/325 fields) on self-hosted Route B; 96.3% field accuracy on Route C with Surya OCR + LLM cleanup; 550/550 documents processed successfully (100%) at ~1.1 docs/second.
 
 ### [RAGeval](https://github.com/Yacine-ai-tech/rageval) — Self-Hosted LLMOps Observability for RAG
 ![PyPI](https://img.shields.io/pypi/v/omnismart-rageval?label=omnismart-rageval)
@@ -101,7 +101,7 @@ Measured results: 2.2% WER / 0.8% CER on LibriSpeech test-clean (Whisper large-v
 | Tool | Core measured result | Benchmark / protocol |
 |---|---|---|
 | IntelAI | Mean APE 4.64% (median 2.71%, 100% entity coverage) | Out-of-sample backtest, 378 forecasts across 9 domains |
-| DocIntel | 95.0% zero-shot accuracy, 100% cloud invoice accuracy | SROIE benchmark (57/60 receipts) & multilingual set |
+| DocIntel | 95.0% zero-shot (Route A), 97.8% self-hosted (Route B) | SROIE benchmark (57/60) & 106-doc Ollama evaluation |
 | RAGeval | ROC-AUC 0.9191 (symbolic), 0.860 weighted consensus | HaluEval-QA, N=200, 4-judge heterogeneous consensus |
 | AgentKit | 14/14 guardrails, 12/12 (100%) MCP routing, DSPy 0.7067 | Adversarial test suite & live FastMCP benchmark |
 | StreamPulse | 0.990 macro-F1 (99.0% accuracy), 46.8 req/s (0.0% errors) | N=504 SaaS telemetry suite & sustained burst test |
