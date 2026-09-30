@@ -55,7 +55,7 @@ Each tool ships with a `BENCHMARK.md` and a `RESEARCH.md` in its repository — 
 
 Nine C-suite personas (CEO, CFO, CTO, COO, CHRO, ESG, Risk, Analyst, General), each scoped to its own data domain by architecture, not prompt instruction. 146 curated KPIs across 9 domains, 78-month history (2020-01 to 2026-06). Hybrid retrieval (BGE-M3 dense 1024-dim + BM25 sparse + RRF fusion + BAAI/bge-reranker-v2-m3 cross-encoder reranking) with 100% live Qdrant precision, plus GraphRAG-lite multi-hop entity traversal and prompt caching with dynamic recency cutoff (June 2026).
 
-Measured results: out-of-sample backtest on 378 forecasts, Mean APE 4.64% (median 2.71%, min 0.12%, max 16.84%); GraphRAG-lite reaches 100% entity extraction coverage across all 9 domains; prompt-cached responses cite verified sources with inline bracketed numbers [1]. Published alongside those numbers: bilingual grounding parity is monitored across French and English with strict adherence to the verified reporting horizon.
+Measured results: out-of-sample backtest on 444 forecasts across 6 core metrics, Mean APE 4.64% (median 2.77%, down from 12.48% baseline without auto-selection); GraphRAG-lite reaches 100.0% entity extraction coverage (7,878/7,878 rows across all 7 operational domains) with 8/8 multi-hop queries verified; live production RAG scores 71.4% ground-truth accuracy across 50 verified cases; prompt-cached responses cite verified sources with inline bracketed numbers [1]. Published alongside those numbers: bilingual grounding parity is monitored across French and English with strict adherence to the verified reporting horizon.
 
 ### [DocIntel](https://github.com/Yacine-ai-tech/docintel) — Vision-First Document Intelligence
 
@@ -75,37 +75,37 @@ async def answer(question): ...
 
 Zero-credit symbolic evaluation combined with a heterogeneous 4-judge consensus panel (Groq Maverick 17B, Gemini 3.5 Flash, Claude Haiku, GPT-5-mini), rate-limiting, and persistent SQLite/PostgreSQL disk caching.
 
-Measured results: Zero-Credit Symbolic Judge achieves ROC-AUC 0.9191 (improved from 0.8709), 84.5% accuracy, and 0.8447 F1 with zero API cost and zero latency overhead; the 4-Judge Heterogeneous Consensus achieves 0.860 weighted consensus accuracy on HaluEval-QA (N=200). Panel disagreement standard deviation (0.272 on incorrect predictions vs 0.069 on correct ones) serves as an automated anomaly signal.
+Measured results: folding the zero-credit symbolic judge (numeric consistency + lexical overlap) into the panel raises consensus ROC-AUC from 0.8709 to 0.9191 on HaluEval-QA (N=240); the 4-Judge Heterogeneous Consensus achieves 0.860 accuracy, 0.867 F1, and 0.902 ROC-AUC on HaluEval-QA (N=200). Panel disagreement standard deviation (0.217 on incorrect predictions vs 0.082 on correct ones) serves as an automated anomaly signal for human review.
 
 ### [AgentKit](https://github.com/Yacine-ai-tech/agentkit) — Governed MCP Tool Server
 ![PyPI](https://img.shields.io/pypi/v/agentkit-mcp?label=agentkit-mcp)
 
 Gives Claude Desktop, Cursor, or any LangGraph agent governed access to live business data through the Model Context Protocol — typed tool effects (read/write/destructive), capability policies, and deterministic audit logging.
 
-Measured results: DSPy BootstrapFewShot metric score compiled from 0.6800 → 0.7067 (30/30 compiled assertions passing); live MCP tool-selection achieves 12/12 (100%) zero-error accuracy across 10 enterprise domains on a running FastMCP server; 14/14 adversarial guardrail tests pass deterministically offline; LangGraph autonomous multi-agent workflows execute at 43/43 (100%) success across all domains.
+Measured results: DSPy BootstrapFewShot metric score compiled from 0.6800 → 0.7067 (30/30 held-out examples); live MCP tool-selection and execution achieves 12/12 (100%) accuracy across standardized business intelligence scenarios on a running FastMCP server; 14/14 adversarial guardrail tests pass deterministically offline; LangGraph autonomous multi-agent workflows execute at 43/43 (100%) success across all 10 domains.
 
 ### [StreamPulse](https://github.com/Yacine-ai-tech/streampulse) — Real-Time Business Data Pipeline
 
 Multi-source ingestion (JSON, CSV, email, HMAC-verified webhooks, Google Sheets) with first-class n8n automation integration (custom node + 5 workflows) and a 3-tier hybrid classification cascade (regex/heuristics → semantic embeddings → LLM reasoning escalation).
 
-Measured results: cascade accuracy reaches 99.0% (0.990 macro-F1, N=504 held-out SaaS telemetry events) across three stages; sustained multi-worker ingestion achieves 46.8 requests/second with a 0.0% error rate under burst load (backed by Redis streaming buffer); 100% HMAC-SHA256 signature verification (90/90 valid accepted, 10/10 invalid rejected).
+Measured results: cascade accuracy reaches 99.0% (0.990 macro-F1, N=504 held-out SaaS telemetry events) across three stages; sustained multi-worker ingestion achieves 46.8 requests/second with a 0.00% error rate under burst load (89.1 req/s on 2-instance scaling); 100.0% HMAC-SHA256 signature verification (90/90 valid accepted, 10/10 invalid rejected at >100 req/s).
 
 ### [VoiceFlow](https://github.com/Yacine-ai-tech/voiceflow) — Speech to Structured Business Intelligence
 
 Routes recorded audio to per-analysis-type LLMs with a multi-provider transcription fallback chain (Groq Whisper, Deepgram, AssemblyAI, local WhisperX) and bidirectional real-time audio streaming via Gemini Live (gemini-2.5-flash-native-audio-preview-09-2025 with google-genai v1beta SDK, 24kHz → 16kHz downsampling, gated frame pipeline).
 
-Measured results: 2.2% WER / 0.8% CER on LibriSpeech test-clean (Whisper large-v3, N=150 verified on N>=500); WebSocket connection latency under 1.8s (1.157s mean connection latency); structured extraction across 5 analysis types with honest diarized:false reporting when multi-speaker separation is unavailable.
+Measured results: 2.2% WER / 0.8% CER on LibriSpeech test-clean (Whisper large-v3 on T4 GPU, N=150; 6.4% on CPU); WebSocket connection latency averages 1.157s (all 25/25 under 1.8s) with 0.940s time-to-first-chunk; meeting intelligence achieves 92.4% action-item precision, 94.8% assignee identification, and 89.6% sentiment concordance; live 9-tool discovery and execution bridge to AgentKit.
 
 ## Results at a Glance
 
 | Tool | Core measured result | Benchmark / protocol |
 |---|---|---|
-| IntelAI | Mean APE 4.64% (median 2.71%, 100% entity coverage) | Out-of-sample backtest, 378 forecasts across 9 domains |
+| IntelAI | Mean APE 4.64% (median 2.77%), 100.0% entity coverage, 71.4% RAG accuracy | Out-of-sample backtest (444 forecasts) & 50 production cases |
 | DocIntel | 95.0% zero-shot (Route A), 97.8% self-hosted (Route B) | SROIE benchmark (57/60) & 106-doc Ollama evaluation |
-| RAGeval | ROC-AUC 0.9191 (symbolic), 0.860 weighted consensus | HaluEval-QA, N=200, 4-judge heterogeneous consensus |
-| AgentKit | 14/14 guardrails, 12/12 (100%) MCP routing, DSPy 0.7067 | Adversarial test suite & live FastMCP benchmark |
-| StreamPulse | 0.990 macro-F1 (99.0% accuracy), 46.8 req/s (0.0% errors) | N=504 SaaS telemetry suite & sustained burst test |
-| VoiceFlow | 2.2% WER / 0.8% CER, 1.157s connection latency | LibriSpeech test-clean (N=150) & Gemini Live streaming |
+| RAGeval | ROC-AUC 0.9191 (panel + symbolic), 0.860 4-judge accuracy | HaluEval-QA (N=240 / N=200), heterogeneous consensus |
+| AgentKit | 14/14 guardrails, 12/12 (100%) MCP routing, DSPy 0.7067 | Deterministic test suite & live FastMCP benchmark |
+| StreamPulse | 0.990 macro-F1 (99.0% accuracy), 46.8 req/s (0.00% errors) | N=504 SaaS telemetry suite & sustained burst test |
+| VoiceFlow | 2.2% WER / 0.8% CER, 1.157s latency, 92.4% action item prec. | LibriSpeech test-clean (N=150) & Gemini Live turns |
 
 ## Client Work (scoped to what's publicly shareable)
 
