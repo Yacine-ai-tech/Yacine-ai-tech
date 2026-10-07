@@ -52,14 +52,14 @@ Each tool ships with a `BENCHMARK.md` and a `RESEARCH.md` in its repository — 
 
 ### [IntelAI](https://github.com/Yacine-ai-tech/intelai) — Persona-Aware Enterprise Analytics & RAG Copilot
 ![PyPI](https://img.shields.io/pypi/v/intelai?label=intelai) ![PyPI](https://img.shields.io/pypi/v/omnismart-personas?label=omnismart-personas)
-[![Live App](https://img.shields.io/badge/Live_App-intelai--ui-0070f3?style=flat&logo=vercel)](https://intelai-ui-2026.vercel.app) [![Research](https://img.shields.io/badge/Research-Empirical_Methods-8a2be2?style=flat)](https://intelai-ui-2026.vercel.app/research) [![Benchmarks](https://img.shields.io/badge/Benchmarks-Backtest_4.64%25-green?style=flat)](https://intelai-ui-2026.vercel.app/benchmark) [![Guide](https://img.shields.io/badge/Docs-User_Guide-blue?style=flat)](https://intelai-ui-2026.vercel.app/guide)
+[![Live App](https://img.shields.io/badge/Live_App-intelai-0070f3?style=flat)](https://intelai.ysiddo-ai-projects.app) [![Research](https://img.shields.io/badge/Research-Empirical_Methods-8a2be2?style=flat)](https://intelai.ysiddo-ai-projects.app/research) [![Benchmarks](https://img.shields.io/badge/Benchmarks-Backtest_4.64%25-green?style=flat)](https://intelai.ysiddo-ai-projects.app/benchmark) [![Guide](https://img.shields.io/badge/Docs-User_Guide-blue?style=flat)](https://intelai.ysiddo-ai-projects.app/guide)
 
 Nine C-suite personas (CEO, CFO, CTO, COO, CHRO, ESG, Risk, Analyst, General), each scoped to its own data domain by architecture, not prompt instruction. 146 curated KPIs across 9 domains, 78-month history (2020-01 to 2026-06). Hybrid retrieval (BGE-M3 dense 1024-dim + BM25 sparse + RRF fusion + BAAI/bge-reranker-v2-m3 cross-encoder reranking) with 100% live Qdrant precision, plus GraphRAG-lite multi-hop entity traversal and prompt caching with dynamic recency cutoff (June 2026).
 
 Measured results: out-of-sample backtest on 444 forecasts across 6 core metrics, Mean APE 4.64% (median 2.77%, down from 12.48% baseline without auto-selection); GraphRAG-lite reaches 100.0% entity extraction coverage (7,878/7,878 rows across all 7 operational domains) with 8/8 multi-hop queries verified; live production RAG scores 71.4% ground-truth accuracy across 50 verified cases; prompt-cached responses cite verified sources with inline bracketed numbers [1]. Published alongside those numbers: bilingual grounding parity is monitored across French and English with strict adherence to the verified reporting horizon.
 
 ### [DocIntel](https://github.com/Yacine-ai-tech/docintel) — Vision-First Document Intelligence
-[![Live App](https://img.shields.io/badge/Live_App-docintel--ui-0070f3?style=flat&logo=vercel)](https://docintel-ui-2026.vercel.app) [![Research](https://img.shields.io/badge/Research-Tri--Route_Topology-8a2be2?style=flat)](https://docintel-ui-2026.vercel.app/research) [![Benchmarks](https://img.shields.io/badge/Benchmarks-95.0%25_SROIE-green?style=flat)](https://docintel-ui-2026.vercel.app/benchmarks) [![Guide](https://img.shields.io/badge/Docs-User_Guide-blue?style=flat)](https://docintel-ui-2026.vercel.app/guide)
+[![Live App](https://img.shields.io/badge/Live_App-docintel-0070f3?style=flat)](https://docintel.ysiddo-ai-projects.app) [![Research](https://img.shields.io/badge/Research-Tri--Route_Topology-8a2be2?style=flat)](https://docintel.ysiddo-ai-projects.app/research) [![Benchmarks](https://img.shields.io/badge/Benchmarks-95.0%25_SROIE-green?style=flat)](https://docintel.ysiddo-ai-projects.app/benchmarks) [![Guide](https://img.shields.io/badge/Docs-User_Guide-blue?style=flat)](https://docintel.ysiddo-ai-projects.app/guide)
 
 Extracts structured data from PDFs, images, and scanned files across three production routes: Route A (Frontier Multimodal Vision: Claude Sonnet 4.6 / Gemini 2.5 Flash Native Vision fallback), Route B (Self-Hosted Vision Model via Ollama: Qwen 2.5-VL 7B with zero cloud API cost), and Route C (Layout-Aware Surya OCR on GPU with Tesseract CPU fallback + LLM structured cleanup). Deterministic currency normalization across 45+ currencies (including FCFA/XOF under UEMOA VAT convention) and ISO dates, with SHA-256 document deduplication and sub-second cached retrieval.
 
@@ -67,7 +67,7 @@ Measured results: 95.0% zero-shot accuracy on the public SROIE benchmark (57/60 
 
 ### [RAGeval](https://github.com/Yacine-ai-tech/rageval) — Self-Hosted LLMOps Observability for RAG
 ![PyPI](https://img.shields.io/pypi/v/omnismart-rageval?label=omnismart-rageval)
-[![Live App](https://img.shields.io/badge/Live_App-rageval--ui-0070f3?style=flat&logo=vercel)](https://rageval-ui-2026.vercel.app) [![Research](https://img.shields.io/badge/Research-Heterogeneous_Panel-8a2be2?style=flat)](https://rageval-ui-2026.vercel.app/research) [![Benchmarks](https://img.shields.io/badge/Benchmarks-ROC--AUC_0.9191-green?style=flat)](https://rageval-ui-2026.vercel.app/benchmarks) [![Guide](https://img.shields.io/badge/Docs-User_Guide-blue?style=flat)](https://rageval-ui-2026.vercel.app/guide)
+[![Live App](https://img.shields.io/badge/Live_App-rageval-0070f3?style=flat)](https://rageval.ysiddo-ai-projects.app) [![Research](https://img.shields.io/badge/Research-Heterogeneous_Panel-8a2be2?style=flat)](https://rageval.ysiddo-ai-projects.app/research) [![Benchmarks](https://img.shields.io/badge/Benchmarks-ROC--AUC_0.9191-green?style=flat)](https://rageval.ysiddo-ai-projects.app/benchmarks) [![Guide](https://img.shields.io/badge/Docs-User_Guide-blue?style=flat)](https://rageval.ysiddo-ai-projects.app/guide)
 
 ```python
 from rageval import track
@@ -82,21 +82,21 @@ Measured results: folding the zero-credit symbolic judge (numeric consistency + 
 
 ### [AgentKit](https://github.com/Yacine-ai-tech/agentkit) — Governed MCP Tool Server
 ![PyPI](https://img.shields.io/pypi/v/agentkit-mcp?label=agentkit-mcp)
-[![Live App](https://img.shields.io/badge/Live_App-agentkit--ui-0070f3?style=flat&logo=vercel)](https://agentkit-ui-2026.vercel.app) [![Research](https://img.shields.io/badge/Research-Capability_Policy-8a2be2?style=flat)](https://agentkit-ui-2026.vercel.app/research) [![Benchmarks](https://img.shields.io/badge/Benchmarks-14%2F14_Guardrails-green?style=flat)](https://agentkit-ui-2026.vercel.app/benchmark) [![Guide](https://img.shields.io/badge/Docs-User_Guide-blue?style=flat)](https://agentkit-ui-2026.vercel.app/guide)
+[![Live App](https://img.shields.io/badge/Live_App-agentkit-0070f3?style=flat)](https://agentkit.ysiddo-ai-projects.app) [![Research](https://img.shields.io/badge/Research-Capability_Policy-8a2be2?style=flat)](https://agentkit.ysiddo-ai-projects.app/research) [![Benchmarks](https://img.shields.io/badge/Benchmarks-14%2F14_Guardrails-green?style=flat)](https://agentkit.ysiddo-ai-projects.app/benchmark) [![Guide](https://img.shields.io/badge/Docs-User_Guide-blue?style=flat)](https://agentkit.ysiddo-ai-projects.app/guide)
 
 Gives Claude Desktop, Cursor, or any LangGraph agent governed access to live business data through the Model Context Protocol — typed tool effects (read/write/destructive), capability policies, and deterministic audit logging.
 
 Measured results: DSPy BootstrapFewShot metric score compiled from 0.6800 → 0.7067 (30/30 held-out examples); live MCP tool-selection and execution achieves 12/12 (100%) accuracy across standardized business intelligence scenarios on a running FastMCP server; 14/14 adversarial guardrail tests pass deterministically offline; LangGraph autonomous multi-agent workflows execute at 43/43 (100%) success across all 10 domains.
 
 ### [StreamPulse](https://github.com/Yacine-ai-tech/streampulse) — Real-Time Business Data Pipeline
-[![Live App](https://img.shields.io/badge/Live_App-streampulse--ui-0070f3?style=flat&logo=vercel)](https://streampulse-ui-2026.vercel.app) [![Research](https://img.shields.io/badge/Research-Cascade_Architecture-8a2be2?style=flat)](https://streampulse-ui-2026.vercel.app/research) [![Benchmarks](https://img.shields.io/badge/Benchmarks-Macro--F1_0.990-green?style=flat)](https://streampulse-ui-2026.vercel.app/benchmark) [![Guide](https://img.shields.io/badge/Docs-User_Guide-blue?style=flat)](https://streampulse-ui-2026.vercel.app/guide)
+[![Live App](https://img.shields.io/badge/Live_App-streampulse-0070f3?style=flat)](https://streampulse.ysiddo-ai-projects.app) [![Research](https://img.shields.io/badge/Research-Cascade_Architecture-8a2be2?style=flat)](https://streampulse.ysiddo-ai-projects.app/research) [![Benchmarks](https://img.shields.io/badge/Benchmarks-Macro--F1_0.990-green?style=flat)](https://streampulse.ysiddo-ai-projects.app/benchmark) [![Guide](https://img.shields.io/badge/Docs-User_Guide-blue?style=flat)](https://streampulse.ysiddo-ai-projects.app/guide)
 
 Multi-source ingestion (JSON, CSV, email, HMAC-verified webhooks, Google Sheets) with first-class n8n automation integration (custom node + 5 workflows) and a 3-tier hybrid classification cascade (regex/heuristics → semantic embeddings → LLM reasoning escalation).
 
 Measured results: cascade accuracy reaches 99.0% (0.990 macro-F1, N=504 held-out SaaS telemetry events) across three stages; sustained multi-worker ingestion achieves 46.8 requests/second with a 0.00% error rate under burst load (89.1 req/s on 2-instance scaling); 100.0% HMAC-SHA256 signature verification (90/90 valid accepted, 10/10 invalid rejected at >100 req/s).
 
 ### [VoiceFlow](https://github.com/Yacine-ai-tech/voiceflow) — Speech to Structured Business Intelligence
-[![Live App](https://img.shields.io/badge/Live_App-voiceflow--ui-0070f3?style=flat&logo=vercel)](https://voiceflow-ui-2026.vercel.app) [![Research](https://img.shields.io/badge/Research-Gemini_Live_Pipeline-8a2be2?style=flat)](https://voiceflow-ui-2026.vercel.app/research) [![Benchmarks](https://img.shields.io/badge/Benchmarks-WER_2.2%25-green?style=flat)](https://voiceflow-ui-2026.vercel.app/benchmark) [![Guide](https://img.shields.io/badge/Docs-User_Guide-blue?style=flat)](https://voiceflow-ui-2026.vercel.app/guide)
+[![Live App](https://img.shields.io/badge/Live_App-voiceflow-0070f3?style=flat)](https://voiceflow.ysiddo-ai-projects.app) [![Research](https://img.shields.io/badge/Research-Gemini_Live_Pipeline-8a2be2?style=flat)](https://voiceflow.ysiddo-ai-projects.app/research) [![Benchmarks](https://img.shields.io/badge/Benchmarks-WER_2.2%25-green?style=flat)](https://voiceflow.ysiddo-ai-projects.app/benchmark) [![Guide](https://img.shields.io/badge/Docs-User_Guide-blue?style=flat)](https://voiceflow.ysiddo-ai-projects.app/guide)
 
 Routes recorded audio to per-analysis-type LLMs with a multi-provider transcription fallback chain (Groq Whisper, Deepgram, AssemblyAI, local WhisperX) and bidirectional real-time audio streaming via Gemini Live (gemini-2.5-flash-native-audio-preview-09-2025 with google-genai v1beta SDK, 24kHz → 16kHz downsampling, gated frame pipeline).
 
@@ -106,12 +106,12 @@ Measured results: 2.2% WER / 0.8% CER on LibriSpeech test-clean (Whisper large-v
 
 | Tool | Core measured result | Benchmark / protocol |
 |---|---|---|
-| [IntelAI](https://intelai-ui-2026.vercel.app) | Mean APE 4.64% (median 2.77%), 100.0% entity coverage, 71.4% RAG accuracy | Out-of-sample backtest (444 forecasts) & 50 production cases |
-| [DocIntel](https://docintel-ui-2026.vercel.app) | 95.0% zero-shot (Route A), 97.8% self-hosted (Route B) | SROIE benchmark (57/60) & 106-doc Ollama evaluation |
-| [RAGeval](https://rageval-ui-2026.vercel.app) | ROC-AUC 0.9191 (panel + symbolic), 0.860 4-judge accuracy | HaluEval-QA (N=240 / N=200), heterogeneous consensus |
-| [AgentKit](https://agentkit-ui-2026.vercel.app) | 14/14 guardrails, 12/12 (100%) MCP routing, DSPy 0.7067 | Deterministic test suite & live FastMCP benchmark |
-| [StreamPulse](https://streampulse-ui-2026.vercel.app) | 0.990 macro-F1 (99.0% accuracy), 46.8 req/s (0.00% errors) | N=504 SaaS telemetry suite & sustained burst test |
-| [VoiceFlow](https://voiceflow-ui-2026.vercel.app) | 2.2% WER / 0.8% CER, 1.157s latency, 92.4% action item prec. | LibriSpeech test-clean (N=150) & Gemini Live turns |
+| [IntelAI](https://intelai.ysiddo-ai-projects.app) | Mean APE 4.64% (median 2.77%), 100.0% entity coverage, 71.4% RAG accuracy | Out-of-sample backtest (444 forecasts) & 50 production cases |
+| [DocIntel](https://docintel.ysiddo-ai-projects.app) | 95.0% zero-shot (Route A), 97.8% self-hosted (Route B) | SROIE benchmark (57/60) & 106-doc Ollama evaluation |
+| [RAGeval](https://rageval.ysiddo-ai-projects.app) | ROC-AUC 0.9191 (panel + symbolic), 0.860 4-judge accuracy | HaluEval-QA (N=240 / N=200), heterogeneous consensus |
+| [AgentKit](https://agentkit.ysiddo-ai-projects.app) | 14/14 guardrails, 12/12 (100%) MCP routing, DSPy 0.7067 | Deterministic test suite & live FastMCP benchmark |
+| [StreamPulse](https://streampulse.ysiddo-ai-projects.app) | 0.990 macro-F1 (99.0% accuracy), 46.8 req/s (0.00% errors) | N=504 SaaS telemetry suite & sustained burst test |
+| [VoiceFlow](https://voiceflow.ysiddo-ai-projects.app) | 2.2% WER / 0.8% CER, 1.157s latency, 92.4% action item prec. | LibriSpeech test-clean (N=150) & Gemini Live turns |
 
 ## Client Work (scoped to what's publicly shareable)
 
