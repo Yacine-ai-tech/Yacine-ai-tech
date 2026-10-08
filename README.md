@@ -119,7 +119,7 @@ Measured results: 2.2% WER / 0.8% CER on LibriSpeech test-clean (Whisper large-v
 
 **HyperTech Connect** — Designed a zero-trust, protocol-agnostic IoT and edge-management platform for low-connectivity environments, with secure edge networking, multi-protocol device integration, and resilient OTA update capabilities. Validated the platform at 1,000+ devices under test and conducted physical validation on embedded hardware.
 
-**HyperFlow** — digital-agriculture platform for smart irrigation in Niger, built for Sahel-wide infrastructure conditions, as the software layer of the smart irrigation platform.
+**HyperFlow** — software layer of a digital-agriculture platform for smart irrigation in Niger, built for Sahel-wide infrastructure conditions.
 
 ## Research Direction
 
