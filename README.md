@@ -51,7 +51,7 @@ I work across three registers, and I try not to blur them.
 Each tool ships with a `BENCHMARK.md` and a `RESEARCH.md` in its repository — the evaluation protocol and the raw numbers, favorable and unfavorable both. Summaries below; the repos are the source of truth.
 
 ### [IntelAI](https://github.com/Yacine-ai-tech/intelai) — Persona-Aware Enterprise Analytics & RAG Copilot
-![PyPI](https://img.shields.io/pypi/v/intelai?label=intelai) ![PyPI](https://img.shields.io/pypi/v/omnismart-personas?label=omnismart-personas)
+[![PyPI](https://img.shields.io/pypi/v/intelai?label=intelai&color=blue)](https://pypi.org/project/intelai/) [![PyPI](https://img.shields.io/pypi/v/omnismart-personas?label=omnismart-personas&color=blue)](https://pypi.org/project/omnismart-personas/)
 [![Live App](https://img.shields.io/badge/Live_App-intelai-0070f3?style=flat)](https://intelai.ysiddo-ai-projects.app) [![Research](https://img.shields.io/badge/Research-Empirical_Methods-8a2be2?style=flat)](https://intelai.ysiddo-ai-projects.app/research) [![Benchmarks](https://img.shields.io/badge/Benchmarks-Backtest_4.64%25-green?style=flat)](https://intelai.ysiddo-ai-projects.app/benchmark) [![Guide](https://img.shields.io/badge/Docs-User_Guide-blue?style=flat)](https://intelai.ysiddo-ai-projects.app/guide)
 
 Nine C-suite personas (CEO, CFO, CTO, COO, CHRO, ESG, Risk, Analyst, General), each scoped to its own data domain by architecture, not prompt instruction. 146 curated KPIs across 9 domains, 78-month history (2020-01 to 2026-06). Hybrid retrieval (BGE-M3 dense 1024-dim + BM25 sparse + RRF fusion + BAAI/bge-reranker-v2-m3 cross-encoder reranking) with 100% live Qdrant precision, plus GraphRAG-lite multi-hop entity traversal and prompt caching with dynamic recency cutoff (June 2026).
@@ -61,12 +61,12 @@ Measured results: out-of-sample backtest on 444 forecasts across 6 core metrics,
 ### [DocIntel](https://github.com/Yacine-ai-tech/docintel) — Vision-First Document Intelligence
 [![Live App](https://img.shields.io/badge/Live_App-docintel-0070f3?style=flat)](https://docintel.ysiddo-ai-projects.app) [![Research](https://img.shields.io/badge/Research-Tri--Route_Topology-8a2be2?style=flat)](https://docintel.ysiddo-ai-projects.app/research) [![Benchmarks](https://img.shields.io/badge/Benchmarks-95.0%25_SROIE-green?style=flat)](https://docintel.ysiddo-ai-projects.app/benchmarks) [![Guide](https://img.shields.io/badge/Docs-User_Guide-blue?style=flat)](https://docintel.ysiddo-ai-projects.app/guide)
 
-Extracts structured data from PDFs, images, and scanned files across three production routes: Route A (Frontier Multimodal Vision: Claude Sonnet 4.6 / Gemini 2.5 Flash Native Vision fallback), Route B (Self-Hosted Vision Model via Ollama: Qwen 2.5-VL 7B with zero cloud API cost), and Route C (Layout-Aware Surya OCR on GPU with Tesseract CPU fallback + LLM structured cleanup). Deterministic currency normalization across 45+ currencies (including FCFA/XOF under UEMOA VAT convention) and ISO dates, with SHA-256 document deduplication and sub-second cached retrieval.
+Extracts structured data from PDFs, images, and scanned files across three production routes: Route A (Frontier Multimodal Vision: Claude Sonnet 4.6 / Gemini 3.8 Flash Native Vision), Route B (Self-Hosted Vision Model via Ollama: Qwen 2.5-VL 7B with zero cloud API cost), and Route C (Layout-Aware Surya OCR on GPU with Tesseract CPU fallback + LLM structured cleanup). Deterministic currency normalization across 45+ currencies (including FCFA/XOF under UEMOA VAT convention) and ISO dates, with SHA-256 document deduplication and sub-second cached retrieval.
 
 Measured results: 95.0% zero-shot accuracy on the public SROIE benchmark (57/60 receipts) and 100% on multilingual cloud-route invoices (Route A); 97.8% overall and 100% on French/FCFA sample (325/325 fields) on self-hosted Route B ($0 API cost); 96.3% field accuracy on Route C with Surya OCR + LLM cleanup; 650-document multi-format corpus processed at 100% throughput reliability (~1.1 docs/second).
 
 ### [RAGeval](https://github.com/Yacine-ai-tech/rageval) — Self-Hosted LLMOps Observability for RAG
-![PyPI](https://img.shields.io/pypi/v/omnismart-rageval?label=omnismart-rageval)
+[![PyPI](https://img.shields.io/pypi/v/omnismart-rageval?label=omnismart-rageval&color=blue)](https://pypi.org/project/omnismart-rageval/)
 [![Live App](https://img.shields.io/badge/Live_App-rageval-0070f3?style=flat)](https://rageval.ysiddo-ai-projects.app) [![Research](https://img.shields.io/badge/Research-Heterogeneous_Panel-8a2be2?style=flat)](https://rageval.ysiddo-ai-projects.app/research) [![Benchmarks](https://img.shields.io/badge/Benchmarks-ROC--AUC_0.9191-green?style=flat)](https://rageval.ysiddo-ai-projects.app/benchmarks) [![Guide](https://img.shields.io/badge/Docs-User_Guide-blue?style=flat)](https://rageval.ysiddo-ai-projects.app/guide)
 
 ```python
@@ -81,7 +81,7 @@ Zero-credit symbolic evaluation combined with a heterogeneous 4-judge consensus 
 Measured results: folding the zero-credit symbolic judge (numeric consistency + lexical overlap) into the panel raises consensus ROC-AUC from 0.8709 to 0.9191 on HaluEval-QA (N=240); the 4-Judge Heterogeneous Consensus achieves 0.860 accuracy, 0.867 F1, and 0.902 ROC-AUC on HaluEval-QA (N=200). Panel disagreement standard deviation (0.217 on incorrect predictions vs 0.082 on correct ones) serves as an automated anomaly signal for human review.
 
 ### [AgentKit](https://github.com/Yacine-ai-tech/agentkit) — Governed MCP Tool Server
-![PyPI](https://img.shields.io/pypi/v/agentkit-mcp?label=agentkit-mcp)
+[![PyPI](https://img.shields.io/pypi/v/agentkit-mcp?label=agentkit-mcp&color=blue)](https://pypi.org/project/agentkit-mcp/)
 [![Live App](https://img.shields.io/badge/Live_App-agentkit-0070f3?style=flat)](https://agentkit.ysiddo-ai-projects.app) [![Research](https://img.shields.io/badge/Research-Capability_Policy-8a2be2?style=flat)](https://agentkit.ysiddo-ai-projects.app/research) [![Benchmarks](https://img.shields.io/badge/Benchmarks-14%2F14_Guardrails-green?style=flat)](https://agentkit.ysiddo-ai-projects.app/benchmark) [![Guide](https://img.shields.io/badge/Docs-User_Guide-blue?style=flat)](https://agentkit.ysiddo-ai-projects.app/guide)
 
 Gives Claude Desktop, Cursor, or any LangGraph agent governed access to live business data through the Model Context Protocol — typed tool effects (read/write/destructive), capability policies, and deterministic audit logging.
