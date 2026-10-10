@@ -121,8 +121,8 @@ Measured results: 2.2% WER / 0.8% CER on LibriSpeech test-clean (Whisper large-v
 
 **HyperFlow** — built the software layer of the smart irrigation system, including data ingestion, analysis, recommendations, exporting, scheduling and control interfaces, and AI-based recommendations.
 
-**Dermato Care** -
- **Offline-First Clinical Management:** Developed a cross-platform dermatology workstation that unifies patient records, consultations, appointments, inventory, and analytics for a specialist working across multiple institutions in Niger.
+**Dermato Care** 
+- **Offline-First Clinical Management:** Developed a cross-platform dermatology workstation that unifies patient records, consultations, appointments, inventory, and analytics for a specialist working across multiple institutions in Niger.
 
 - **Privacy, Security & Resilience:** Engineered a privacy-by-design architecture with encrypted clinical records, secure phone-to-desktop transfers, verified portable backups, and database recovery—designed to operate without cloud dependency.
 
