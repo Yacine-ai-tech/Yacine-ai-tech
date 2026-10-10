@@ -10,7 +10,7 @@
 
 I build AI systems that ship, and I publish what I find — including the results that don't flatter the system. My work spans production AI engineering for clients in Niger, six open-source AI/ML tools, and Cibiyar Karatu, an adaptive learning platform for Niger and the Sahel.
 
-Email: contact@ysiddo-ai-projects.app · [LinkedIn](https://linkedin.com/in/yacineseybousiddoai) · [Portfolio](https://yacineseybousiddo.me)
+Email: contact@yacineseybousiddo.me · [LinkedIn](https://linkedin.com/in/yacineseybousiddoai) · [Portfolio](https://yacineseybousiddo.me)
 Location: Niamey, Niger · Languages: French, English, Hausa, Zarma
 
 ---
