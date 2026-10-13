@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 252 52" width="252" height="52" role="img" aria-label="Email: contact@yacineseybousiddo.me">
+<rect x="1" y="1" width="250" height="50" rx="12" fill="#0b1224" stroke="#1e293b" stroke-width="1.5"><animate attributeName="stroke" values="#1e293b;#22d3ee;#1e293b" dur="4s" repeatCount="indefinite"/></rect>
+<rect x="8" y="8" width="36" height="36" rx="9" fill="#111a33" stroke="#1e293b"/>
+<svg x="15" y="15" width="22" height="22" viewBox="0 0 24 24"><g fill="none" stroke="#58a6ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect width="20" height="16" x="2" y="4" rx="2"/></g></svg>
+<text x="58" y="24" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Email</text>
+<text x="58" y="40" font-family="'SF Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="10" fill="#94a3b8">contact@yacineseybousiddo.me</text>
+</svg>

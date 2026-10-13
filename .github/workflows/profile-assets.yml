@@ -1,0 +1,64 @@
+name: Profile assets
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # refresh twice a day
+  workflow_dispatch:          # run manually from the Actions tab
+  push:
+    paths:
+      - ".github/**"          # re-run when you change the workflow or script
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Animated contribution snake (light + dark), written straight into ./assets.
+      # Uses your PAT when METRICS_TOKEN exists (private contributions included),
+      # otherwise the automatic token (public contributions only).
+      - name: Contribution snake
+        continue-on-error: true
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.METRICS_TOKEN || github.token }}
+          outputs: |
+            assets/github-snake.svg
+            assets/github-snake-dark.svg?palette=github-dark
+
+      # Animated stats card. Tries METRICS_TOKEN first, then falls back to GITHUB_TOKEN.
+      - name: Stats card
+        continue-on-error: true
+        env:
+          PAT: ${{ secrets.METRICS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: python3 .github/scripts/stats.py assets/github-stats.svg
+
+      # Pull fresh official icons from the Iconify API and rebuild the icon-based buttons.
+      # If the API is unreachable the committed icons stay in place, so nothing breaks.
+      - name: Sync icons
+        continue-on-error: true
+        run: python3 .github/scripts/sync_icons.py
+
+      # Commit the generated files to the same branch, so the README can use
+      # simple relative paths (./assets/...). Nothing to commit = no-op.
+      - name: Commit generated assets
+        run: |
+          git config user.name "yacine-ai-tech"
+          git config user.email "siddoyacinetech227@gmail.com"
+          git add assets
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: refresh profile assets [skip ci]"
+            git push
+          fi
