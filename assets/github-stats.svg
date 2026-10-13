@@ -17,29 +17,29 @@
 </style>
 <rect x="0.5" y="0.5" width="799" height="551" rx="12" fill="#0d1117" stroke="#30363d"/>
 <text class="title" x="30" y="38">GitHub at a glance</text>
-<text class="sub" x="30" y="56">@Yacine-ai-tech · last 12 months · updated 2026-10-12 UTC · includes 59 private repos (aggregate only)</text>
+<text class="sub" x="30" y="56">@Yacine-ai-tech · last 12 months · updated 2026-10-13 UTC</text>
 <g class="tile" style="animation-delay:0.00s">
 <rect x="30.0" y="76" width="174.5" height="64" rx="8" fill="#161b22" stroke="#30363d"/>
 <rect x="30.0" y="90" width="3" height="36" rx="1.5" fill="#58a6ff"/>
-<text class="num" x="48.0" y="110">9,984</text>
+<text class="num" x="48.0" y="110">9,921</text>
 <text class="lbl" x="48.0" y="129">Contributions</text>
 </g>
 <g class="tile" style="animation-delay:0.08s">
 <rect x="218.5" y="76" width="174.5" height="64" rx="8" fill="#161b22" stroke="#30363d"/>
 <rect x="218.5" y="90" width="3" height="36" rx="1.5" fill="#3fb950"/>
-<text class="num" x="236.5" y="110">8,254</text>
+<text class="num" x="236.5" y="110">2,695</text>
 <text class="lbl" x="236.5" y="129">Commits</text>
 </g>
 <g class="tile" style="animation-delay:0.16s">
 <rect x="407.0" y="76" width="174.5" height="64" rx="8" fill="#161b22" stroke="#30363d"/>
 <rect x="407.0" y="90" width="3" height="36" rx="1.5" fill="#a371f7"/>
-<text class="num" x="425.0" y="110">882</text>
+<text class="num" x="425.0" y="110">276</text>
 <text class="lbl" x="425.0" y="129">Pull requests</text>
 </g>
 <g class="tile" style="animation-delay:0.24s">
 <rect x="595.5" y="76" width="174.5" height="64" rx="8" fill="#161b22" stroke="#30363d"/>
 <rect x="595.5" y="90" width="3" height="36" rx="1.5" fill="#d29922"/>
-<text class="num" x="613.5" y="110">538</text>
+<text class="num" x="613.5" y="110">202</text>
 <text class="lbl" x="613.5" y="129">Issues</text>
 </g>
 <g class="tile" style="animation-delay:0.32s">
@@ -51,13 +51,13 @@
 <g class="tile" style="animation-delay:0.40s">
 <rect x="218.5" y="152" width="174.5" height="64" rx="8" fill="#161b22" stroke="#30363d"/>
 <rect x="218.5" y="166" width="3" height="36" rx="1.5" fill="#79c0ff"/>
-<text class="num" x="236.5" y="186">120</text>
+<text class="num" x="236.5" y="186">61</text>
 <text class="lbl" x="236.5" y="205">Repositories</text>
 </g>
 <g class="tile" style="animation-delay:0.48s">
 <rect x="407.0" y="152" width="174.5" height="64" rx="8" fill="#161b22" stroke="#30363d"/>
 <rect x="407.0" y="166" width="3" height="36" rx="1.5" fill="#ff7b72"/>
-<text class="num" x="425.0" y="186">6 d</text>
+<text class="num" x="425.0" y="186">7 d</text>
 <text class="lbl" x="425.0" y="205">Current streak</text>
 </g>
 <g class="tile" style="animation-delay:0.56s">
@@ -248,8 +248,8 @@
 <rect x="295.3" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-28: 19</title></rect>
 </g>
 <g class="col" style="animation-delay:0.40s">
-<rect x="309.2" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-03-01: 0</title></rect>
-<rect x="309.2" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-02: 46</title></rect>
+<rect x="309.2" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-01: 1</title></rect>
+<rect x="309.2" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-02: 45</title></rect>
 <rect x="309.2" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-03: 11</title></rect>
 <rect x="309.2" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-04: 30</title></rect>
 <rect x="309.2" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-05: 51</title></rect>
@@ -267,7 +267,7 @@
 </g>
 <g class="col" style="animation-delay:0.44s">
 <rect x="337.2" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-15: 16</title></rect>
-<rect x="337.2" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-16: 16</title></rect>
+<rect x="337.2" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-16: 13</title></rect>
 <rect x="337.2" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-03-17: 0</title></rect>
 <rect x="337.2" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-18: 2</title></rect>
 <rect x="337.2" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-19: 5</title></rect>
@@ -349,7 +349,7 @@
 <g class="col" style="animation-delay:0.62s">
 <rect x="462.8" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-17: 22</title></rect>
 <rect x="462.8" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-18: 4</title></rect>
-<rect x="462.8" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-19: 7</title></rect>
+<rect x="462.8" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-19: 6</title></rect>
 <rect x="462.8" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-20: 51</title></rect>
 <rect x="462.8" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-21: 33</title></rect>
 <rect x="462.8" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-22: 11</title></rect>
@@ -375,11 +375,11 @@
 </g>
 <g class="col" style="animation-delay:0.68s">
 <rect x="504.7" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-06-07: 0</title></rect>
-<rect x="504.7" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-08: 6</title></rect>
-<rect x="504.7" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-09: 35</title></rect>
+<rect x="504.7" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-08: 7</title></rect>
+<rect x="504.7" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-09: 31</title></rect>
 <rect x="504.7" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-10: 33</title></rect>
-<rect x="504.7" y="319.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-06-11: 94</title></rect>
-<rect x="504.7" y="333.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-06-12: 91</title></rect>
+<rect x="504.7" y="319.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-06-11: 95</title></rect>
+<rect x="504.7" y="333.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-06-12: 90</title></rect>
 <rect x="504.7" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-06-13: 0</title></rect>
 </g>
 <g class="col" style="animation-delay:0.70s">
@@ -392,7 +392,7 @@
 <rect x="518.7" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-20: 20</title></rect>
 </g>
 <g class="col" style="animation-delay:0.72s">
-<rect x="532.6" y="264.0" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-06-21: 89</title></rect>
+<rect x="532.6" y="264.0" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-06-21: 87</title></rect>
 <rect x="532.6" y="278.0" width="12.0" height="12.0" rx="2" fill="#26a641"><title>2026-06-22: 172</title></rect>
 <rect x="532.6" y="291.9" width="12.0" height="12.0" rx="2" fill="#39d353"><title>2026-06-23: 243</title></rect>
 <rect x="532.6" y="305.9" width="12.0" height="12.0" rx="2" fill="#26a641"><title>2026-06-24: 158</title></rect>
@@ -406,13 +406,13 @@
 <rect x="546.6" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-30: 6</title></rect>
 <rect x="546.6" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-07-01: 0</title></rect>
 <rect x="546.6" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-02: 42</title></rect>
-<rect x="546.6" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-03: 17</title></rect>
+<rect x="546.6" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-03: 15</title></rect>
 <rect x="546.6" y="347.8" width="12.0" height="12.0" rx="2" fill="#26a641"><title>2026-07-04: 126</title></rect>
 </g>
 <g class="col" style="animation-delay:0.76s">
 <rect x="560.6" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-05: 14</title></rect>
-<rect x="560.6" y="278.0" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-07-06: 65</title></rect>
-<rect x="560.6" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-07: 7</title></rect>
+<rect x="560.6" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-06: 61</title></rect>
+<rect x="560.6" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-07: 4</title></rect>
 <rect x="560.6" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-08: 21</title></rect>
 <rect x="560.6" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-07-09: 0</title></rect>
 <rect x="560.6" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-10: 20</title></rect>
@@ -430,9 +430,9 @@
 <g class="col" style="animation-delay:0.80s">
 <rect x="588.5" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-19: 37</title></rect>
 <rect x="588.5" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-20: 8</title></rect>
-<rect x="588.5" y="291.9" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-07-21: 65</title></rect>
+<rect x="588.5" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-21: 61</title></rect>
 <rect x="588.5" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-22: 59</title></rect>
-<rect x="588.5" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-23: 19</title></rect>
+<rect x="588.5" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-23: 15</title></rect>
 <rect x="588.5" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-24: 36</title></rect>
 <rect x="588.5" y="347.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-07-25: 69</title></rect>
 </g>
@@ -475,9 +475,9 @@
 <g class="col" style="animation-delay:0.90s">
 <rect x="658.3" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-08-23: 0</title></rect>
 <rect x="658.3" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-24: 4</title></rect>
-<rect x="658.3" y="291.9" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-08-25: 70</title></rect>
-<rect x="658.3" y="305.9" width="12.0" height="12.0" rx="2" fill="#26a641"><title>2026-08-26: 159</title></rect>
-<rect x="658.3" y="319.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-08-27: 73</title></rect>
+<rect x="658.3" y="291.9" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-08-25: 68</title></rect>
+<rect x="658.3" y="305.9" width="12.0" height="12.0" rx="2" fill="#26a641"><title>2026-08-26: 157</title></rect>
+<rect x="658.3" y="319.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-08-27: 71</title></rect>
 <rect x="658.3" y="333.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-08-28: 78</title></rect>
 <rect x="658.3" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-08-29: 0</title></rect>
 </g>
@@ -513,15 +513,15 @@
 <rect x="714.2" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-09-21: 0</title></rect>
 <rect x="714.2" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-22: 42</title></rect>
 <rect x="714.2" y="305.9" width="12.0" height="12.0" rx="2" fill="#26a641"><title>2026-09-23: 170</title></rect>
-<rect x="714.2" y="319.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-09-24: 104</title></rect>
-<rect x="714.2" y="333.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-09-25: 84</title></rect>
+<rect x="714.2" y="319.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-09-24: 99</title></rect>
+<rect x="714.2" y="333.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-09-25: 81</title></rect>
 <rect x="714.2" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-26: 4</title></rect>
 </g>
 <g class="col" style="animation-delay:1.00s">
 <rect x="728.1" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-27: 28</title></rect>
 <rect x="728.1" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-28: 9</title></rect>
 <rect x="728.1" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-29: 25</title></rect>
-<rect x="728.1" y="305.9" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-09-30: 92</title></rect>
+<rect x="728.1" y="305.9" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-09-30: 90</title></rect>
 <rect x="728.1" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-01: 53</title></rect>
 <rect x="728.1" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-02: 41</title></rect>
 <rect x="728.1" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-03: 38</title></rect>
@@ -530,38 +530,39 @@
 <rect x="742.1" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-04: 21</title></rect>
 <rect x="742.1" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-05: 6</title></rect>
 <rect x="742.1" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-10-06: 0</title></rect>
-<rect x="742.1" y="305.9" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-10-07: 114</title></rect>
-<rect x="742.1" y="319.8" width="12.0" height="12.0" rx="2" fill="#39d353"><title>2026-10-08: 233</title></rect>
-<rect x="742.1" y="333.8" width="12.0" height="12.0" rx="2" fill="#39d353"><title>2026-10-09: 200</title></rect>
-<rect x="742.1" y="347.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-10-10: 69</title></rect>
+<rect x="742.1" y="305.9" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-10-07: 103</title></rect>
+<rect x="742.1" y="319.8" width="12.0" height="12.0" rx="2" fill="#39d353"><title>2026-10-08: 232</title></rect>
+<rect x="742.1" y="333.8" width="12.0" height="12.0" rx="2" fill="#39d353"><title>2026-10-09: 198</title></rect>
+<rect x="742.1" y="347.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-10-10: 66</title></rect>
 </g>
 <g class="col" style="animation-delay:1.04s">
-<rect x="756.0" y="264.0" width="12.0" height="12.0" rx="2" fill="#26a641"><title>2026-10-11: 132</title></rect>
-<rect x="756.0" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-12: 42</title></rect>
+<rect x="756.0" y="264.0" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-10-11: 122</title></rect>
+<rect x="756.0" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-12: 44</title></rect>
+<rect x="756.0" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-13: 4</title></rect>
 </g>
 <text class="h3" x="30" y="392">Languages by code volume</text>
 <text class="lang" x="30" y="419">Python</text>
 <rect x="170" y="408" width="510" height="12" rx="6" fill="#21262d"/>
-<rect class="bar" x="170" y="408" width="204.4" height="12" rx="6" fill="#3572A5" style="animation-delay:0.30s"/>
-<text class="pct" x="692" y="419">40.1%</text>
-<text class="lang" x="30" y="439">TypeScript</text>
+<rect class="bar" x="170" y="408" width="235.0" height="12" rx="6" fill="#3572A5" style="animation-delay:0.30s"/>
+<text class="pct" x="692" y="419">46.1%</text>
+<text class="lang" x="30" y="439">Jupyter Notebook</text>
 <rect x="170" y="428" width="510" height="12" rx="6" fill="#21262d"/>
-<rect class="bar" x="170" y="428" width="93.8" height="12" rx="6" fill="#3178c6" style="animation-delay:0.42s"/>
-<text class="pct" x="692" y="439">18.4%</text>
-<text class="lang" x="30" y="459">JavaScript</text>
+<rect class="bar" x="170" y="428" width="198.2" height="12" rx="6" fill="#DA5B0B" style="animation-delay:0.42s"/>
+<text class="pct" x="692" y="439">38.9%</text>
+<text class="lang" x="30" y="459">TypeScript</text>
 <rect x="170" y="448" width="510" height="12" rx="6" fill="#21262d"/>
-<rect class="bar" x="170" y="448" width="84.9" height="12" rx="6" fill="#f1e05a" style="animation-delay:0.54s"/>
-<text class="pct" x="692" y="459">16.7%</text>
-<text class="lang" x="30" y="479">Jupyter Notebook</text>
+<rect class="bar" x="170" y="448" width="37.1" height="12" rx="6" fill="#3178c6" style="animation-delay:0.54s"/>
+<text class="pct" x="692" y="459">7.3%</text>
+<text class="lang" x="30" y="479">JavaScript</text>
 <rect x="170" y="468" width="510" height="12" rx="6" fill="#21262d"/>
-<rect class="bar" x="170" y="468" width="79.2" height="12" rx="6" fill="#DA5B0B" style="animation-delay:0.66s"/>
-<text class="pct" x="692" y="479">15.5%</text>
-<text class="lang" x="30" y="499">PHP</text>
+<rect class="bar" x="170" y="468" width="26.3" height="12" rx="6" fill="#f1e05a" style="animation-delay:0.66s"/>
+<text class="pct" x="692" y="479">5.2%</text>
+<text class="lang" x="30" y="499">CSS</text>
 <rect x="170" y="488" width="510" height="12" rx="6" fill="#21262d"/>
-<rect class="bar" x="170" y="488" width="15.4" height="12" rx="6" fill="#4F5D95" style="animation-delay:0.78s"/>
-<text class="pct" x="692" y="499">3.0%</text>
+<rect class="bar" x="170" y="488" width="6.0" height="12" rx="6" fill="#663399" style="animation-delay:0.78s"/>
+<text class="pct" x="692" y="499">1.2%</text>
 <text class="lang" x="30" y="519">HTML</text>
 <rect x="170" y="508" width="510" height="12" rx="6" fill="#21262d"/>
-<rect class="bar" x="170" y="508" width="13.7" height="12" rx="6" fill="#e34c26" style="animation-delay:0.90s"/>
-<text class="pct" x="692" y="519">2.7%</text>
+<rect class="bar" x="170" y="508" width="5.7" height="12" rx="6" fill="#e34c26" style="animation-delay:0.90s"/>
+<text class="pct" x="692" y="519">1.1%</text>
 </svg>
