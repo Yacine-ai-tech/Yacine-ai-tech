@@ -15,7 +15,7 @@
 <circle cx="622" cy="28" r="4.5" fill="#3fb950"/>
 <text x="638" y="33" font-family="'SF Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" letter-spacing="1.5" fill="#64748b">RAGEVAL<tspan fill="#334155" dx="8">/</tspan><tspan font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#e2e8f0" dx="8">ROC-AUC 0.9191</tspan></text>
 <circle cx="922" cy="28" r="4.5" fill="#d29922"/>
-<text x="938" y="33" font-family="'SF Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" letter-spacing="1.5" fill="#64748b">AGENTKIT<tspan fill="#334155" dx="8">/</tspan><tspan font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#e2e8f0" dx="8">14/14 guardrails</tspan></text>
+<text x="938" y="33" font-family="'SF Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" letter-spacing="1.5" fill="#64748b">AGENTKIT<tspan fill="#334155" dx="8">/</tspan><tspan font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#e2e8f0" dx="8">16/16 guardrails</tspan></text>
 <circle cx="1222" cy="28" r="4.5" fill="#f778ba"/>
 <text x="1238" y="33" font-family="'SF Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" letter-spacing="1.5" fill="#64748b">STREAMPULSE<tspan fill="#334155" dx="8">/</tspan><tspan font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#e2e8f0" dx="8">0.990 macro-F1</tspan></text>
 <circle cx="1522" cy="28" r="4.5" fill="#ff7b72"/>
@@ -27,7 +27,7 @@
 <circle cx="2422" cy="28" r="4.5" fill="#3fb950"/>
 <text x="2438" y="33" font-family="'SF Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" letter-spacing="1.5" fill="#64748b">RAGEVAL<tspan fill="#334155" dx="8">/</tspan><tspan font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#e2e8f0" dx="8">ROC-AUC 0.9191</tspan></text>
 <circle cx="2722" cy="28" r="4.5" fill="#d29922"/>
-<text x="2738" y="33" font-family="'SF Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" letter-spacing="1.5" fill="#64748b">AGENTKIT<tspan fill="#334155" dx="8">/</tspan><tspan font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#e2e8f0" dx="8">14/14 guardrails</tspan></text>
+<text x="2738" y="33" font-family="'SF Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" letter-spacing="1.5" fill="#64748b">AGENTKIT<tspan fill="#334155" dx="8">/</tspan><tspan font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#e2e8f0" dx="8">16/16 guardrails</tspan></text>
 <circle cx="3022" cy="28" r="4.5" fill="#f778ba"/>
 <text x="3038" y="33" font-family="'SF Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" letter-spacing="1.5" fill="#64748b">STREAMPULSE<tspan fill="#334155" dx="8">/</tspan><tspan font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#e2e8f0" dx="8">0.990 macro-F1</tspan></text>
 <circle cx="3322" cy="28" r="4.5" fill="#ff7b72"/>
@@ -39,7 +39,7 @@
 <circle cx="4222" cy="28" r="4.5" fill="#3fb950"/>
 <text x="4238" y="33" font-family="'SF Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" letter-spacing="1.5" fill="#64748b">RAGEVAL<tspan fill="#334155" dx="8">/</tspan><tspan font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#e2e8f0" dx="8">ROC-AUC 0.9191</tspan></text>
 <circle cx="4522" cy="28" r="4.5" fill="#d29922"/>
-<text x="4538" y="33" font-family="'SF Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" letter-spacing="1.5" fill="#64748b">AGENTKIT<tspan fill="#334155" dx="8">/</tspan><tspan font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#e2e8f0" dx="8">14/14 guardrails</tspan></text>
+<text x="4538" y="33" font-family="'SF Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" letter-spacing="1.5" fill="#64748b">AGENTKIT<tspan fill="#334155" dx="8">/</tspan><tspan font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#e2e8f0" dx="8">16/16 guardrails</tspan></text>
 <circle cx="4822" cy="28" r="4.5" fill="#f778ba"/>
 <text x="4838" y="33" font-family="'SF Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" letter-spacing="1.5" fill="#64748b">STREAMPULSE<tspan fill="#334155" dx="8">/</tspan><tspan font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#e2e8f0" dx="8">0.990 macro-F1</tspan></text>
 <circle cx="5122" cy="28" r="4.5" fill="#ff7b72"/>

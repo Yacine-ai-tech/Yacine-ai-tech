@@ -9,7 +9,7 @@
 
 <br/><br/>
 
-<img src="./assets/ticker.svg" alt="Headline results: IntelAI Mean APE 4.64%, DocIntel 95.0% SROIE, RAGeval ROC-AUC 0.9191, AgentKit 14/14 guardrails, StreamPulse 0.990 macro-F1, VoiceFlow 2.2% WER" width="100%"/>
+<img src="./assets/ticker.svg" alt="Headline results: IntelAI Mean APE 4.64%, DocIntel 95.0% SROIE, RAGeval ROC-AUC 0.9191, AgentKit 16/16 guardrails, StreamPulse 0.990 macro-F1, VoiceFlow 2.2% WER" width="100%"/>
 
 <br/>
 
@@ -136,7 +136,7 @@ Instructor, *Introduction to Artificial Intelligence*, A.D.U. (2025) · workshop
 [![PyPI](https://img.shields.io/pypi/v/intelai?label=intelai&color=blue)](https://pypi.org/project/intelai/) [![PyPI](https://img.shields.io/pypi/v/omnismart-personas?label=omnismart-personas&color=blue)](https://pypi.org/project/omnismart-personas/)
 [![Live App](https://img.shields.io/badge/Live_App-intelai-0070f3?style=flat)](https://intelai.ysiddo-ai-projects.app) [![Research](https://img.shields.io/badge/Research-Empirical_Methods-8a2be2?style=flat)](https://intelai.ysiddo-ai-projects.app/research) [![Benchmarks](https://img.shields.io/badge/Benchmarks-Backtest_4.64%25-green?style=flat)](https://intelai.ysiddo-ai-projects.app/benchmark) [![Guide](https://img.shields.io/badge/Docs-User_Guide-blue?style=flat)](https://intelai.ysiddo-ai-projects.app/guide) [![Stars](https://img.shields.io/github/stars/Yacine-ai-tech/intelai?style=flat&label=stars&color=lightgrey)](https://github.com/Yacine-ai-tech/intelai) [![Last commit](https://img.shields.io/github/last-commit/Yacine-ai-tech/intelai?style=flat&color=lightgrey)](https://github.com/Yacine-ai-tech/intelai/commits)
 
-Nine C-suite personas (CEO, CFO, CTO, COO, CHRO, ESG, Risk, Analyst, General), each scoped to its own data domain by architecture, not prompt instruction. 146 curated KPIs across 9 domains, 78-month history (2020-01 to 2026-06). Hybrid retrieval (BGE-M3 dense 1024-dim + BM25 sparse + RRF fusion + BAAI/bge-reranker-v2-m3 cross-encoder reranking) with 100% live Qdrant precision, plus GraphRAG-lite multi-hop entity traversal and prompt caching with dynamic recency cutoff (June 2026).
+Nine C-suite personas (CEO, CFO, CTO, COO, CHRO, ESG, Risk, Analyst, General), each scoped to its own data domain by architecture, not prompt instruction. 146 curated KPIs across 7 domains, 78-month history (2020-01 to 2026-06). Hybrid retrieval (BGE-M3 dense 1024-dim + BM25 sparse + RRF fusion, with optional BAAI/bge-reranker-v2-m3 cross-encoder reranking applied progressively) with 100% live Qdrant precision, plus GraphRAG-lite multi-hop entity traversal and prompt caching with dynamic recency cutoff (June 2026). The copilot runs rule-based live web search in parallel with retrieval for questions about external companies and current events, lists knowledge-base and web sources separately, and streams answers with visible pipeline stages; retrieval is bilingual (French/English) with a soft language preference.
 
 <details>
 <summary><img src="./assets/icons/target.svg" height="18" align="absmiddle" alt="" /> <b>Measured results</b></summary>
@@ -153,13 +153,13 @@ Out-of-sample backtest on 444 forecasts across 6 core metrics, Mean APE 4.64% (m
 
 [![Live App](https://img.shields.io/badge/Live_App-docintel-0070f3?style=flat)](https://docintel.ysiddo-ai-projects.app) [![Research](https://img.shields.io/badge/Research-Tri--Route_Topology-8a2be2?style=flat)](https://docintel.ysiddo-ai-projects.app/research) [![Benchmarks](https://img.shields.io/badge/Benchmarks-95.0%25_SROIE-green?style=flat)](https://docintel.ysiddo-ai-projects.app/benchmarks) [![Guide](https://img.shields.io/badge/Docs-User_Guide-blue?style=flat)](https://docintel.ysiddo-ai-projects.app/guide) [![Stars](https://img.shields.io/github/stars/Yacine-ai-tech/docintel?style=flat&label=stars&color=lightgrey)](https://github.com/Yacine-ai-tech/docintel) [![Last commit](https://img.shields.io/github/last-commit/Yacine-ai-tech/docintel?style=flat&color=lightgrey)](https://github.com/Yacine-ai-tech/docintel/commits)
 
-Extracts structured data from PDFs, images, and scanned files across three production routes: Route A (Frontier Multimodal Vision: Claude Sonnet 4.6 / Gemini 3.8 Flash Native Vision), Route B (Self-Hosted Vision Model via Ollama: Qwen 2.5-VL 7B with zero cloud API cost), and Route C (Layout-Aware Surya OCR on GPU with Tesseract CPU fallback + LLM structured cleanup). Deterministic currency normalization across 45+ currencies (including FCFA/XOF under UEMOA VAT convention) and ISO dates, with SHA-256 document deduplication and sub-second cached retrieval.
+Extracts structured data from PDFs, images, and scanned files across three production routes: Route A (Frontier Multimodal Vision: Claude Sonnet 4.6 / Gemini 3.8 Flash Native Vision), Route B (Self-Hosted Vision Model via Ollama: Qwen 2.5-VL 7B with zero cloud API cost), and Route C (layout-aware OCR, Surya or Tesseract as configured, then LLM structured cleanup). Deterministic currency normalization across 45+ currencies (including FCFA/XOF under UEMOA VAT convention) and ISO dates, with SHA-256 document deduplication and sub-second cached retrieval.
 
 <details>
 <summary><img src="./assets/icons/target.svg" height="18" align="absmiddle" alt="" /> <b>Measured results</b></summary>
 <br/>
 
-95.0% zero-shot accuracy on the public SROIE benchmark (57/60 receipts) and 100% on multilingual cloud-route invoices (Route A); 97.8% overall and 100% on French/FCFA sample (325/325 fields) on self-hosted Route B ($0 API cost); 96.3% field accuracy on Route C with Surya OCR + LLM cleanup; 650-document multi-format corpus processed at 100% throughput reliability (~1.1 docs/second).
+95.0% zero-shot accuracy on the public SROIE benchmark (57/60 receipts) and 100% on multilingual cloud-route invoices (Route A); 97.8% overall and 100% on French/FCFA sample (325/325 fields) on self-hosted Route B ($0 API cost); 96.3% field accuracy on Route C (Surya OCR + LLM cleanup, French/FCFA sub-corpus; 97.4% on the global sample, GPU run); 650-document multi-format corpus processed at 100% throughput reliability (~1.1 docs/second).
 
 </details>
 
@@ -178,7 +178,7 @@ from rageval import track
 async def answer(question): ...
 ```
 
-Zero-credit symbolic evaluation combined with a heterogeneous 4-judge consensus panel (Groq Maverick 17B, Gemini 3.5 Flash, Claude Haiku, GPT-5-mini), rate-limiting, and persistent SQLite/PostgreSQL disk caching.
+Zero-credit symbolic evaluation combined with a heterogeneous 4-judge consensus panel (Groq gpt-oss-120b, Gemini 3.5 Flash, Claude Haiku, GPT-5-mini), rate-limiting, and persistent SQLite/PostgreSQL disk caching.
 
 <details>
 <summary><img src="./assets/icons/target.svg" height="18" align="absmiddle" alt="" /> <b>Measured results</b></summary>
@@ -194,7 +194,7 @@ Folding the zero-credit symbolic judge (numeric consistency + lexical overlap) i
 ### <img src="./assets/icons/shield-check.svg" height="24" align="absmiddle" alt="" /> [AgentKit](https://github.com/Yacine-ai-tech/agentkit) — Governed MCP Tool Server
 
 [![PyPI](https://img.shields.io/pypi/v/agentkit-mcp?label=agentkit-mcp&color=blue)](https://pypi.org/project/agentkit-mcp/)
-[![Live App](https://img.shields.io/badge/Live_App-agentkit-0070f3?style=flat)](https://agentkit.ysiddo-ai-projects.app) [![Research](https://img.shields.io/badge/Research-Capability_Policy-8a2be2?style=flat)](https://agentkit.ysiddo-ai-projects.app/research) [![Benchmarks](https://img.shields.io/badge/Benchmarks-14%2F14_Guardrails-green?style=flat)](https://agentkit.ysiddo-ai-projects.app/benchmark) [![Guide](https://img.shields.io/badge/Docs-User_Guide-blue?style=flat)](https://agentkit.ysiddo-ai-projects.app/guide) [![Stars](https://img.shields.io/github/stars/Yacine-ai-tech/agentkit?style=flat&label=stars&color=lightgrey)](https://github.com/Yacine-ai-tech/agentkit) [![Last commit](https://img.shields.io/github/last-commit/Yacine-ai-tech/agentkit?style=flat&color=lightgrey)](https://github.com/Yacine-ai-tech/agentkit/commits)
+[![Live App](https://img.shields.io/badge/Live_App-agentkit-0070f3?style=flat)](https://agentkit.ysiddo-ai-projects.app) [![Research](https://img.shields.io/badge/Research-Capability_Policy-8a2be2?style=flat)](https://agentkit.ysiddo-ai-projects.app/research) [![Benchmarks](https://img.shields.io/badge/Benchmarks-16%2F16_Guardrails-green?style=flat)](https://agentkit.ysiddo-ai-projects.app/benchmark) [![Guide](https://img.shields.io/badge/Docs-User_Guide-blue?style=flat)](https://agentkit.ysiddo-ai-projects.app/guide) [![Stars](https://img.shields.io/github/stars/Yacine-ai-tech/agentkit?style=flat&label=stars&color=lightgrey)](https://github.com/Yacine-ai-tech/agentkit) [![Last commit](https://img.shields.io/github/last-commit/Yacine-ai-tech/agentkit?style=flat&color=lightgrey)](https://github.com/Yacine-ai-tech/agentkit/commits)
 
 Gives Claude Desktop, Cursor, or any LangGraph agent governed access to live business data through the Model Context Protocol — typed tool effects (read/write/destructive), capability policies, and deterministic audit logging.
 
@@ -202,7 +202,7 @@ Gives Claude Desktop, Cursor, or any LangGraph agent governed access to live bus
 <summary><img src="./assets/icons/target.svg" height="18" align="absmiddle" alt="" /> <b>Measured results</b></summary>
 <br/>
 
-DSPy BootstrapFewShot metric score compiled from 0.6800 → 0.7067 (30/30 held-out examples); live MCP tool-selection and execution achieves 12/12 (100%) accuracy across standardized business intelligence scenarios on a running FastMCP server; 14/14 adversarial guardrail tests pass deterministically offline; LangGraph autonomous multi-agent workflows execute at 43/43 (100%) success across all 10 domains.
+DSPy BootstrapFewShot metric score compiled from 0.6800 → 0.7067 (30/30 held-out examples); live MCP tool-selection and execution achieves 12/12 (100%) accuracy across standardized business intelligence scenarios on a running FastMCP server; 16/16 adversarial guardrail tests pass deterministically offline; LangGraph autonomous multi-agent workflows execute at 43/43 (100%) success across all 10 domains.
 
 </details>
 
@@ -251,7 +251,7 @@ Routes recorded audio to per-analysis-type LLMs with a multi-provider transcript
 | [IntelAI](https://intelai.ysiddo-ai-projects.app) | Mean APE 4.64% (median 2.77%), 100.0% entity coverage, 71.4% RAG accuracy | Out-of-sample backtest (444 forecasts) & 50 production cases |
 | [DocIntel](https://docintel.ysiddo-ai-projects.app) | 95.0% zero-shot (Route A), 97.8% self-hosted (Route B) | SROIE benchmark (57/60) & 106-doc Ollama evaluation |
 | [RAGeval](https://rageval.ysiddo-ai-projects.app) | ROC-AUC 0.9191 (panel + symbolic), 0.860 4-judge accuracy | HaluEval-QA (N=240 / N=200), heterogeneous consensus |
-| [AgentKit](https://agentkit.ysiddo-ai-projects.app) | 14/14 guardrails, 12/12 (100%) MCP routing, DSPy 0.7067 | Deterministic test suite & live FastMCP benchmark |
+| [AgentKit](https://agentkit.ysiddo-ai-projects.app) | 16/16 guardrails, 12/12 (100%) MCP routing, DSPy 0.7067 | Deterministic test suite & live FastMCP benchmark |
 | [StreamPulse](https://streampulse.ysiddo-ai-projects.app) | 0.990 macro-F1 (99.0% accuracy), 46.8 req/s (0.00% errors) | N=504 SaaS telemetry suite & sustained burst test |
 | [VoiceFlow](https://voiceflow.ysiddo-ai-projects.app) | 2.2% WER / 0.8% CER, 1.157s latency, 92.4% action item prec. | LibriSpeech test-clean (N=150) & Gemini Live turns |
 
