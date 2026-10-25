@@ -17,17 +17,17 @@
 </style>
 <rect x="0.5" y="0.5" width="799" height="551" rx="12" fill="#0d1117" stroke="#30363d"/>
 <text class="title" x="30" y="38">GitHub at a glance</text>
-<text class="sub" x="30" y="56">@Yacine-ai-tech · last 12 months · updated 2026-10-24 UTC · includes 59 private repos (aggregate only)</text>
+<text class="sub" x="30" y="56">@Yacine-ai-tech · last 12 months · updated 2026-10-25 UTC · includes 59 private repos (aggregate only)</text>
 <g class="tile" style="animation-delay:0.00s">
 <rect x="30.0" y="76" width="174.5" height="64" rx="8" fill="#161b22" stroke="#30363d"/>
 <rect x="30.0" y="90" width="3" height="36" rx="1.5" fill="#58a6ff"/>
-<text class="num" x="48.0" y="110">13,750</text>
+<text class="num" x="48.0" y="110">13,751</text>
 <text class="lbl" x="48.0" y="129">Contributions</text>
 </g>
 <g class="tile" style="animation-delay:0.08s">
 <rect x="218.5" y="76" width="174.5" height="64" rx="8" fill="#161b22" stroke="#30363d"/>
 <rect x="218.5" y="90" width="3" height="36" rx="1.5" fill="#3fb950"/>
-<text class="num" x="236.5" y="110">11,657</text>
+<text class="num" x="236.5" y="110">11,658</text>
 <text class="lbl" x="236.5" y="129">Commits</text>
 </g>
 <g class="tile" style="animation-delay:0.16s">
@@ -68,481 +68,475 @@
 </g>
 <text class="h3" x="30" y="252">Contribution calendar</text>
 <g class="col" style="animation-delay:0.00s">
-<rect x="30.0" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-10-19: 0</title></rect>
-<rect x="30.0" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-10-20: 0</title></rect>
-<rect x="30.0" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-10-21: 0</title></rect>
-<rect x="30.0" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-10-22: 0</title></rect>
-<rect x="30.0" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-10-23: 0</title></rect>
-<rect x="30.0" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-10-24: 0</title></rect>
-<rect x="30.0" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-10-25: 0</title></rect>
+<rect x="30.0" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-10-26: 0</title></rect>
+<rect x="30.0" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-10-27: 0</title></rect>
+<rect x="30.0" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-10-28: 0</title></rect>
+<rect x="30.0" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-10-29: 0</title></rect>
+<rect x="30.0" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-10-30: 0</title></rect>
+<rect x="30.0" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-10-31: 0</title></rect>
+<rect x="30.0" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-01: 0</title></rect>
 </g>
 <g class="col" style="animation-delay:0.02s">
-<rect x="44.0" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-10-26: 0</title></rect>
-<rect x="44.0" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-10-27: 0</title></rect>
-<rect x="44.0" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-10-28: 0</title></rect>
-<rect x="44.0" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-10-29: 0</title></rect>
-<rect x="44.0" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-10-30: 0</title></rect>
-<rect x="44.0" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-10-31: 0</title></rect>
-<rect x="44.0" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-01: 0</title></rect>
+<rect x="44.0" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-02: 0</title></rect>
+<rect x="44.0" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-03: 0</title></rect>
+<rect x="44.0" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-04: 0</title></rect>
+<rect x="44.0" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-11-05: 1</title></rect>
+<rect x="44.0" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-06: 0</title></rect>
+<rect x="44.0" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-07: 0</title></rect>
+<rect x="44.0" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-08: 0</title></rect>
 </g>
 <g class="col" style="animation-delay:0.04s">
-<rect x="57.9" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-02: 0</title></rect>
-<rect x="57.9" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-03: 0</title></rect>
-<rect x="57.9" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-04: 0</title></rect>
-<rect x="57.9" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-11-05: 1</title></rect>
-<rect x="57.9" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-06: 0</title></rect>
-<rect x="57.9" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-07: 0</title></rect>
-<rect x="57.9" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-08: 0</title></rect>
+<rect x="57.9" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-11-09: 5</title></rect>
+<rect x="57.9" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-11-10: 8</title></rect>
+<rect x="57.9" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-11: 0</title></rect>
+<rect x="57.9" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-12: 0</title></rect>
+<rect x="57.9" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-13: 0</title></rect>
+<rect x="57.9" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-14: 0</title></rect>
+<rect x="57.9" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-15: 0</title></rect>
 </g>
 <g class="col" style="animation-delay:0.06s">
-<rect x="71.9" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-11-09: 5</title></rect>
-<rect x="71.9" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-11-10: 8</title></rect>
-<rect x="71.9" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-11: 0</title></rect>
-<rect x="71.9" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-12: 0</title></rect>
-<rect x="71.9" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-13: 0</title></rect>
-<rect x="71.9" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-14: 0</title></rect>
-<rect x="71.9" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-15: 0</title></rect>
+<rect x="71.9" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-16: 0</title></rect>
+<rect x="71.9" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-17: 0</title></rect>
+<rect x="71.9" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-11-18: 1</title></rect>
+<rect x="71.9" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-19: 0</title></rect>
+<rect x="71.9" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-11-20: 1</title></rect>
+<rect x="71.9" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-21: 0</title></rect>
+<rect x="71.9" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-22: 0</title></rect>
 </g>
 <g class="col" style="animation-delay:0.08s">
-<rect x="85.8" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-16: 0</title></rect>
-<rect x="85.8" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-17: 0</title></rect>
-<rect x="85.8" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-11-18: 1</title></rect>
-<rect x="85.8" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-19: 0</title></rect>
-<rect x="85.8" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-11-20: 1</title></rect>
-<rect x="85.8" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-21: 0</title></rect>
-<rect x="85.8" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-22: 0</title></rect>
+<rect x="85.8" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-23: 0</title></rect>
+<rect x="85.8" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-24: 0</title></rect>
+<rect x="85.8" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-25: 0</title></rect>
+<rect x="85.8" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-26: 0</title></rect>
+<rect x="85.8" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-27: 0</title></rect>
+<rect x="85.8" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-28: 0</title></rect>
+<rect x="85.8" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-29: 0</title></rect>
 </g>
 <g class="col" style="animation-delay:0.10s">
-<rect x="99.8" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-23: 0</title></rect>
-<rect x="99.8" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-24: 0</title></rect>
-<rect x="99.8" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-25: 0</title></rect>
-<rect x="99.8" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-26: 0</title></rect>
-<rect x="99.8" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-27: 0</title></rect>
-<rect x="99.8" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-28: 0</title></rect>
-<rect x="99.8" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-29: 0</title></rect>
+<rect x="99.8" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-30: 0</title></rect>
+<rect x="99.8" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-01: 48</title></rect>
+<rect x="99.8" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-02: 14</title></rect>
+<rect x="99.8" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-03: 0</title></rect>
+<rect x="99.8" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-04: 0</title></rect>
+<rect x="99.8" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-05: 0</title></rect>
+<rect x="99.8" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-06: 0</title></rect>
 </g>
 <g class="col" style="animation-delay:0.12s">
-<rect x="113.8" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-11-30: 0</title></rect>
-<rect x="113.8" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-01: 48</title></rect>
-<rect x="113.8" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-02: 14</title></rect>
-<rect x="113.8" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-03: 0</title></rect>
-<rect x="113.8" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-04: 0</title></rect>
-<rect x="113.8" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-05: 0</title></rect>
-<rect x="113.8" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-06: 0</title></rect>
+<rect x="113.8" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-07: 0</title></rect>
+<rect x="113.8" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-08: 0</title></rect>
+<rect x="113.8" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-09: 0</title></rect>
+<rect x="113.8" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-10: 0</title></rect>
+<rect x="113.8" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-11: 4</title></rect>
+<rect x="113.8" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-12: 25</title></rect>
+<rect x="113.8" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-13: 1</title></rect>
 </g>
 <g class="col" style="animation-delay:0.14s">
-<rect x="127.7" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-07: 0</title></rect>
-<rect x="127.7" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-08: 0</title></rect>
-<rect x="127.7" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-09: 0</title></rect>
-<rect x="127.7" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-10: 0</title></rect>
-<rect x="127.7" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-11: 4</title></rect>
-<rect x="127.7" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-12: 25</title></rect>
-<rect x="127.7" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-13: 1</title></rect>
+<rect x="127.7" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-14: 15</title></rect>
+<rect x="127.7" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-15: 0</title></rect>
+<rect x="127.7" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-16: 5</title></rect>
+<rect x="127.7" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-17: 0</title></rect>
+<rect x="127.7" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-18: 19</title></rect>
+<rect x="127.7" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-19: 4</title></rect>
+<rect x="127.7" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-20: 3</title></rect>
 </g>
 <g class="col" style="animation-delay:0.16s">
-<rect x="141.7" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-14: 15</title></rect>
-<rect x="141.7" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-15: 0</title></rect>
-<rect x="141.7" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-16: 5</title></rect>
-<rect x="141.7" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-17: 0</title></rect>
-<rect x="141.7" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-18: 19</title></rect>
-<rect x="141.7" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-19: 4</title></rect>
-<rect x="141.7" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-20: 3</title></rect>
+<rect x="141.7" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-21: 2</title></rect>
+<rect x="141.7" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-22: 1</title></rect>
+<rect x="141.7" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-23: 0</title></rect>
+<rect x="141.7" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-24: 20</title></rect>
+<rect x="141.7" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-25: 4</title></rect>
+<rect x="141.7" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-26: 0</title></rect>
+<rect x="141.7" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-27: 0</title></rect>
 </g>
 <g class="col" style="animation-delay:0.18s">
-<rect x="155.7" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-21: 2</title></rect>
-<rect x="155.7" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-22: 1</title></rect>
-<rect x="155.7" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-23: 0</title></rect>
-<rect x="155.7" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-24: 20</title></rect>
-<rect x="155.7" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-25: 4</title></rect>
-<rect x="155.7" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-26: 0</title></rect>
-<rect x="155.7" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-27: 0</title></rect>
+<rect x="155.7" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-28: 0</title></rect>
+<rect x="155.7" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-29: 1</title></rect>
+<rect x="155.7" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-30: 1</title></rect>
+<rect x="155.7" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-31: 1</title></rect>
+<rect x="155.7" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-01-01: 15</title></rect>
+<rect x="155.7" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-02: 0</title></rect>
+<rect x="155.7" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-01-03: 1</title></rect>
 </g>
 <g class="col" style="animation-delay:0.20s">
-<rect x="169.6" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2025-12-28: 0</title></rect>
-<rect x="169.6" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-29: 1</title></rect>
-<rect x="169.6" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-30: 1</title></rect>
-<rect x="169.6" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2025-12-31: 1</title></rect>
-<rect x="169.6" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-01-01: 15</title></rect>
-<rect x="169.6" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-02: 0</title></rect>
-<rect x="169.6" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-01-03: 1</title></rect>
+<rect x="169.6" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-04: 0</title></rect>
+<rect x="169.6" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-05: 0</title></rect>
+<rect x="169.6" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-06: 0</title></rect>
+<rect x="169.6" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-07: 0</title></rect>
+<rect x="169.6" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-08: 0</title></rect>
+<rect x="169.6" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-09: 0</title></rect>
+<rect x="169.6" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-10: 0</title></rect>
 </g>
 <g class="col" style="animation-delay:0.22s">
-<rect x="183.6" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-04: 0</title></rect>
-<rect x="183.6" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-05: 0</title></rect>
-<rect x="183.6" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-06: 0</title></rect>
-<rect x="183.6" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-07: 0</title></rect>
-<rect x="183.6" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-08: 0</title></rect>
-<rect x="183.6" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-09: 0</title></rect>
-<rect x="183.6" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-10: 0</title></rect>
+<rect x="183.6" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-11: 0</title></rect>
+<rect x="183.6" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-01-12: 1</title></rect>
+<rect x="183.6" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-13: 0</title></rect>
+<rect x="183.6" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-01-14: 8</title></rect>
+<rect x="183.6" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-15: 0</title></rect>
+<rect x="183.6" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-16: 0</title></rect>
+<rect x="183.6" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-01-17: 1</title></rect>
 </g>
 <g class="col" style="animation-delay:0.24s">
-<rect x="197.5" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-11: 0</title></rect>
-<rect x="197.5" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-01-12: 1</title></rect>
-<rect x="197.5" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-13: 0</title></rect>
-<rect x="197.5" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-01-14: 8</title></rect>
-<rect x="197.5" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-15: 0</title></rect>
-<rect x="197.5" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-16: 0</title></rect>
-<rect x="197.5" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-01-17: 1</title></rect>
+<rect x="197.5" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-18: 0</title></rect>
+<rect x="197.5" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-19: 0</title></rect>
+<rect x="197.5" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-20: 0</title></rect>
+<rect x="197.5" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-21: 0</title></rect>
+<rect x="197.5" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-01-22: 1</title></rect>
+<rect x="197.5" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-23: 0</title></rect>
+<rect x="197.5" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-24: 0</title></rect>
 </g>
 <g class="col" style="animation-delay:0.26s">
-<rect x="211.5" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-18: 0</title></rect>
-<rect x="211.5" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-19: 0</title></rect>
-<rect x="211.5" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-20: 0</title></rect>
-<rect x="211.5" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-21: 0</title></rect>
-<rect x="211.5" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-01-22: 1</title></rect>
-<rect x="211.5" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-23: 0</title></rect>
-<rect x="211.5" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-24: 0</title></rect>
+<rect x="211.5" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-25: 0</title></rect>
+<rect x="211.5" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-26: 0</title></rect>
+<rect x="211.5" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-27: 0</title></rect>
+<rect x="211.5" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-28: 0</title></rect>
+<rect x="211.5" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-29: 0</title></rect>
+<rect x="211.5" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-30: 0</title></rect>
+<rect x="211.5" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-31: 0</title></rect>
 </g>
 <g class="col" style="animation-delay:0.28s">
-<rect x="225.5" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-25: 0</title></rect>
-<rect x="225.5" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-26: 0</title></rect>
-<rect x="225.5" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-27: 0</title></rect>
-<rect x="225.5" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-28: 0</title></rect>
-<rect x="225.5" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-29: 0</title></rect>
-<rect x="225.5" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-30: 0</title></rect>
-<rect x="225.5" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-01-31: 0</title></rect>
+<rect x="225.5" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-01: 1</title></rect>
+<rect x="225.5" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-02: 0</title></rect>
+<rect x="225.5" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-03: 34</title></rect>
+<rect x="225.5" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-04: 0</title></rect>
+<rect x="225.5" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-05: 0</title></rect>
+<rect x="225.5" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-06: 0</title></rect>
+<rect x="225.5" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-07: 0</title></rect>
 </g>
 <g class="col" style="animation-delay:0.30s">
-<rect x="239.4" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-01: 1</title></rect>
-<rect x="239.4" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-02: 0</title></rect>
-<rect x="239.4" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-03: 34</title></rect>
-<rect x="239.4" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-04: 0</title></rect>
-<rect x="239.4" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-05: 0</title></rect>
-<rect x="239.4" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-06: 0</title></rect>
-<rect x="239.4" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-07: 0</title></rect>
+<rect x="239.4" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-08: 0</title></rect>
+<rect x="239.4" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-09: 7</title></rect>
+<rect x="239.4" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-10: 0</title></rect>
+<rect x="239.4" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-11: 44</title></rect>
+<rect x="239.4" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-12: 0</title></rect>
+<rect x="239.4" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-13: 5</title></rect>
+<rect x="239.4" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-14: 27</title></rect>
 </g>
 <g class="col" style="animation-delay:0.32s">
-<rect x="253.4" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-08: 0</title></rect>
-<rect x="253.4" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-09: 7</title></rect>
-<rect x="253.4" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-10: 0</title></rect>
-<rect x="253.4" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-11: 44</title></rect>
-<rect x="253.4" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-12: 0</title></rect>
-<rect x="253.4" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-13: 5</title></rect>
-<rect x="253.4" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-14: 27</title></rect>
+<rect x="253.4" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-15: 0</title></rect>
+<rect x="253.4" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-16: 4</title></rect>
+<rect x="253.4" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-17: 1</title></rect>
+<rect x="253.4" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-18: 5</title></rect>
+<rect x="253.4" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-19: 15</title></rect>
+<rect x="253.4" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-20: 44</title></rect>
+<rect x="253.4" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-21: 18</title></rect>
 </g>
 <g class="col" style="animation-delay:0.34s">
-<rect x="267.4" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-15: 0</title></rect>
-<rect x="267.4" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-16: 4</title></rect>
-<rect x="267.4" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-17: 1</title></rect>
-<rect x="267.4" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-18: 5</title></rect>
-<rect x="267.4" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-19: 15</title></rect>
-<rect x="267.4" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-20: 44</title></rect>
-<rect x="267.4" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-21: 18</title></rect>
+<rect x="267.4" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-22: 0</title></rect>
+<rect x="267.4" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-23: 20</title></rect>
+<rect x="267.4" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-24: 0</title></rect>
+<rect x="267.4" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-25: 1</title></rect>
+<rect x="267.4" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-26: 16</title></rect>
+<rect x="267.4" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-27: 22</title></rect>
+<rect x="267.4" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-28: 19</title></rect>
 </g>
 <g class="col" style="animation-delay:0.36s">
-<rect x="281.3" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-22: 0</title></rect>
-<rect x="281.3" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-23: 20</title></rect>
-<rect x="281.3" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-02-24: 0</title></rect>
-<rect x="281.3" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-25: 1</title></rect>
-<rect x="281.3" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-26: 16</title></rect>
-<rect x="281.3" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-27: 22</title></rect>
-<rect x="281.3" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-02-28: 19</title></rect>
+<rect x="281.3" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-03-01: 0</title></rect>
+<rect x="281.3" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-02: 46</title></rect>
+<rect x="281.3" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-03: 11</title></rect>
+<rect x="281.3" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-04: 30</title></rect>
+<rect x="281.3" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-05: 51</title></rect>
+<rect x="281.3" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-03-06: 0</title></rect>
+<rect x="281.3" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-07: 3</title></rect>
 </g>
 <g class="col" style="animation-delay:0.38s">
-<rect x="295.3" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-03-01: 0</title></rect>
-<rect x="295.3" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-02: 46</title></rect>
-<rect x="295.3" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-03: 11</title></rect>
-<rect x="295.3" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-04: 30</title></rect>
-<rect x="295.3" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-05: 51</title></rect>
-<rect x="295.3" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-03-06: 0</title></rect>
-<rect x="295.3" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-07: 3</title></rect>
+<rect x="295.3" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-08: 3</title></rect>
+<rect x="295.3" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-09: 24</title></rect>
+<rect x="295.3" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-10: 18</title></rect>
+<rect x="295.3" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-11: 24</title></rect>
+<rect x="295.3" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-03-12: 0</title></rect>
+<rect x="295.3" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-13: 25</title></rect>
+<rect x="295.3" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-14: 161</title></rect>
 </g>
 <g class="col" style="animation-delay:0.40s">
-<rect x="309.2" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-08: 3</title></rect>
-<rect x="309.2" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-09: 24</title></rect>
-<rect x="309.2" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-10: 18</title></rect>
-<rect x="309.2" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-11: 24</title></rect>
-<rect x="309.2" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-03-12: 0</title></rect>
-<rect x="309.2" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-13: 25</title></rect>
-<rect x="309.2" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-14: 161</title></rect>
+<rect x="309.2" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-15: 16</title></rect>
+<rect x="309.2" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-16: 13</title></rect>
+<rect x="309.2" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-03-17: 0</title></rect>
+<rect x="309.2" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-18: 2</title></rect>
+<rect x="309.2" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-19: 5</title></rect>
+<rect x="309.2" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-20: 7</title></rect>
+<rect x="309.2" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-21: 2</title></rect>
 </g>
 <g class="col" style="animation-delay:0.42s">
-<rect x="323.2" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-15: 16</title></rect>
-<rect x="323.2" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-16: 13</title></rect>
-<rect x="323.2" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-03-17: 0</title></rect>
-<rect x="323.2" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-18: 2</title></rect>
-<rect x="323.2" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-19: 5</title></rect>
-<rect x="323.2" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-20: 7</title></rect>
-<rect x="323.2" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-21: 2</title></rect>
+<rect x="323.2" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-22: 14</title></rect>
+<rect x="323.2" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-23: 18</title></rect>
+<rect x="323.2" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-24: 11</title></rect>
+<rect x="323.2" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-03-25: 0</title></rect>
+<rect x="323.2" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-26: 3</title></rect>
+<rect x="323.2" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-27: 11</title></rect>
+<rect x="323.2" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-28: 16</title></rect>
 </g>
 <g class="col" style="animation-delay:0.44s">
-<rect x="337.2" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-22: 14</title></rect>
-<rect x="337.2" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-23: 18</title></rect>
-<rect x="337.2" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-24: 11</title></rect>
-<rect x="337.2" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-03-25: 0</title></rect>
-<rect x="337.2" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-26: 3</title></rect>
-<rect x="337.2" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-27: 11</title></rect>
-<rect x="337.2" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-28: 16</title></rect>
+<rect x="337.2" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-29: 12</title></rect>
+<rect x="337.2" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-30: 4</title></rect>
+<rect x="337.2" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-31: 11</title></rect>
+<rect x="337.2" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-01: 43</title></rect>
+<rect x="337.2" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-02: 89</title></rect>
+<rect x="337.2" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-03: 48</title></rect>
+<rect x="337.2" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-04: 20</title></rect>
 </g>
 <g class="col" style="animation-delay:0.46s">
-<rect x="351.1" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-29: 12</title></rect>
-<rect x="351.1" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-30: 4</title></rect>
-<rect x="351.1" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-03-31: 11</title></rect>
-<rect x="351.1" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-01: 43</title></rect>
-<rect x="351.1" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-02: 89</title></rect>
-<rect x="351.1" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-03: 48</title></rect>
-<rect x="351.1" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-04: 20</title></rect>
+<rect x="351.1" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-05: 64</title></rect>
+<rect x="351.1" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-06: 19</title></rect>
+<rect x="351.1" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-07: 21</title></rect>
+<rect x="351.1" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-08: 33</title></rect>
+<rect x="351.1" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-09: 61</title></rect>
+<rect x="351.1" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-10: 34</title></rect>
+<rect x="351.1" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-04-11: 0</title></rect>
 </g>
 <g class="col" style="animation-delay:0.48s">
-<rect x="365.1" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-05: 64</title></rect>
-<rect x="365.1" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-06: 19</title></rect>
-<rect x="365.1" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-07: 21</title></rect>
-<rect x="365.1" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-08: 33</title></rect>
-<rect x="365.1" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-09: 61</title></rect>
-<rect x="365.1" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-10: 34</title></rect>
-<rect x="365.1" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-04-11: 0</title></rect>
+<rect x="365.1" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-12: 32</title></rect>
+<rect x="365.1" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-13: 29</title></rect>
+<rect x="365.1" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-14: 23</title></rect>
+<rect x="365.1" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-15: 3</title></rect>
+<rect x="365.1" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-16: 12</title></rect>
+<rect x="365.1" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-17: 40</title></rect>
+<rect x="365.1" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-18: 25</title></rect>
 </g>
 <g class="col" style="animation-delay:0.50s">
-<rect x="379.1" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-12: 32</title></rect>
-<rect x="379.1" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-13: 29</title></rect>
-<rect x="379.1" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-14: 23</title></rect>
-<rect x="379.1" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-15: 3</title></rect>
-<rect x="379.1" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-16: 12</title></rect>
-<rect x="379.1" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-17: 40</title></rect>
-<rect x="379.1" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-18: 25</title></rect>
+<rect x="379.1" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-19: 14</title></rect>
+<rect x="379.1" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-20: 25</title></rect>
+<rect x="379.1" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-21: 9</title></rect>
+<rect x="379.1" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-22: 7</title></rect>
+<rect x="379.1" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-23: 12</title></rect>
+<rect x="379.1" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-24: 3</title></rect>
+<rect x="379.1" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-04-25: 0</title></rect>
 </g>
 <g class="col" style="animation-delay:0.52s">
-<rect x="393.0" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-19: 14</title></rect>
-<rect x="393.0" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-20: 25</title></rect>
-<rect x="393.0" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-21: 9</title></rect>
-<rect x="393.0" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-22: 7</title></rect>
-<rect x="393.0" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-23: 12</title></rect>
-<rect x="393.0" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-24: 3</title></rect>
-<rect x="393.0" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-04-25: 0</title></rect>
+<rect x="393.0" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-26: 2</title></rect>
+<rect x="393.0" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-27: 7</title></rect>
+<rect x="393.0" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-28: 4</title></rect>
+<rect x="393.0" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-29: 12</title></rect>
+<rect x="393.0" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-30: 7</title></rect>
+<rect x="393.0" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-01: 7</title></rect>
+<rect x="393.0" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-02: 20</title></rect>
 </g>
 <g class="col" style="animation-delay:0.54s">
-<rect x="407.0" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-26: 2</title></rect>
-<rect x="407.0" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-27: 7</title></rect>
-<rect x="407.0" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-28: 4</title></rect>
-<rect x="407.0" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-29: 12</title></rect>
-<rect x="407.0" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-04-30: 7</title></rect>
-<rect x="407.0" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-01: 7</title></rect>
-<rect x="407.0" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-02: 20</title></rect>
+<rect x="407.0" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-03: 18</title></rect>
+<rect x="407.0" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-04: 51</title></rect>
+<rect x="407.0" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-05: 10</title></rect>
+<rect x="407.0" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-06: 17</title></rect>
+<rect x="407.0" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-07: 11</title></rect>
+<rect x="407.0" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-08: 24</title></rect>
+<rect x="407.0" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-09: 14</title></rect>
 </g>
 <g class="col" style="animation-delay:0.56s">
-<rect x="420.9" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-03: 18</title></rect>
-<rect x="420.9" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-04: 51</title></rect>
-<rect x="420.9" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-05: 10</title></rect>
-<rect x="420.9" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-06: 17</title></rect>
-<rect x="420.9" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-07: 11</title></rect>
-<rect x="420.9" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-08: 24</title></rect>
-<rect x="420.9" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-09: 14</title></rect>
+<rect x="420.9" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-10: 11</title></rect>
+<rect x="420.9" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-11: 40</title></rect>
+<rect x="420.9" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-12: 14</title></rect>
+<rect x="420.9" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-13: 7</title></rect>
+<rect x="420.9" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-05-14: 0</title></rect>
+<rect x="420.9" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-15: 2</title></rect>
+<rect x="420.9" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-16: 1</title></rect>
 </g>
 <g class="col" style="animation-delay:0.58s">
-<rect x="434.9" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-10: 11</title></rect>
-<rect x="434.9" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-11: 40</title></rect>
-<rect x="434.9" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-12: 14</title></rect>
-<rect x="434.9" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-13: 7</title></rect>
-<rect x="434.9" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-05-14: 0</title></rect>
-<rect x="434.9" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-15: 2</title></rect>
-<rect x="434.9" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-16: 1</title></rect>
+<rect x="434.9" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-17: 22</title></rect>
+<rect x="434.9" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-18: 4</title></rect>
+<rect x="434.9" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-19: 6</title></rect>
+<rect x="434.9" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-20: 51</title></rect>
+<rect x="434.9" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-21: 33</title></rect>
+<rect x="434.9" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-22: 11</title></rect>
+<rect x="434.9" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-23: 5</title></rect>
 </g>
 <g class="col" style="animation-delay:0.60s">
-<rect x="448.9" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-17: 22</title></rect>
-<rect x="448.9" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-18: 4</title></rect>
-<rect x="448.9" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-19: 6</title></rect>
-<rect x="448.9" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-20: 51</title></rect>
-<rect x="448.9" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-21: 33</title></rect>
-<rect x="448.9" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-22: 11</title></rect>
-<rect x="448.9" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-23: 5</title></rect>
+<rect x="448.9" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-24: 4</title></rect>
+<rect x="448.9" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-25: 3</title></rect>
+<rect x="448.9" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-26: 35</title></rect>
+<rect x="448.9" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-27: 5</title></rect>
+<rect x="448.9" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-28: 5</title></rect>
+<rect x="448.9" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-29: 29</title></rect>
+<rect x="448.9" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-30: 21</title></rect>
 </g>
 <g class="col" style="animation-delay:0.62s">
-<rect x="462.8" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-24: 4</title></rect>
-<rect x="462.8" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-25: 3</title></rect>
-<rect x="462.8" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-26: 35</title></rect>
-<rect x="462.8" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-27: 5</title></rect>
-<rect x="462.8" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-28: 5</title></rect>
-<rect x="462.8" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-29: 29</title></rect>
-<rect x="462.8" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-30: 21</title></rect>
+<rect x="462.8" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-31: 14</title></rect>
+<rect x="462.8" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-01: 30</title></rect>
+<rect x="462.8" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-02: 21</title></rect>
+<rect x="462.8" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-03: 16</title></rect>
+<rect x="462.8" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-04: 3</title></rect>
+<rect x="462.8" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-05: 5</title></rect>
+<rect x="462.8" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-06-06: 0</title></rect>
 </g>
 <g class="col" style="animation-delay:0.64s">
-<rect x="476.8" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-05-31: 14</title></rect>
-<rect x="476.8" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-01: 30</title></rect>
-<rect x="476.8" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-02: 21</title></rect>
-<rect x="476.8" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-03: 16</title></rect>
-<rect x="476.8" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-04: 3</title></rect>
-<rect x="476.8" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-05: 5</title></rect>
-<rect x="476.8" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-06-06: 0</title></rect>
+<rect x="476.8" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-06-07: 0</title></rect>
+<rect x="476.8" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-08: 6</title></rect>
+<rect x="476.8" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-09: 32</title></rect>
+<rect x="476.8" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-10: 33</title></rect>
+<rect x="476.8" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-11: 94</title></rect>
+<rect x="476.8" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-12: 91</title></rect>
+<rect x="476.8" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-06-13: 0</title></rect>
 </g>
 <g class="col" style="animation-delay:0.66s">
-<rect x="490.8" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-06-07: 0</title></rect>
-<rect x="490.8" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-08: 6</title></rect>
-<rect x="490.8" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-09: 32</title></rect>
-<rect x="490.8" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-10: 33</title></rect>
-<rect x="490.8" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-11: 94</title></rect>
-<rect x="490.8" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-12: 91</title></rect>
-<rect x="490.8" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-06-13: 0</title></rect>
+<rect x="490.8" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-14: 92</title></rect>
+<rect x="490.8" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-15: 72</title></rect>
+<rect x="490.8" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-16: 42</title></rect>
+<rect x="490.8" y="305.9" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-06-17: 217</title></rect>
+<rect x="490.8" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-18: 34</title></rect>
+<rect x="490.8" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-19: 37</title></rect>
+<rect x="490.8" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-20: 20</title></rect>
 </g>
 <g class="col" style="animation-delay:0.68s">
-<rect x="504.7" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-14: 92</title></rect>
-<rect x="504.7" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-15: 72</title></rect>
-<rect x="504.7" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-16: 42</title></rect>
-<rect x="504.7" y="305.9" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-06-17: 217</title></rect>
-<rect x="504.7" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-18: 34</title></rect>
-<rect x="504.7" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-19: 37</title></rect>
-<rect x="504.7" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-20: 20</title></rect>
+<rect x="504.7" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-21: 127</title></rect>
+<rect x="504.7" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-22: 172</title></rect>
+<rect x="504.7" y="291.9" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-06-23: 243</title></rect>
+<rect x="504.7" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-24: 158</title></rect>
+<rect x="504.7" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-25: 24</title></rect>
+<rect x="504.7" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-06-26: 0</title></rect>
+<rect x="504.7" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-27: 24</title></rect>
 </g>
 <g class="col" style="animation-delay:0.70s">
-<rect x="518.7" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-21: 127</title></rect>
-<rect x="518.7" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-22: 172</title></rect>
-<rect x="518.7" y="291.9" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-06-23: 243</title></rect>
-<rect x="518.7" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-24: 158</title></rect>
-<rect x="518.7" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-25: 24</title></rect>
-<rect x="518.7" y="333.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-06-26: 0</title></rect>
-<rect x="518.7" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-27: 24</title></rect>
+<rect x="518.7" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-28: 41</title></rect>
+<rect x="518.7" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-29: 15</title></rect>
+<rect x="518.7" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-30: 12</title></rect>
+<rect x="518.7" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-07-01: 0</title></rect>
+<rect x="518.7" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-02: 78</title></rect>
+<rect x="518.7" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-03: 15</title></rect>
+<rect x="518.7" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-04: 130</title></rect>
 </g>
 <g class="col" style="animation-delay:0.72s">
-<rect x="532.6" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-28: 41</title></rect>
-<rect x="532.6" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-29: 15</title></rect>
-<rect x="532.6" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-06-30: 12</title></rect>
-<rect x="532.6" y="305.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-07-01: 0</title></rect>
-<rect x="532.6" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-02: 78</title></rect>
-<rect x="532.6" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-03: 15</title></rect>
-<rect x="532.6" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-04: 130</title></rect>
+<rect x="532.6" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-05: 16</title></rect>
+<rect x="532.6" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-06: 114</title></rect>
+<rect x="532.6" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-07: 6</title></rect>
+<rect x="532.6" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-08: 29</title></rect>
+<rect x="532.6" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-07-09: 0</title></rect>
+<rect x="532.6" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-10: 27</title></rect>
+<rect x="532.6" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-11: 67</title></rect>
 </g>
 <g class="col" style="animation-delay:0.74s">
-<rect x="546.6" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-05: 16</title></rect>
-<rect x="546.6" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-06: 114</title></rect>
-<rect x="546.6" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-07: 6</title></rect>
-<rect x="546.6" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-08: 29</title></rect>
-<rect x="546.6" y="319.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-07-09: 0</title></rect>
-<rect x="546.6" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-10: 27</title></rect>
-<rect x="546.6" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-11: 67</title></rect>
+<rect x="546.6" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-12: 18</title></rect>
+<rect x="546.6" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-13: 10</title></rect>
+<rect x="546.6" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-14: 74</title></rect>
+<rect x="546.6" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-15: 106</title></rect>
+<rect x="546.6" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-16: 138</title></rect>
+<rect x="546.6" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-17: 3</title></rect>
+<rect x="546.6" y="347.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-07-18: 205</title></rect>
 </g>
 <g class="col" style="animation-delay:0.76s">
-<rect x="560.6" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-12: 18</title></rect>
-<rect x="560.6" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-13: 10</title></rect>
-<rect x="560.6" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-14: 74</title></rect>
-<rect x="560.6" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-15: 106</title></rect>
-<rect x="560.6" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-16: 138</title></rect>
-<rect x="560.6" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-17: 3</title></rect>
-<rect x="560.6" y="347.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-07-18: 205</title></rect>
+<rect x="560.6" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-19: 58</title></rect>
+<rect x="560.6" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-20: 14</title></rect>
+<rect x="560.6" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-21: 96</title></rect>
+<rect x="560.6" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-22: 103</title></rect>
+<rect x="560.6" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-23: 27</title></rect>
+<rect x="560.6" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-24: 49</title></rect>
+<rect x="560.6" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-25: 111</title></rect>
 </g>
 <g class="col" style="animation-delay:0.78s">
-<rect x="574.5" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-19: 58</title></rect>
-<rect x="574.5" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-20: 14</title></rect>
-<rect x="574.5" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-21: 96</title></rect>
-<rect x="574.5" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-22: 103</title></rect>
-<rect x="574.5" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-23: 27</title></rect>
-<rect x="574.5" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-24: 49</title></rect>
-<rect x="574.5" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-25: 111</title></rect>
+<rect x="574.5" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-26: 98</title></rect>
+<rect x="574.5" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-27: 63</title></rect>
+<rect x="574.5" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-28: 119</title></rect>
+<rect x="574.5" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-29: 37</title></rect>
+<rect x="574.5" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-30: 156</title></rect>
+<rect x="574.5" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-31: 40</title></rect>
+<rect x="574.5" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-01: 11</title></rect>
 </g>
 <g class="col" style="animation-delay:0.80s">
-<rect x="588.5" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-26: 98</title></rect>
-<rect x="588.5" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-27: 63</title></rect>
-<rect x="588.5" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-28: 119</title></rect>
-<rect x="588.5" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-29: 37</title></rect>
-<rect x="588.5" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-30: 156</title></rect>
-<rect x="588.5" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-07-31: 40</title></rect>
-<rect x="588.5" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-01: 11</title></rect>
+<rect x="588.5" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-02: 46</title></rect>
+<rect x="588.5" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-03: 9</title></rect>
+<rect x="588.5" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-04: 37</title></rect>
+<rect x="588.5" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-05: 38</title></rect>
+<rect x="588.5" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-06: 17</title></rect>
+<rect x="588.5" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-07: 81</title></rect>
+<rect x="588.5" y="347.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-08-08: 196</title></rect>
 </g>
 <g class="col" style="animation-delay:0.82s">
-<rect x="602.5" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-02: 46</title></rect>
-<rect x="602.5" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-03: 9</title></rect>
-<rect x="602.5" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-04: 37</title></rect>
-<rect x="602.5" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-05: 38</title></rect>
-<rect x="602.5" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-06: 17</title></rect>
-<rect x="602.5" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-07: 81</title></rect>
-<rect x="602.5" y="347.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-08-08: 196</title></rect>
+<rect x="602.5" y="264.0" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-08-09: 214</title></rect>
+<rect x="602.5" y="278.0" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-08-10: 201</title></rect>
+<rect x="602.5" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-11: 48</title></rect>
+<rect x="602.5" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-12: 11</title></rect>
+<rect x="602.5" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-13: 2</title></rect>
+<rect x="602.5" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-14: 150</title></rect>
+<rect x="602.5" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-15: 181</title></rect>
 </g>
 <g class="col" style="animation-delay:0.84s">
-<rect x="616.4" y="264.0" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-08-09: 214</title></rect>
-<rect x="616.4" y="278.0" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-08-10: 201</title></rect>
-<rect x="616.4" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-11: 48</title></rect>
-<rect x="616.4" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-12: 11</title></rect>
-<rect x="616.4" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-13: 2</title></rect>
-<rect x="616.4" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-14: 150</title></rect>
-<rect x="616.4" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-15: 181</title></rect>
+<rect x="616.4" y="264.0" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-08-16: 213</title></rect>
+<rect x="616.4" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-17: 86</title></rect>
+<rect x="616.4" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-18: 174</title></rect>
+<rect x="616.4" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-19: 167</title></rect>
+<rect x="616.4" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-20: 104</title></rect>
+<rect x="616.4" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-21: 91</title></rect>
+<rect x="616.4" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-08-22: 0</title></rect>
 </g>
 <g class="col" style="animation-delay:0.86s">
-<rect x="630.4" y="264.0" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-08-16: 213</title></rect>
-<rect x="630.4" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-17: 86</title></rect>
-<rect x="630.4" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-18: 174</title></rect>
-<rect x="630.4" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-19: 167</title></rect>
-<rect x="630.4" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-20: 104</title></rect>
-<rect x="630.4" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-21: 91</title></rect>
-<rect x="630.4" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-08-22: 0</title></rect>
+<rect x="630.4" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-08-23: 0</title></rect>
+<rect x="630.4" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-24: 4</title></rect>
+<rect x="630.4" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-25: 75</title></rect>
+<rect x="630.4" y="305.9" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-08-26: 214</title></rect>
+<rect x="630.4" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-27: 107</title></rect>
+<rect x="630.4" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-28: 125</title></rect>
+<rect x="630.4" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-08-29: 0</title></rect>
 </g>
 <g class="col" style="animation-delay:0.88s">
-<rect x="644.3" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-08-23: 0</title></rect>
-<rect x="644.3" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-24: 4</title></rect>
-<rect x="644.3" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-25: 75</title></rect>
-<rect x="644.3" y="305.9" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-08-26: 214</title></rect>
-<rect x="644.3" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-27: 107</title></rect>
-<rect x="644.3" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-28: 125</title></rect>
-<rect x="644.3" y="347.8" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-08-29: 0</title></rect>
+<rect x="644.3" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-30: 27</title></rect>
+<rect x="644.3" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-31: 3</title></rect>
+<rect x="644.3" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-01: 111</title></rect>
+<rect x="644.3" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-02: 137</title></rect>
+<rect x="644.3" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-03: 119</title></rect>
+<rect x="644.3" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-04: 88</title></rect>
+<rect x="644.3" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-05: 129</title></rect>
 </g>
 <g class="col" style="animation-delay:0.90s">
-<rect x="658.3" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-30: 27</title></rect>
-<rect x="658.3" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-08-31: 3</title></rect>
-<rect x="658.3" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-01: 111</title></rect>
-<rect x="658.3" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-02: 137</title></rect>
-<rect x="658.3" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-03: 119</title></rect>
-<rect x="658.3" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-04: 88</title></rect>
-<rect x="658.3" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-05: 129</title></rect>
+<rect x="658.3" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-06: 112</title></rect>
+<rect x="658.3" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-09-07: 0</title></rect>
+<rect x="658.3" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-09-08: 0</title></rect>
+<rect x="658.3" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-09: 47</title></rect>
+<rect x="658.3" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-10: 99</title></rect>
+<rect x="658.3" y="333.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-09-11: 247</title></rect>
+<rect x="658.3" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-12: 17</title></rect>
 </g>
 <g class="col" style="animation-delay:0.92s">
-<rect x="672.3" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-06: 112</title></rect>
-<rect x="672.3" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-09-07: 0</title></rect>
-<rect x="672.3" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-09-08: 0</title></rect>
-<rect x="672.3" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-09: 47</title></rect>
-<rect x="672.3" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-10: 99</title></rect>
-<rect x="672.3" y="333.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-09-11: 247</title></rect>
-<rect x="672.3" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-12: 17</title></rect>
+<rect x="672.3" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-13: 25</title></rect>
+<rect x="672.3" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-14: 92</title></rect>
+<rect x="672.3" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-15: 89</title></rect>
+<rect x="672.3" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-16: 33</title></rect>
+<rect x="672.3" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-17: 88</title></rect>
+<rect x="672.3" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-18: 168</title></rect>
+<rect x="672.3" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-19: 125</title></rect>
 </g>
 <g class="col" style="animation-delay:0.94s">
-<rect x="686.2" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-13: 25</title></rect>
-<rect x="686.2" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-14: 92</title></rect>
-<rect x="686.2" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-15: 89</title></rect>
-<rect x="686.2" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-16: 33</title></rect>
-<rect x="686.2" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-17: 88</title></rect>
-<rect x="686.2" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-18: 168</title></rect>
-<rect x="686.2" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-19: 125</title></rect>
+<rect x="686.2" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-09-20: 0</title></rect>
+<rect x="686.2" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-09-21: 0</title></rect>
+<rect x="686.2" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-22: 81</title></rect>
+<rect x="686.2" y="305.9" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-09-23: 205</title></rect>
+<rect x="686.2" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-24: 179</title></rect>
+<rect x="686.2" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-25: 128</title></rect>
+<rect x="686.2" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-26: 6</title></rect>
 </g>
 <g class="col" style="animation-delay:0.96s">
-<rect x="700.2" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-09-20: 0</title></rect>
-<rect x="700.2" y="278.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-09-21: 0</title></rect>
-<rect x="700.2" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-22: 81</title></rect>
-<rect x="700.2" y="305.9" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-09-23: 205</title></rect>
-<rect x="700.2" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-24: 179</title></rect>
-<rect x="700.2" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-25: 128</title></rect>
-<rect x="700.2" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-26: 6</title></rect>
+<rect x="700.2" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-27: 48</title></rect>
+<rect x="700.2" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-28: 14</title></rect>
+<rect x="700.2" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-29: 44</title></rect>
+<rect x="700.2" y="305.9" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-09-30: 196</title></rect>
+<rect x="700.2" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-01: 92</title></rect>
+<rect x="700.2" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-02: 70</title></rect>
+<rect x="700.2" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-03: 62</title></rect>
 </g>
 <g class="col" style="animation-delay:0.98s">
-<rect x="714.2" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-27: 48</title></rect>
-<rect x="714.2" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-28: 14</title></rect>
-<rect x="714.2" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-09-29: 44</title></rect>
-<rect x="714.2" y="305.9" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-09-30: 196</title></rect>
-<rect x="714.2" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-01: 92</title></rect>
-<rect x="714.2" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-02: 70</title></rect>
-<rect x="714.2" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-03: 62</title></rect>
+<rect x="714.2" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-04: 26</title></rect>
+<rect x="714.2" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-05: 6</title></rect>
+<rect x="714.2" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-10-06: 0</title></rect>
+<rect x="714.2" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-07: 173</title></rect>
+<rect x="714.2" y="319.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-10-08: 316</title></rect>
+<rect x="714.2" y="333.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-10-09: 313</title></rect>
+<rect x="714.2" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-10: 98</title></rect>
 </g>
 <g class="col" style="animation-delay:1.00s">
-<rect x="728.1" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-04: 26</title></rect>
-<rect x="728.1" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-05: 6</title></rect>
-<rect x="728.1" y="291.9" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-10-06: 0</title></rect>
-<rect x="728.1" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-07: 173</title></rect>
-<rect x="728.1" y="319.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-10-08: 316</title></rect>
-<rect x="728.1" y="333.8" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-10-09: 313</title></rect>
-<rect x="728.1" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-10: 98</title></rect>
+<rect x="728.1" y="264.0" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-10-11: 230</title></rect>
+<rect x="728.1" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-12: 74</title></rect>
+<rect x="728.1" y="291.9" width="12.0" height="12.0" rx="2" fill="#39d353"><title>2026-10-13: 776</title></rect>
+<rect x="728.1" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-14: 92</title></rect>
+<rect x="728.1" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-15: 33</title></rect>
+<rect x="728.1" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-16: 12</title></rect>
+<rect x="728.1" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-17: 164</title></rect>
 </g>
 <g class="col" style="animation-delay:1.02s">
-<rect x="742.1" y="264.0" width="12.0" height="12.0" rx="2" fill="#006d32"><title>2026-10-11: 230</title></rect>
-<rect x="742.1" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-12: 74</title></rect>
-<rect x="742.1" y="291.9" width="12.0" height="12.0" rx="2" fill="#39d353"><title>2026-10-13: 776</title></rect>
-<rect x="742.1" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-14: 92</title></rect>
-<rect x="742.1" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-15: 33</title></rect>
-<rect x="742.1" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-16: 12</title></rect>
-<rect x="742.1" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-17: 164</title></rect>
+<rect x="742.1" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-18: 35</title></rect>
+<rect x="742.1" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-19: 14</title></rect>
+<rect x="742.1" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-20: 2</title></rect>
+<rect x="742.1" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-21: 2</title></rect>
+<rect x="742.1" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-22: 2</title></rect>
+<rect x="742.1" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-23: 2</title></rect>
+<rect x="742.1" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-24: 2</title></rect>
 </g>
 <g class="col" style="animation-delay:1.04s">
-<rect x="756.0" y="264.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-18: 35</title></rect>
-<rect x="756.0" y="278.0" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-19: 14</title></rect>
-<rect x="756.0" y="291.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-20: 2</title></rect>
-<rect x="756.0" y="305.9" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-21: 2</title></rect>
-<rect x="756.0" y="319.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-22: 2</title></rect>
-<rect x="756.0" y="333.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-23: 2</title></rect>
-<rect x="756.0" y="347.8" width="12.0" height="12.0" rx="2" fill="#0e4429"><title>2026-10-24: 1</title></rect>
+<rect x="756.0" y="264.0" width="12.0" height="12.0" rx="2" fill="#161b22"><title>2026-10-25: 0</title></rect>
 </g>
 <text class="h3" x="30" y="392">Languages by code volume</text>
 <text class="lang" x="30" y="419">Python</text>
