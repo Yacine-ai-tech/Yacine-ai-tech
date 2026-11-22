@@ -110,11 +110,14 @@ IBM Full Stack Software Developer · IBM RAG and Agentic AI · IBM AI Engineerin
 
 </details>
 
-<details>
-<summary><b>Teaching</b></summary>
+<details open>
+<summary><b>Teaching & Mentoring</b> (2023–2026 · African Development University · Qwasar Silicon Valley · Succes School)</summary>
 <br/>
 
-Instructor, *Introduction to Artificial Intelligence*, A.D.U. (2025) · workshop lead, Git/GitHub, Tech Communities Club A.D.U. · trainer, "Master AI Tools" workshop.
+**Instructor & Technical Mentor — AI & Software Training**
+- **AI Instructor** (2025 & 2026, A.D.U.): Taught *Introduction to Artificial Intelligence* to second-year university students across two editions.
+- **Peer Mentoring** (2023–2025, A.D.U. & Qwasar): Mentored AI students across university programs and the *Associate Data Scientist* program delivered with Qwasar Silicon Valley — code reviews, debugging support, and technical guidance.
+- **Workshop Lead & Technical Trainer** (2024–2025): Led practical Git/GitHub version-control workshops (Tech Communities Club), delivered generative AI and productivity sessions (*Master AI Tools*), and trained students on emerging technologies at Succes School.
 
 </details>
 
@@ -341,7 +344,7 @@ I'm also working toward graduate-level engineering training, aimed at closing th
 
 <div align="center">
 
-<a href="https://yacineseybousiddo.me"><img src="./assets/footer.svg" alt="Let's build something that ships. yacineseybousiddo.me" width="100%"/></a>
+<a href="https://yacineseybousiddo.me"><img src="./assets/footer.svg" alt="Turning ideas into impact. yacineseybousiddo.me" width="100%"/></a>
 
 <br/>
 
