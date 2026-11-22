@@ -19,7 +19,7 @@
 
 **AI Systems Engineer · B.Sc. Artificial Intelligence · Niamey, Niger**
 
-<sub>I build AI systems that ship, and I publish what I find — including the results that don't flatter the system. My work spans production AI engineering, six open-source AI/ML tools, and Cibiyar Karatu, an adaptive learning platform for Niger and the Sahel.</sub>
+<sub>I build AI systems that ship, and I publish what I find — including the results that don't flatter the system. My work spans production AI engineering, six open-source AI/ML tools with published benchmarks, applied research, teaching, and Cibiyar Karatu — my first venture, an adaptive learning platform for Niger and the Sahel.</sub>
 
 <br/>
 
@@ -67,7 +67,7 @@ I work across three registers, and I try not to blur them.
 
 ### <img src="./assets/icons/cpu.svg" height="22" align="absmiddle" alt="" /> AI systems engineering
 
-Production RAG, multi-agent orchestration, automation, document intelligence, LLMOps, and edge/IoT platform solutions for client engagements.
+Production RAG, multi-agent orchestration, automation, document intelligence, LLMOps, and edge/IoT platform solutions for real-world deployments.
 
 </td>
 <td width="33%" valign="top">
