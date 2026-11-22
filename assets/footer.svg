@@ -14,8 +14,8 @@
 <circle cx="600.0" cy="300" r="40" fill="none" stroke="#22d3ee" stroke-width="1.5"><animate attributeName="r" values="40;420" dur="4s" begin="1.3s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".5;0" dur="4s" begin="1.3s" repeatCount="indefinite"/></circle>
 <circle cx="600.0" cy="300" r="40" fill="none" stroke="#22d3ee" stroke-width="1.5"><animate attributeName="r" values="40;420" dur="4s" begin="2.6s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".5;0" dur="4s" begin="2.6s" repeatCount="indefinite"/></circle>
 <text x="600.0" y="104" text-anchor="middle" font-family="'SF Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" letter-spacing="5" fill="#22d3ee">OPEN CHANNEL</text>
-<text x="600.0" y="164" text-anchor="middle" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="46" font-weight="800" letter-spacing="1" fill="url(#t)">LET'S BUILD SOMETHING THAT SHIPS.</text>
-<text x="600.0" y="198" text-anchor="middle" font-family="'SF Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="15" letter-spacing="3" fill="#94a3b8">AI SYSTEMS · OPEN-SOURCE TOOLS · CIBIYAR KARATU</text>
+<text x="600.0" y="164" text-anchor="middle" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="44" font-weight="800" letter-spacing="1" fill="url(#t)">TURNING IDEAS INTO IMPACT.</text>
+<text x="600.0" y="198" text-anchor="middle" font-family="'SF Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="15" letter-spacing="3" fill="#94a3b8">AI SYSTEMS · RESEARCH · EDUCATION · VENTURES</text>
 <text x="600.0" y="236" text-anchor="middle" font-family="'SF Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="15" fill="#67e8f9">contact@yacineseybousiddo.me  ·  yacineseybousiddo.me</text>
 <path d="M24 58V24H58" fill="none" stroke="#22d3ee" stroke-opacity=".55" stroke-width="2"/>
 <path d="M1142 24H1176V58" fill="none" stroke="#22d3ee" stroke-opacity=".55" stroke-width="2"/>

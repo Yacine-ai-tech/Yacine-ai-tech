@@ -9,7 +9,7 @@
 
 <br/><br/>
 
-<img src="./assets/ticker.svg" alt="Headline results: IntelAI Mean APE 4.64%, DocIntel 95.0% SROIE, RAGeval ROC-AUC 0.9191, AgentKit 16/16 guardrails, StreamPulse 0.990 macro-F1, VoiceFlow 2.2% WER" width="100%"/>
+<img src="./assets/ticker.svg" alt="Highlights: AI Systems Platforms, Cibiyar Karatu Sahelian EdTech & NLP, Low-Resource AI Research, University Instruction, Benchmarked Foundations, Healthcare & Agriculture Deployments" width="100%"/>
 
 <br/>
 
@@ -17,9 +17,9 @@
 
 <br/>
 
-**AI Systems Engineer · B.Sc. Artificial Intelligence · Niamey, Niger**
+**AI Systems Engineer · Independent Researcher · Educator · Entrepreneur**
 
-<sub>I build AI systems that ship, and I publish what I find — including the results that don't flatter the system. My work spans production AI engineering, six open-source AI/ML tools, and Cibiyar Karatu, an adaptive learning platform for Niger and the Sahel.</sub>
+<sub>Curious and collaborative STEM practitioner applying AI, software, and hardware engineering to solve complex challenges and drive sustainable progress. My work spans production-grade AI systems, independent research in low-resource languages and physical AI, university and community teaching across AI, IoT, robotics, and mathematics, and venture building through Cibiyar Karatu. Based in Niger, collaborating globally.</sub>
 
 <br/>
 
@@ -36,7 +36,7 @@
 <a href="#background"><img src="https://img.shields.io/badge/Background-8957e5?style=flat-square" alt="Background"/></a>
 <a href="#open-source"><img src="https://img.shields.io/badge/Open--Source_Ecosystem-238636?style=flat-square" alt="Open-Source Ecosystem"/></a>
 <a href="#results"><img src="https://img.shields.io/badge/Results_at_a_Glance-d29922?style=flat-square" alt="Results at a Glance"/></a>
-<a href="#client-work"><img src="https://img.shields.io/badge/Client_Work-db6d28?style=flat-square" alt="Client Work"/></a>
+<a href="#applied-deployments"><img src="https://img.shields.io/badge/Applied_Deployments-db6d28?style=flat-square" alt="Applied Deployments"/></a>
 <a href="#research-direction"><img src="https://img.shields.io/badge/Research_Direction-da3633?style=flat-square" alt="Research Direction"/></a>
 
 <br/><br/>
@@ -59,29 +59,29 @@
 
 ## <img src="./assets/icons/compass.svg" height="26" align="absmiddle" alt="" /> What I Do
 
-I work across three registers, and I try not to blur them.
+I engineer AI systems, conduct research, teach what I build, and build ventures for sustainable impact — working across three interlinked disciplines:
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### <img src="./assets/icons/cpu.svg" height="22" align="absmiddle" alt="" /> AI systems engineering
+### <img src="./assets/icons/flask-conical.svg" height="22" align="absmiddle" alt="" /> Independent Research
 
-Production RAG, multi-agent orchestration, automation, document intelligence, LLMOps, and edge/IoT platform solutions for client engagements.
-
-</td>
-<td width="33%" valign="top">
-
-### <img src="./assets/icons/flask-conical.svg" height="22" align="absmiddle" alt="" /> Open-source research tooling
-
-Six standalone AI/ML tools, dual-licensed (AGPL-3.0 / commercial), each shipped with a public evaluation protocol rather than a marketing claim.
+Applied research in physical AI (embedded perception, robotics, kinematics), empirical evaluation methodologies, and trustworthy multilingual NLP for low-resource Sahelian languages (Hausa, Zarma, Fulfulde).
 
 </td>
 <td width="33%" valign="top">
 
-### <img src="./assets/icons/book-open.svg" height="22" align="absmiddle" alt="" /> Adaptive learning platform
+### <img src="./assets/icons/cpu.svg" height="22" align="absmiddle" alt="" /> Entrepreneurship & Systems
 
-*Cibiyar Karatu*, subject-agnostic and offline-first, for Niger and the Sahel — French alongside Hausa, Zarma, and Fulfulde — plus a parallel research contribution in corpus and benchmark work for those three languages, at very different starting points of existing NLP coverage.
+Building *Cibiyar Karatu*, an offline-first adaptive learning platform for Niger and the Sahel, while engineering production-grade software platforms, intelligent hardware integrations, and scalable AI systems.
+
+</td>
+<td width="33%" valign="top">
+
+### <img src="./assets/icons/book-open.svg" height="22" align="absmiddle" alt="" /> Teaching & Mentoring
+
+Hands-on university instruction, workshops, and technical mentoring across AI, data science, IoT and embedded hardware, systems architecture, and applied mathematics.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ Six standalone AI/ML tools, dual-licensed (AGPL-3.0 / commercial), each shipped 
 <summary><b>Certifications</b></summary>
 <br/>
 
-IBM Full Stack Software Developer · IBM RAG and Agentic AI · IBM AI Engineering · IBM Data Science Professional (all 2025) · Mathematics for Machine Learning and Data Science, DeepLearning.AI (2023). Full list of 19 on the [portfolio](https://yacineseybousiddo.me).
+IBM Full Stack Software Developer · IBM RAG and Agentic AI · IBM AI Engineering · IBM Data Science Professional · Mathematics for Machine Learning and Data Science (DeepLearning.AI) · Professional credentials from Duke, Meta, Google, and IBM. Full list of 19 on the [portfolio](https://yacineseybousiddo.me).
 
 </details>
 
@@ -122,9 +122,9 @@ Instructor, *Introduction to Artificial Intelligence*, A.D.U. (2025) · workshop
 
 <a id="open-source"></a>
 
-## <img src="./assets/icons/boxes.svg" height="26" align="absmiddle" alt="" /> Open-Source Ecosystem — 6 tools, 2026, dual-licensed (AGPL-3.0 / commercial)
+## <img src="./assets/icons/boxes.svg" height="26" align="absmiddle" alt="" /> Open-Source Ecosystem & Tooling
 
-> Each tool ships with a `BENCHMARK.md` and a `RESEARCH.md` in its repository — the evaluation protocol and the raw numbers, favorable and unfavorable both. Summaries below; the repos are the source of truth.
+> Production-grade open-source foundations for observability, document intelligence, governed agents, and real-time streaming pipelines. Each tool includes transparent benchmarks and evaluation protocols. Summaries below; the repos are the source of truth.
 
 <sub>Click any <b>Measured results</b> panel to expand it.</sub>
 
@@ -257,9 +257,9 @@ Routes recorded audio to per-analysis-type LLMs with a multi-provider transcript
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-<a id="client-work"></a>
+<a id="applied-deployments"></a>
 
-## <img src="./assets/icons/briefcase.svg" height="26" align="absmiddle" alt="" /> Client Work (scoped to what's publicly shareable)
+## <img src="./assets/icons/briefcase.svg" height="26" align="absmiddle" alt="" /> Applied Systems & Field Deployments
 
 <details open>
 <summary><img src="./assets/icons/shopping-cart.svg" height="18" align="absmiddle" alt="" /> <b>AI-Powered E-Commerce & Retail Operations</b></summary>
