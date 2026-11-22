@@ -17,9 +17,9 @@
 
 <br/>
 
-**AI Systems Engineer · B.Sc. Artificial Intelligence · Niamey, Niger**
+**AI & Data Science Engineer · Software & Systems Builder · Educator · Independent Researcher**
 
-<sub>I build AI systems that ship, and I publish what I find — including the results that don't flatter the system. My work spans production AI engineering, six open-source AI/ML tools with published benchmarks, applied research, teaching, and Cibiyar Karatu — my first venture, an adaptive learning platform for Niger and the Sahel.</sub>
+<sub>Curious and collaborative STEM practitioner applying AI, data science, software and hardware engineering to solve complex challenges and drive sustainable progress. My work spans 6 open-source production engines, independent research in physical AI and low-resource languages, university & community teaching across AI/IoT/robotics/math, and venture building through Cibiyar Karatu.</sub>
 
 <br/>
 
@@ -59,29 +59,29 @@
 
 ## <img src="./assets/icons/compass.svg" height="26" align="absmiddle" alt="" /> What I Do
 
-I work across three registers, and I try not to blur them.
+I work across three interlinked registers, backed by concrete deliverables:
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### <img src="./assets/icons/cpu.svg" height="22" align="absmiddle" alt="" /> AI systems engineering
+### <img src="./assets/icons/flask-conical.svg" height="22" align="absmiddle" alt="" /> Independent Research
 
-Production RAG, multi-agent orchestration, automation, document intelligence, LLMOps, and edge/IoT platform solutions for real-world deployments.
-
-</td>
-<td width="33%" valign="top">
-
-### <img src="./assets/icons/flask-conical.svg" height="22" align="absmiddle" alt="" /> Open-source research tooling
-
-Six standalone AI/ML tools, dual-licensed (AGPL-3.0 / commercial), each shipped with a public evaluation protocol rather than a marketing claim.
+Applied research on physical AI (embedded perception, robotics, kinematics), empirical evaluation methods (RAGeval, Ancre), and multilingual NLP for low-resource Sahelian languages (Hausa, Zarma, Fulfulde).
 
 </td>
 <td width="33%" valign="top">
 
-### <img src="./assets/icons/book-open.svg" height="22" align="absmiddle" alt="" /> Adaptive learning platform
+### <img src="./assets/icons/cpu.svg" height="22" align="absmiddle" alt="" /> Entrepreneurship & Systems
 
-*Cibiyar Karatu*, subject-agnostic and offline-first, for Niger and the Sahel — French alongside Hausa, Zarma, and Fulfulde — plus a parallel research contribution in corpus and benchmark work for those three languages, at very different starting points of existing NLP coverage.
+Building *Cibiyar Karatu*, my first venture—an offline-first adaptive learning ecosystem for Niger and the Sahel—and developing scoped engineering partnerships around 6 open-source production engines and robust architectures.
+
+</td>
+<td width="33%" valign="top">
+
+### <img src="./assets/icons/book-open.svg" height="22" align="absmiddle" alt="" /> Teaching & Mentoring
+
+Hands-on university instruction, workshops, and technical mentoring across AI/ML, data science, IoT & embedded hardware, systems architecture, and applied mathematics.
 
 </td>
 </tr>
