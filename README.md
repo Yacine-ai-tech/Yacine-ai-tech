@@ -19,7 +19,7 @@
 
 **AI Systems Engineer · Independent Researcher · Educator · Entrepreneur**
 
-<sub>Curious and collaborative STEM practitioner applying AI, software, and hardware engineering to solve complex challenges and drive sustainable progress. My work spans production-grade AI systems, independent research in low-resource languages and physical AI, university and community teaching across AI, IoT, robotics, and mathematics, and venture building through Cibiyar Karatu. Based in Niger, collaborating globally.</sub>
+<sub>AI and data science engineer, software systems builder, and educator based in Niger, open to collaborations worldwide. My work combines applied AI, software engineering, and smart hardware systems to address meaningful challenges—from low-resource languages and physical AI to education, agriculture, healthcare, sustainable development, and community empowerment. I build production-grade systems, teach what I build, conduct research with measurable evidence, and I am building my first venture, Cibiyar Karatu, an applied-AI learning platform for the Sahel and beyond.</sub>
 
 <br/>
 
@@ -74,7 +74,7 @@ Applied research in physical AI (embedded perception, robotics, kinematics), emp
 
 ### <img src="./assets/icons/cpu.svg" height="22" align="absmiddle" alt="" /> Entrepreneurship & Systems
 
-Building *Cibiyar Karatu*, an offline-first adaptive learning platform for Niger and the Sahel, while engineering production-grade software platforms, intelligent hardware integrations, and scalable AI systems.
+Building *Cibiyar Karatu*, an applied-AI education platform and venture in development for Niger and the Sahel, while engineering production-grade software platforms, intelligent hardware integrations, and scalable AI systems.
 
 </td>
 <td width="33%" valign="top">
@@ -310,7 +310,7 @@ Built the software layer of the smart irrigation system, including data ingestio
 <summary><img src="./assets/icons/globe.svg" height="18" align="absmiddle" alt="" /> <b>Cibiyar Karatu</b> — "Centre of Learning" in Hausa</summary>
 <br/>
 
-*Cibiyar Karatu* ("Centre of Learning" in Hausa) is a subject-agnostic, offline-first adaptive learning platform for Niger and the Sahel, spanning formal, non-formal, and informal learning — French instruction alongside Hausa, Zarma, and Fulfulde, on entry-level Android hardware, with or without a network connection. Alongside the platform, it produces a parallel research contribution: corpus and benchmark work for Hausa, Zarma, and Fulfulde — three languages with wide disparity in existing NLP coverage despite their combined speaker count. Zarma and Fulfulde remain acutely under-resourced; Hausa, though still classified as low-resource, already has meaningful benchmark and corpus infrastructure this work builds on rather than starts from scratch. Currently in prototyping and testing, pre-incorporation; architecture and product design are not detailed publicly.
+**Cibiyar Karatu** (*"Centre of Learning"* in Hausa) is an applied-AI education platform and venture in development based in Niger. Built specifically for low-connectivity environments and local languages, it delivers personalized, adaptive learning to expand educational opportunity across the Sahel. *(In development; pre-incorporation)*.
 
 </details>
 
